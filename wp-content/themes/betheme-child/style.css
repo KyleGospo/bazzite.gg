@@ -138,6 +138,10 @@ h2 {
   font-size: 55px;
 }
 
+rs-slide {
+  top: -60px;
+}
+
 .gradients-container {
   top: 0;
   position: absolute;
@@ -338,9 +342,5 @@ h2 {
     background-size: contain;
     background-position-y: 70%;
     background-origin: inherit;
-  }
-
-  rs-slide {
-    top: -60px;
   }
 }
