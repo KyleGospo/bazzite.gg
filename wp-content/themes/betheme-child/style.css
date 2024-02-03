@@ -339,4 +339,8 @@ h2 {
     background-position-y: 70%;
     background-origin: inherit;
   }
+
+  rs-slide {
+    top: -60px;
+  }
 }
