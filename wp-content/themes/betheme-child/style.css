@@ -309,6 +309,12 @@ select:focus {
   }
 }
 
+@media only screen and (min-width: 1441px) {
+  #apps {
+    background-position: top;
+  }
+}
+
 @media only screen and (max-width: 1440px) {
   .apps-fade::after {
     background: radial-gradient(#262626 50%, rgba(0,0,0,0) 100%);
