@@ -95,6 +95,23 @@ select:focus {
   transition: all 1s;
 }
 
+.mfn-header-tmpl-menu-sidebar {
+  backdrop-filter: blur(10px);
+  background-color: rgba(38,38,38,0.95);
+}
+
+.mfn-header-menu .mfn-menu-li > .mfn-menu-link {
+  color: #fff;
+}
+
+.mfn-close-icon .icon {
+  color: #fff !important;
+}
+
+.mfn-header-menu .mfn-menu-li:hover > .mfn-menu-link {
+  color: #fff;
+}
+
 .hidden-fade {
   opacity: 0;
   overflow: hidden;
@@ -266,9 +283,15 @@ select:focus {
   }
 }
 
-@media only screen and (min-width: 960px) and (max-width: 1440px) {
+@media only screen and (min-width: 481px) and (max-width: 1440px) {
   #mfn-header-template .button {
     font-size: 10px !important;
     margin-left: 15px !important;
+  }
+}
+
+@media only screen and (min-width: 481px) {
+  #slider-1-slide-1-layer-0 {
+    white-space:nowrap!important;
   }
 }
