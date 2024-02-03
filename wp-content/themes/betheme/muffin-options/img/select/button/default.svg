@@ -1,0 +1,47 @@
+<svg id="default" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="153" height="61" viewBox="0 0 153 61">
+  <defs>
+    <style>
+      .cls-2 {
+        fill: #cfd2d4;
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        opacity: 0.05;
+      }
+
+      .cls-4 {
+        opacity: 0.1;
+      }
+
+      .cls-5 {
+        font-size: 15px;
+        font-family: Lato;
+        font-weight: 700;
+      }
+
+      .cls-5, .cls-6, .cls-7 {
+        fill: #1a1a1a;
+      }
+
+      .cls-7 {
+        fill-rule: evenodd;
+      }
+
+      .cls-8 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect id="button" class="cls-2" x="6" y="6" width="141" height="49" rx="6" ry="6"/>
+  <path id="icon-bg" class="cls-3" d="M16,6H59a0,0,0,0,1,0,0V55a0,0,0,0,1,0,0H16A10,10,0,0,1,6,45V16A10,10,0,0,1,16,6Z"/>
+  <image id="shadow" class="cls-4" x="6" y="6" width="141" height="7" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAAI0AAAAxCAYAAADnViqrAAABq0lEQVR4nO3dvW4TQRSG4W9m16t12tQIYS4klMDtpI8Sem4HKPEVREK0JETUae317noHHf8UFIC/2u8j+QaOXp2Zabzp/tt3HdSS3km6mqbpZd/37abrNI6jSinCeUgpKeWsuq7VNE3XNM1Tznkp6bOkMYZwjOZS0o2kxTAMWq1WGodhP6SUyOUcHRZFriq1bRu/h5TSB0nPEU1smI8RTN/3Wq/XKmVSErFAKtrHM6tnml9cPOacr49H0iKOoYimqipJFePCH6ZStNlsXs3n87f14Q6zu7vEOQb8Tdxtt9vtVV1KeR3R7DcM8F+LWC11zplR4VSzevfE4oUEAysGNqKBjWhgIxrYiAY2ooGNaGAjGtiIBjaigY1oYCMa2IgGNqKBjWhgIxrYiAY2ooGNaGAjGtiIBjaigY1oYCMa2IgGNqKBjWhgIxrYiAY2ooGNaGAjGtiIBjaigY1oYMvHvy4HTtRFND+YFgxPEc2SicGwjGi+SHpkajjBz+gloonPrdxJemBq+IdYLLfRy/FjCM+SriW9l/RG0gtJLRM8e52kX5K+Svq0ezRJ+g11bmnNj0TgrAAAAABJRU5ErkJggg=="/>
+  <text id="txt" class="cls-5" x="76.32" y="35.032">Button</text>
+  <g id="icon">
+    <rect id="rectangle" class="cls-6" x="28" y="29" width="5" height="2"/>
+    <path id="triangle" class="cls-7" d="M912,700l5,4-5,4v-8Z" transform="translate(-881 -674)"/>
+    <circle id="circle" class="cls-8" cx="32" cy="30" r="9"/>
+  </g>
+</svg>

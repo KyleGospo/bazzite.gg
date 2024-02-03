@@ -1,0 +1,57 @@
+.mfn-ui {
+
+    --mfn-ui-text-color: #7987a2;
+    --mfn-ui-text-color-2: #9ea8bb;
+    --mfn-ui-heading: #304050;
+
+    --mfn-ui-toolip: #304050;
+    --mfn-ui-toolip-color: #fff;
+
+    --mfn-ui-dropdown-bg: #fff;
+    --mfn-ui-dropdown-border: #eceff5;
+    --mfn-ui-dropdown-link: #7987a2;
+    --mfn-ui-dropdown-link-hover: #304050;
+    --mfn-ui-dropdown-link-hover-bg: #fbfbfc;
+    --mfn-ui-dropdown-resolution-bg: #f4f4f7;
+
+    --mfn-ui-contextmenu-bg: #fff;
+    --mfn-ui-contextmenu-header-bg: #304050;
+    --mfn-ui-contextmenu-header-color: #fff;
+    --mfn-ui-contextmenu-border: #eceff5;
+    --mfn-ui-contextmenu-link: #7987a2;
+    --mfn-ui-contextmenu-link-hover: #304050;
+    --mfn-ui-contextmenu-link-hover-bg: #fbfbfc;
+    --mfn-ui-contextmenu-delete-link: #DB5754;
+    --mfn-ui-contextmenu-delete-bg: rgba(219,87,84,.1);
+
+}
+
+.mfn-ui-dark {
+
+    --mfn-ui-text-color: #7F7D84;
+    --mfn-ui-text-color-2: #69676F;
+    --mfn-ui-heading: #bdbcc6;
+
+    --mfn-ui-toolip: #171618;
+    --mfn-ui-toolip-color: #fff;
+
+    --mfn-ui-dropdown-bg: #363538;
+    --mfn-ui-dropdown-header-bg: #2d2c2f;
+    --mfn-ui-dropdown-header-color: #fff;
+    --mfn-ui-dropdown-border: #4a484d;
+    --mfn-ui-dropdown-link:#bdbcc5;
+    --mfn-ui-dropdown-link-hover: #dedee2;
+    --mfn-ui-dropdown-link-hover-bg: #414043;
+    --mfn-ui-dropdown-resolution-bg: rgba(0,0,0,.2);
+
+    --mfn-ui-contextmenu-bg: #363538;
+    --mfn-ui-contextmenu-header-bg: #2d2c2f;
+    --mfn-ui-contextmenu-header-color: #fff;
+    --mfn-ui-contextmenu-border: #4a484d;
+    --mfn-ui-contextmenu-link: #bdbcc5;
+    --mfn-ui-contextmenu-link-hover: #dedee2;
+    --mfn-ui-contextmenu-link-hover-bg: #414043;
+    --mfn-ui-contextmenu-delete-link: #DB5754;
+    --mfn-ui-contextmenu-delete-bg: rgba(219,87,84,.1);
+
+}

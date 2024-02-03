@@ -1,0 +1,373 @@
+[
+	{
+		"name":"Hover Color",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"118072445",
+		"attr":{
+			"title_tag":"h4",
+			"icon_position":"top",
+			"icon_align":"start",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"40px",
+				"right":"40px",
+				"bottom":"40px",
+				"left":"40px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:background-color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-style":"solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-color":"#dcdfec",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-width":"0 0 1px 0",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-radius":"5px 5px 0 0",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover:background-color":"#0061d5",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"auto",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper i:font-size":"40px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper i:color":"#0061d5",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover .icon-wrapper i:color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .desc-wrapper:text-align":"left",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover .title:color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover .desc:color":"#FFFFFF"
+		}
+	},
+	{
+		"name":"Move up on hover",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"216472906",
+		"attr":{
+			"title_tag":"h4",
+			"icon_position":"top",
+			"icon_align":"start",
+			"hover":"move-up",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"40px",
+				"right":"40px",
+				"bottom":"40px",
+				"left":"40px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-radius":"15px 15px 15px 15px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover:box-shadow":" 0 10px 30px 0px rgba(66,68,90,0.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"80px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .desc-wrapper:text-align":"left",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .title:typography":{
+				"font-size":"23px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .desc:color":"#8f99ac",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .desc:typography":{
+				"font-size":"16px",
+				"font-family":"Arial"
+			}
+		}
+	},
+	{
+		"name":"Hover Background",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"ca2f62b4f",
+		"attr":{
+			"title_tag":"h4",
+			"icon_position":"bottom",
+			"icon_align":"center",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"40px",
+				"right":"40px",
+				"bottom":"40px",
+				"left":"40px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-style":"none",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-radius":"10px 10px 10px 10px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover:background-color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover:box-shadow":" 0 0 20px 0 rgba(66,68,90,0.07)"
+		}
+	},
+	{
+		"name":"Hover Icon",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"2938bf20e",
+		"attr":{
+			"title_tag":"h4",
+			"icon_position":"top",
+			"icon_align":"center",
+			"hover":"icon-scale",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"60px",
+				"right":"40px",
+				"bottom":"60px",
+				"left":"40px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:background-color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-style":"solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-color":"#e6e9f0",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:border-width":"1px 1px 1px 1px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box|hover:box-shadow":" 0 5px 30px 0 rgba(0,0,0,0.05)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"150px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:height":"150px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper img:max-width":"80px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:background-color":"#ebf3f7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:border-radius":"30px 30px 30px 30px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .desc:typography":{
+				"font-size":"17px",
+				"line-height":"30px"
+			}
+		}
+	},
+	{
+		"name":"Hover Box",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"79ad6fb2f",
+		"attr":{
+			"title_tag":"h3",
+			"icon_position":"left",
+			"icon_align":"center",
+			"hover":"box-scale",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"30px",
+				"right":"30px",
+				"bottom":"30px",
+				"left":"30px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:background-color":"#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:box-shadow":" 0 0 15px 0 rgba(66,68,90,0.16)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"35%",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:margin":{
+				"top":"",
+				"right":"30px",
+				"bottom":"",
+				"left":""
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:margin":{
+				"top":"",
+				"right":"",
+				"bottom":"30px",
+				"left":""
+			}
+		}
+	},
+	{
+		"name":"Basic",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"eaa2b321e",
+		"attr":{
+			"title_tag":"h6",
+			"icon_position":"top",
+			"icon_align":"center",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"100px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:height":"100px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper i:font-size":"50px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper img:max-width":"60px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:border-radius":"20px 20px 20px 20px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:box-shadow":" 0 5px 30px 0 rgba(0,0,0,0.05)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .title:margin":{
+				"top":"",
+				"right":"",
+				"bottom":"5px",
+				"left":""
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .title:typography":{
+				"font-size":"16px"
+			}
+		}
+	},
+	{
+		"name":"Plain",
+		"item":"icon_box_2",
+		"type":"mfn",
+		"uid":"dd3da06c7",
+		"attr":{
+			"title_tag":"h6",
+			"icon_position":"top",
+			"icon_align":"center",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-icon-box:padding":{
+				"top":"",
+				"right":"30px",
+				"bottom":"",
+				"left":"30px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:width":"25px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper i:font-size":"25px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .icon-wrapper:margin":{
+				"top":"",
+				"right":"",
+				"bottom":"15px",
+				"left":""
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .title:typography":{
+				"font-weight":"500"
+			}
+		}
+	},
+	{
+		"name": "Style 1",
+		"item": "toggle",
+		"type": "mfn",
+		"uid": "4cebe4c95",
+		"attr": {
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-style": "solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-width": "1px 1px 1px 1px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-color": "rgba(0,0,0,0.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover:border-color": "rgba(0,0,0,0.6)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active:border-color": "rgba(0,0,0,0)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:box-shadow": "",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active:box-shadow": " 0px 10px 46px 0px rgba(1,7,39,.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-bar:padding": {
+				"top": "20px",
+				"right": "20px",
+				"bottom": "20px",
+				"left": "20px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .toggle-content:padding": {
+				"right": "20px",
+				"bottom": "20px",
+				"left": "20px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:width": "24px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:height": "24px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-size": "10px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-color": "#161922",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:background-color": "rgba(0,0,0,0.08)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover .toggle-icon:background-color": "rgba(0,0,0,0.12)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active .toggle-icon:background-color": "#161922",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active:--mfn-toggle-icon-color": "#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-radius": "100% 100% 100% 100%",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-heading:color": "",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active .toggle-heading:color": "#0089F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active:--mfn-toggle-bar-icon-color": "#0089F7"
+		}
+	},
+	{
+		"name": "Style 2",
+		"item": "toggle",
+		"type": "mfn",
+		"uid": "111e2f87f",
+		"attr": {
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover:background-color": "rgba(0,0,0,0.03)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active:background-color": "#f4f6f6",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-bar:padding": {
+				"top": "20px",
+				"right": "30px",
+				"bottom": "20px",
+				"left": "30px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-radius": "5px 5px 5px 5px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active .toggle-heading:color": "#2ecc71",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-size": "16px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active:--mfn-toggle-icon-color": "#2ecc71",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .toggle-content:padding": {
+				"right": "30px",
+				"bottom": "20px",
+				"left": "30px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-gap": "5px"
+		}
+	},
+	{
+		"name": "Style 3",
+		"item": "toggle",
+		"type": "mfn",
+		"uid": "4d588a2ac",
+		"attr": {
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-style": "solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-width": "1px 1px 1px 1px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-color": "rgba(0,0,0,0.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:box-shadow": " 0px 5px 15px 0px rgba(1,7,39,.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover:border-color": "rgba(0,0,0,0.2)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover:box-shadow": " 0px 5px 15px 0px rgba(1,7,39,.2)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-bar:padding": {
+				"top": "12px",
+				"right": "15px",
+				"bottom": "12px",
+				"left": "15px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .toggle-content:padding": {
+				"right": "15px",
+				"bottom": "12px",
+				"left": "15px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:width": "18px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:height": "18px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-style": "solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-width": "1px 1px 1px 1px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-radius": "100% 100% 100% 100%",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-size": "8px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-color": "#e74c3c",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-color": "#e74c3c",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:border-radius": "3px 3px 3px 3px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon:width": "18px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon:height": "18px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon:border-style": "none",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon:border-radius": "3px 3px 3px 3px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon:background-color": "rgba(0,0,0,0.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-bar-icon|after:typography": {
+				"font-size": "10px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active .toggle-bar-icon:background-color": "#e74c3c",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item.active:--mfn-toggle-bar-icon-color": "#FFFFFF"
+		}
+	},
+	{
+		"name": "Style 4",
+		"item": "toggle",
+		"type": "mfn",
+		"uid": "223829545",
+		"attr": {
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-color": "#0089F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-style": "solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-width": "2px 2px 2px 2px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-color": "#0089F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:width": "20px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:height": "20px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-size": "10px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-radius": "100% 100% 100% 100%",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active .toggle-heading:color": "#0089F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .toggle-content:padding": {
+				"left": "40px",
+				"top": "10px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-bar:padding": {
+				"top": "",
+				"bottom": ""
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-heading:color": "#0089F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover .toggle-heading:color": "#006edf"
+		}
+	},
+	{
+		"name": "Style 5",
+		"item": "toggle",
+		"type": "mfn",
+		"uid": "3bc77ba9e",
+		"attr": {
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:border-style": "solid",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:border-width": "1px 1px 1px 1px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:border-radius": "6px 6px 6px 6px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:border-color": "rgba(0,0,0,0.1)",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-gap": "0px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:width": "24px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:height": "24px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:background-color": "#3949ab",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-color": "#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-icon-size": "12px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .toggle-icon:border-radius": "5px 5px 5px 5px",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-bar:padding": {
+				"top": "15px",
+				"right": "15px",
+				"bottom": "15px",
+				"left": "15px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .toggle-content:padding": {
+				"right": "15px",
+				"bottom": "15px",
+				"left": "15px"
+			},
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item:background-color": "#F7F7F7",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle .mfn-toggle-item.active:background-color": "#FDFDFD",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item|hover:background-color": "#FFFFFF",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mcb-column-inner:overflow": "hidden",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle-item .toggle-heading:color": "#3949ab",
+			"style:.mcb-section .mcb-wrap .mcb-item-mfnuidelement .mfn-toggle:--mfn-toggle-divider-color": "rgba(0,0,0,0.1)"
+		}
+	}
+]

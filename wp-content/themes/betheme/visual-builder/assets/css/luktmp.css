@@ -1,0 +1,11 @@
+.mfn-sidemenu-tmpl{
+	--mfn-sidemenu-closebutton-size: 30px;
+	--mfn-sidemenu-closebutton-font-size: 16px;
+	--mfn-sidemenu-closebutton-offset-horizontal: 0;
+}
+
+.mfn-sidemenu-tmpl .mfn-sidemenu-closebutton{ position: absolute; top: 0; z-index: 10; display: none; justify-content: center; align-items: center; width: var(--mfn-sidemenu-closebutton-size); height: var(--mfn-sidemenu-closebutton-size); font-size: var(--mfn-sidemenu-closebutton-font-size); line-height: 1em; }
+.mfn-sidemenu-tmpl .mfn-sidemenu-closebutton:hover{ text-decoration: none; }
+.mfn-sidemenu-tmpl.mfn-sidemenu-closebutton-active .mfn-sidemenu-closebutton{ display: flex; }
+.mfn-sidemenu-tmpl.mfn-sidemenu-close-button-right .mfn-sidemenu-closebutton{ right: var(--mfn-sidemenu-closebutton-offset-horizontal); }
+.mfn-sidemenu-tmpl.mfn-sidemenu-close-button-left .mfn-sidemenu-closebutton{ left: var(--mfn-sidemenu-closebutton-offset-horizontal); }

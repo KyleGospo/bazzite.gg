@@ -1,0 +1,42 @@
+<svg id="flat" xmlns="http://www.w3.org/2000/svg" width="153" height="61" viewBox="0 0 153 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f9f9;
+      }
+
+      .cls-2 {
+        fill: #cfd2d4;
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        font-family: Lato;
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #1a1a1a;
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+
+      .cls-6 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-width: 2px;
+      }
+    </style>
+  </defs>
+  <rect id="wh" class="cls-1" width="153" height="61"/>
+  <rect id="button" class="cls-2" x="16" y="6" width="123" height="49"/>
+  <text id="txt" class="cls-3" x="67.32" y="35.032">Button</text>
+  <g id="icon">
+    <rect class="cls-4" x="40" y="29" width="5" height="2"/>
+    <path id="Rectangle_7_copy" data-name="Rectangle 7 copy" class="cls-5" d="M1257,700l5,4-5,4v-8Z" transform="translate(-1214 -674)"/>
+    <circle class="cls-6" cx="44" cy="30" r="9"/>
+  </g>
+</svg>

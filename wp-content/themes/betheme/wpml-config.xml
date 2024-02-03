@@ -1,0 +1,1138 @@
+<wpml-config>
+
+	<custom-types>
+
+		<custom-type translate="1">client</custom-type>
+		<custom-type translate="1">layout</custom-type>
+		<custom-type translate="1">offer</custom-type>
+		<custom-type translate="1">portfolio</custom-type>
+		<custom-type translate="1">slide</custom-type>
+		<custom-type translate="1">template</custom-type>
+		<custom-type translate="1">testimonial</custom-type>
+
+		<custom-type translate="0">icons</custom-type>
+
+	</custom-types>
+
+	<taxonomies>
+
+		<taxonomy translate="1">client-types</taxonomy>
+    <taxonomy translate="1">offer-types</taxonomy>
+		<taxonomy translate="1">portfolio-types</taxonomy>
+    <taxonomy translate="1">slide-types</taxonomy>
+    <taxonomy translate="1">testimonial-types</taxonomy>
+
+	</taxonomies>
+
+	<custom-fields>
+
+		<custom-field action="copy-once">mfn-page-items</custom-field>
+
+		<custom-field action="copy-once">mfn-post-hide-content</custom-field>
+		<custom-field action="copy-once">mfn-post-layout</custom-field>
+
+		<custom-field action="copy-once">mfn-post-slider</custom-field>
+		<custom-field action="copy-once">mfn-post-slider-layer</custom-field>
+		<custom-field action="copy-once">mfn-post-slider-shortcode</custom-field>
+
+		<custom-field action="copy-once">mfn-post-one-page</custom-field>
+		<custom-field action="copy-once">mfn-post-hide-title</custom-field>
+		<custom-field action="copy-once">mfn-post-remove-padding</custom-field>
+		<custom-field action="copy-once">mfn-post-custom-layout</custom-field>
+		<custom-field action="copy-once">mfn-post-menu</custom-field>
+
+		<custom-field action="translate">mfn-meta-seo-title</custom-field>
+		<custom-field action="translate">mfn-meta-seo-description</custom-field>
+		<custom-field action="translate">mfn-meta-seo-keywords</custom-field>
+
+		<custom-field action="copy-once">mfn-post-css</custom-field>
+
+		<custom-field action="copy">mfn-post-bg-pos</custom-field>
+    <custom-field action="copy">mfn-post-header-style</custom-field>
+    <custom-field action="copy">mfn-post-sticky-header</custom-field>
+    <custom-field action="copy">mfn-post-sticky-header-style</custom-field>
+    <custom-field action="copy">mfn-post-skin</custom-field>
+    <custom-field action="copy">mfn-post-background-subheader</custom-field>
+    <custom-field action="copy">mfn-post-color-subheader</custom-field>
+    <custom-field action="translate">mfn-post-link</custom-field>
+    <custom-field action="translate">mfn-post-link_title</custom-field>
+    <custom-field action="copy">mfn-post-target</custom-field>
+    <custom-field action="copy">mfn-post-slider-header</custom-field>
+    <custom-field action="copy">mfn-post-intro</custom-field>
+    <custom-field action="copy">mfn-post-love</custom-field>
+    <custom-field action="translate">mfn-post-desc</custom-field>
+    <custom-field action="copy">mfn-post-author</custom-field>
+    <custom-field action="copy">mfn-post-company</custom-field>
+
+		<custom-field action="copy-once">mfn-page-local-style</custom-field>
+		<custom-field action="copy-once">mfn-page-fonts</custom-field>
+
+		<custom-field action="copy">mfn_template_type</custom-field>
+		<custom-field action="copy-once">mfn_template_conditions</custom-field>
+
+		<custom-field action="copy-once">body_offset_header</custom-field>
+		<custom-field action="copy-once">header_position</custom-field>
+		<custom-field action="copy-once">header_width</custom-field>
+		<custom-field action="copy-once">header_content_on_submenu</custom-field>
+		<custom-field action="copy-once">header_content_on_submenu_color</custom-field>
+		<custom-field action="copy-once">header_content_on_submenu_blur</custom-field>
+		<custom-field action="copy-once">header_sticky</custom-field>
+		<custom-field action="copy-once">header_sticky_width</custom-field>
+		<custom-field action="copy-once">header_mobile</custom-field>
+		<custom-field action="copy-once">mobile_header_position</custom-field>
+		<custom-field action="copy-once">mobile_body_offset_header</custom-field>
+
+		<custom-field action="copy-once">footer_type</custom-field>
+
+		<custom-field action="copy-once">popup_position</custom-field>
+		<custom-field action="copy-once">popup_display</custom-field>
+		<custom-field action="copy-once">popup_display_delay</custom-field>
+		<custom-field action="copy-once">popup_display_scroll</custom-field>
+		<custom-field action="copy-once">popup_display_scroll_element</custom-field>
+		<custom-field action="copy-once">popup_entrance_animation</custom-field>
+		<custom-field action="copy-once">popup_display_visibility</custom-field>
+		<custom-field action="copy-once">popup_display_visibility_cookie_days</custom-field>
+		<custom-field action="copy-once">popup_display_referer</custom-field>
+		<custom-field action="copy-once">popup_hide</custom-field>
+		<custom-field action="copy-once">popup_hide_delay</custom-field>
+		<custom-field action="copy-once">popup_close_button_active</custom-field>
+		<custom-field action="copy-once">popup_close_button_display</custom-field>
+		<custom-field action="copy-once">popup_close_button_display_delay</custom-field>
+		<custom-field action="copy-once">popup_close_on_overlay_click</custom-field>
+		<custom-field action="copy-once">popup_width</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid.mfn-popup-tmpl-custom-width .mfn-popup-tmpl-content:width</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:height</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:height_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:height_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-popup-tmpl-offset</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-popup-tmpl-offset_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-popup-tmpl-offset_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content .mfn-popup-tmpl-content-wrapper:padding</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content .mfn-popup-tmpl-content-wrapper:padding_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content .mfn-popup-tmpl-content-wrapper:padding_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:border-radius</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:border-radius_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:border-radius_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:background-color</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:box-shadow</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid:z-index</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid|before:background-color</custom-field>
+		<custom-field action="copy-once">popup_overlay_blur</custom-field>
+		<custom-field action="copy-once">popup_close_button_align</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-size</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-size_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-size_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-font-size</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-font-size_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .mfn-popup-tmpl-content:--mfn-exitbutton-font-size_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:top</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:top_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:top_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:--mfn-exitbutton-offset-horizontal</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:--mfn-exitbutton-offset-horizontal_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:--mfn-exitbutton-offset-horizontal_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:border-radius</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:border-radius_tablet</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:border-radius_mobile</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:color</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs:background-color</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs|hover:color</custom-field>
+		<custom-field action="copy-once">style:#mfn-popup-template-postid .exit-mfn-popup-abs|hover:background-color</custom-field>
+
+		<custom-field action="copy-once">megamenu_width</custom-field>
+		<custom-field action="copy-once">megamenu_custom_width</custom-field>
+		<custom-field action="copy-once">megamenu_custom_position</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:padding</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:border-style</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:border-color</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:border-width</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:border-radius</custom-field>
+		<custom-field action="copy-once">style:#mfn-megamenu-postid:background-color</custom-field>
+
+	</custom-fields>
+
+	<custom-fields-texts>
+
+		<key name="mfn-page-items">
+			<key name="*">
+				<key name="attr">
+					<key name="title"/>
+				</key>
+				<key name="wraps">
+					<key name="*">
+						<key name="items">
+							<key name="*">
+								<key name="attr">
+									<key name="address"/>
+									<key name="alt"/>
+									<key name="author"/>
+									<key name="btn_text"/>
+									<key name="button_title"/>
+									<key name="blockquote"/>
+									<key name="caption"/>
+									<key name="content"/>
+									<key name="content1"/>
+									<key name="content2"/>
+									<key name="email"/>
+									<key name="facebook"/>
+									<key name="heading"/>
+									<key name="label"/>
+									<key name="link"/>
+									<key name="link_title"/>
+									<key name="linkedin"/>
+									<key name="period"/>
+									<key name="phone"/>
+									<key name="prefix"/>
+									<key name="slogan"/>
+									<key name="subtitle"/>
+									<key name="title"/>
+									<key name="title1"/>
+									<key name="title2"/>
+									<key name="twitter"/>
+									<key name="vcard"/>
+									<key name="tabs">
+										<key name="*">
+											<key name="title"/>
+											<key name="content"/>
+										</key>
+									</key>
+								</key>
+								<key name="items">
+									<key name="*">
+										<key name="attr">
+											<key name="address"/>
+											<key name="alt"/>
+											<key name="author"/>
+											<key name="btn_text"/>
+											<key name="button_title"/>
+											<key name="blockquote"/>
+											<key name="caption"/>
+											<key name="content"/>
+											<key name="content1"/>
+											<key name="content2"/>
+											<key name="email"/>
+											<key name="facebook"/>
+											<key name="heading"/>
+											<key name="label"/>
+											<key name="link"/>
+											<key name="link_title"/>
+											<key name="linkedin"/>
+											<key name="period"/>
+											<key name="phone"/>
+											<key name="prefix"/>
+											<key name="slogan"/>
+											<key name="subtitle"/>
+											<key name="title"/>
+											<key name="title1"/>
+											<key name="title2"/>
+											<key name="twitter"/>
+											<key name="vcard"/>
+											<key name="tabs">
+												<key name="*">
+													<key name="title"/>
+													<key name="content"/>
+												</key>
+											</key>
+										</key>
+									</key>
+								</key>
+							</key>
+						</key>
+					</key>
+				</key>
+			</key>
+		</key>
+
+	</custom-fields-texts>
+
+	<shortcodes>
+
+		<shortcode>
+			<tag>article_box</tag>
+			<attributes>
+				<attribute>slogan</attribute>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>blockquote</tag>
+			<attributes>
+				<attribute>author</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>blog_news</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+				<attribute>link_title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>blog_slider</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>button</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>call_to_action</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>button_title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>chart</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>clients_slider</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>code</tag>
+		</shortcode>
+
+		<shortcode>
+			<tag>contact_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>address</attribute>
+				<attribute>telephone</attribute>
+				<attribute>telephone_2</attribute>
+				<attribute>fax</attribute>
+				<attribute>email</attribute>
+				<attribute>www</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>counter</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>prefix</attribute>
+				<attribute>label</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>fancy_heading</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>slogan</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>feature_list</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>flat_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>helper</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>title1</attribute>
+				<attribute>content1</attribute>
+				<attribute>link1</attribute>
+				<attribute>title2</attribute>
+				<attribute>content2</attribute>
+				<attribute>link2</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>hover_box</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>hover_color</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>how_it_works</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>icon_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>info_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>list</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>map</tag>
+			<attributes>
+				<attribute>lat</attribute>
+				<attribute>lng</attribute>
+				<attribute>title</attribute>
+				<attribute>telephone</attribute>
+				<attribute>email</attribute>
+				<attribute>www</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>opening_hours</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>our_team</tag>
+			<attributes>
+				<attribute>heading</attribute>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>phone</attribute>
+				<attribute>email</attribute>
+				<attribute>facebook</attribute>
+				<attribute>twitter</attribute>
+				<attribute>linkedin</attribute>
+				<attribute>blockquote</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>our_team_list</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>phone</attribute>
+				<attribute>email</attribute>
+				<attribute>facebook</attribute>
+				<attribute>twitter</attribute>
+				<attribute>linkedin</attribute>
+				<attribute>blockquote</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>photo_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>pricing_item</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>price</attribute>
+				<attribute>currency</attribute>
+				<attribute>period</attribute>
+				<attribute>subtitle</attribute>
+				<attribute>link_title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>progress_bars</tag>
+			<attributes>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+		<shortcode>
+			<tag>promo_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>btn_text</attribute>
+				<attribute>btn_link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>quick_fact</tag>
+			<attributes>
+				<attribute>heading</attribute>
+				<attribute>prefix</attribute>
+				<attribute>label</attribute>
+				<attribute>title</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>sliding_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>story_box</tag>
+			<attributes>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>trailer_box</tag>
+			<attributes>
+				<attribute>slogan</attribute>
+				<attribute>title</attribute>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+
+		<shortcode>
+			<tag>zoom_box</tag>
+			<attributes>
+				<attribute>link</attribute>
+			</attributes>
+		</shortcode>
+	</shortcodes>
+
+	<admin-texts>
+		<key name="betheme">
+
+			<key name="logo-img"/>
+			<key name="retina-logo-img"/>
+			<key name="sticky-logo-img"/>
+			<key name="sticky-retina-logo-img"/>
+			<key name="responsive-logo-img"/>
+			<key name="responsive-retina-logo-img"/>
+			<key name="responsive-sticky-logo-img"/>
+			<key name="responsive-sticky-retina-logo-img"/>
+			<key name="logo-text"/>
+
+			<key name="meta-description"/>
+			<key name="meta-keywords"/>
+
+			<key name="single-sidebar"/>
+			<key name="slider-shortcode"/>
+
+			<key name="blog-page"/>
+			<key name="portfolio-page"/>
+			<key name="portfolio-slug"/>
+			<key name="shop-wishlist-page"/>
+
+			<key name="construction-title"/>
+			<key name="construction-text"/>
+			<key name="construction-date"/>
+			<key name="construction-offset"/>
+			<key name="construction-contact"/>
+			<key name="construction-page"/>
+
+			<key name="footer-call-to-action"/>
+			<key name="footer-copy"/>
+
+			<key name="header-action-title"/>
+			<key name="header-action-link"/>
+			<key name="header-banner"/>
+			<key name="header-slogan"/>
+			<key name="header-phone"/>
+			<key name="header-phone-2"/>
+			<key name="header-email"/>
+			<key name="popup-contact-form"/>
+
+			<key name="hook-top"/>
+			<key name="hook-content-before"/>
+			<key name="hook-content-after"/>
+			<key name="hook-bottom"/>
+
+			<key name="social-link">
+				<key name="skype"/>
+				<key name="facebook"/>
+				<key name="googleplus"/>
+				<key name="twitter"/>
+				<key name="vimeo"/>
+				<key name="youtube"/>
+				<key name="flickr"/>
+				<key name="linkedin"/>
+				<key name="pinterest"/>
+				<key name="dribbble"/>
+				<key name="instagram"/>
+				<key name="behance"/>
+				<key name="tumblr"/>
+				<key name="vkontakte"/>
+				<key name="viadeo"/>
+				<key name="xing"/>
+			</key>
+
+			<key name="social-custom-icon"/>
+			<key name="social-custom-link"/>
+
+			<key name="font-content"/>
+			<key name="font-menu"/>
+			<key name="font-title"/>
+			<key name="font-headings"/>
+			<key name="font-headings-small"/>
+			<key name="font-blockquote"/>
+			<key name="font-decorative"/>
+
+			<key name="translate-search-placeholder"/>
+			<key name="translate-search-results"/>
+			<key name="translate-livesearch-categories"/>
+			<key name="translate-livesearch-pages"/>
+			<key name="translate-livesearch-portfolio"/>
+			<key name="translate-livesearch-posts"/>
+			<key name="translate-livesearch-products"/>
+			<key name="translate-livesearch-noresults"/>
+			<key name="translate-livesearch-button"/>
+
+			<key name="translate-home"/>
+			<key name="translate-prev"/>
+			<key name="translate-next"/>
+			<key name="translate-load-more"/>
+			<key name="translate-wpml-no"/>
+			<key name="translate-before"/>
+			<key name="translate-after"/>
+			<key name="translate-days"/>
+			<key name="translate-hours"/>
+			<key name="translate-minutes"/>
+			<key name="translate-seconds"/>
+			<key name="translate-filter"/>
+			<key name="translate-tags"/>
+			<key name="translate-authors"/>
+			<key name="translate-all"/>
+			<key name="translate-item-all"/>
+			<key name="translate-published"/>
+			<key name="translate-at"/>
+			<key name="translate-categories"/>
+			<key name="translate-tags"/>
+			<key name="translate-readmore"/>
+			<key name="translate-like"/>
+			<key name="translate-related"/>
+			<key name="translate-client"/>
+			<key name="translate-date"/>
+			<key name="translate-website"/>
+			<key name="translate-view"/>
+			<key name="translate-task"/>
+			<key name="translate-404-title"/>
+			<key name="translate-404-subtitle"/>
+			<key name="translate-404-text"/>
+			<key name="translate-404-btn"/>
+
+			<key name="translate-search-title"/>
+			<key name="translate-search-subtitle"/>
+
+			<key name="translate-shop-filters"/>
+			<key name="translate-empty-wishlist"/>
+			<key name="translate-add-to-cart"/>
+			<key name="translate-view-product"/>
+			<key name="translate-if-preview"/>
+			<key name="translate-side-cart-shipping-free"/>
+
+			<key name="gdpr-content"/>
+			<key name="gdpr-content-image"/>
+			<key name="gdpr-content-button_text"/>
+			<key name="gdpr-content-more_info_text"/>
+			<key name="gdpr-content-more_info_link"/>
+			<key name="gdpr-content-more_info_page"/>
+
+		</key>
+	</admin-texts>
+
+	<language-switcher-settings>
+		<key name="additional_css">.wpml-ls-display{display:inline!important}</key>
+	</language-switcher-settings>
+
+	<elementor-widgets>
+
+    <widget name="mfn_accordion">
+      <conditions>
+        <condition key="widgetType">mfn_accordion</condition>
+      </conditions>
+      <fields>
+        <field type="Accordion: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Accordion item: Title" editor_type="LINE">title</field>
+        <field type="Accordion item: Content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+
+    <widget name="mfn_article_box">
+      <conditions>
+        <condition key="widgetType">mfn_article_box</condition>
+      </conditions>
+      <fields>
+        <field type="Article box: Slogan" editor_type="LINE">slogan</field>
+        <field type="Article box: Title" editor_type="LINE">title</field>
+        <field type="Article box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_blockquote">
+      <conditions>
+        <condition key="widgetType">mfn_blockquote</condition>
+      </conditions>
+      <fields>
+        <field type="Blockquote: Content" editor_type="VISUAL">content</field>
+        <field type="Blockquote: Author" editor_type="LINE">author</field>
+        <field type="Blockquote: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_blog_news">
+      <conditions>
+        <condition key="widgetType">mfn_blog_news</condition>
+      </conditions>
+      <fields>
+        <field type="Blog news: Title" editor_type="LINE">title</field>
+        <field type="Blog news: Button link" editor_type="LINE">link</field>
+        <field type="Blog news: Button title" editor_type="LINE">link_title</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_blog_slider">
+      <conditions>
+        <condition key="widgetType">mfn_blog_slider</condition>
+      </conditions>
+      <fields>
+        <field type="Blog slider: Title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_blog_teaser">
+      <conditions>
+        <condition key="widgetType">mfn_blog_teaser</condition>
+      </conditions>
+      <fields>
+        <field type="Blog teaser: Title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_call_to_action">
+      <conditions>
+        <condition key="widgetType">mfn_call_to_action</condition>
+      </conditions>
+      <fields>
+        <field type="Call to action: Title" editor_type="LINE">title</field>
+        <field type="Call to action: Content" editor_type="VISUAL">content</field>
+        <field type="Call to action: Button title" editor_type="LINE">button_title</field>
+        <field type="Call to action: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_chart">
+      <conditions>
+        <condition key="widgetType">mfn_chart</condition>
+      </conditions>
+      <fields>
+        <field type="Chart: Title" editor_type="LINE">title</field>
+        <field type="Chart: Label" editor_type="LINE">label</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_clients_slider">
+      <conditions>
+        <condition key="widgetType">mfn_clients_slider</condition>
+      </conditions>
+      <fields>
+        <field type="Clients slider: Title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_code">
+      <conditions>
+        <condition key="widgetType">mfn_code</condition>
+      </conditions>
+      <fields>
+        <field type="Code: content" editor_type="AREA">content</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_contact_box">
+      <conditions>
+        <condition key="widgetType">mfn_contact_box</condition>
+      </conditions>
+      <fields>
+        <field type="Contact box: Title" editor_type="LINE">title</field>
+        <field type="Contact box: Address" editor_type="AREA">address</field>
+        <field type="Contact box: Phone" editor_type="LINE">telephone</field>
+        <field type="Contact box: Phone 2" editor_type="LINE">telephone_2</field>
+        <field type="Contact box: Fax" editor_type="LINE">fax</field>
+        <field type="Contact box: Email" editor_type="LINE">email</field>
+        <field type="Contact box: WWW" editor_type="LINE">www</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_counter">
+      <conditions>
+        <condition key="widgetType">mfn_counter</condition>
+      </conditions>
+      <fields>
+        <field type="Counter: Title" editor_type="LINE">title</field>
+        <field type="Counter: Prefix" editor_type="LINE">prefix</field>
+        <field type="Counter: Label" editor_type="LINE">label</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_fancy_heading">
+      <conditions>
+        <condition key="widgetType">mfn_fancy_heading</condition>
+      </conditions>
+      <fields>
+        <field type="Fancy heading: Title" editor_type="LINE">title</field>
+        <field type="Fancy heading: Content" editor_type="VISUAL">content</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_faq">
+      <conditions>
+        <condition key="widgetType">mfn_faq</condition>
+      </conditions>
+      <fields>
+        <field type="FAQ: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="FAQ item: Title" editor_type="LINE">title</field>
+        <field type="FAQ item: Content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_feature_box">
+      <conditions>
+        <condition key="widgetType">mfn_feature_box</condition>
+      </conditions>
+      <fields>
+        <field type="Feature box: Title" editor_type="LINE">title</field>
+        <field type="Feature box: Content" editor_type="VISUAL">content</field>
+        <field type="Feature box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_feature_list">
+      <conditions>
+        <condition key="widgetType">mfn_feature_list</condition>
+      </conditions>
+      <fields-in-item items_of="tabs">
+        <field type="Feature list: Title" editor_type="LINE">title</field>
+        <field type="Feature list: Link" editor_type="LINE">link</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_flat_box">
+      <conditions>
+        <condition key="widgetType">mfn_flat_box</condition>
+      </conditions>
+      <fields>
+        <field type="Flat box: Title" editor_type="LINE">title</field>
+        <field type="Flat box: Content" editor_type="VISUAL">content</field>
+        <field type="Flat box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_helper">
+      <conditions>
+        <condition key="widgetType">mfn_helper</condition>
+      </conditions>
+      <fields>
+        <field type="Helper: Title" editor_type="LINE">title</field>
+        <field type="Helper tab 1: Title" editor_type="LINE">title1</field>
+        <field type="Helper tab 1: Content" editor_type="VISUAL">content1</field>
+        <field type="Helper tab 1: Link" editor_type="LINE">link1</field>
+        <field type="Helper tab 2: Title" editor_type="LINE">title2</field>
+        <field type="Helper tab 2: Content" editor_type="VISUAL">content2</field>
+        <field type="Helper tab 2: Link" editor_type="LINE">link2</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_hover_box">
+      <conditions>
+        <condition key="widgetType">mfn_hover_box</condition>
+      </conditions>
+      <fields>
+        <field type="Hover box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_hover_color">
+      <conditions>
+        <condition key="widgetType">mfn_hover_color</condition>
+      </conditions>
+      <fields>
+        <field type="Hover color: Content" editor_type="VISUAL">content</field>
+        <field type="Hover color: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_how_it_works">
+      <conditions>
+        <condition key="widgetType">mfn_how_it_works</condition>
+      </conditions>
+      <fields>
+        <field type="How it works: Title" editor_type="LINE">title</field>
+        <field type="How it works: Content" editor_type="VISUAL">content</field>
+        <field type="How it works: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_icon_box">
+      <conditions>
+        <condition key="widgetType">mfn_icon_box</condition>
+      </conditions>
+      <fields>
+        <field type="Icon box: Title" editor_type="LINE">title</field>
+        <field type="Icon box: Content" editor_type="VISUAL">content</field>
+        <field type="Icon box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_info_box">
+      <conditions>
+        <condition key="widgetType">mfn_info_box</condition>
+      </conditions>
+      <fields>
+        <field type="Info box: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Info box item: Content" editor_type="AREA">content</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_list">
+      <conditions>
+        <condition key="widgetType">mfn_list</condition>
+      </conditions>
+      <fields>
+        <field type="List: Title" editor_type="LINE">title</field>
+        <field type="List: Content" editor_type="VISUAL">content</field>
+        <field type="List: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_opening_hours">
+      <conditions>
+        <condition key="widgetType">mfn_opening_hours</condition>
+      </conditions>
+      <fields>
+        <field type="Opening hours: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Opening hours item: Days" editor_type="LINE">days</field>
+        <field type="Opening hours item: Hours" editor_type="LINE">hours</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_our_team">
+			<conditions>
+				<condition key="widgetType">mfn_our_team</condition>
+			</conditions>
+			<fields>
+				<field type="Our team: Heading" editor_type="LINE">heading</field>
+				<field type="Our team: Title" editor_type="LINE">title</field>
+				<field type="Our team: Subtitle" editor_type="LINE">subtitle</field>
+				<field type="Our team: Content" editor_type="VISUAL">content</field>
+				<field type="Our team: Email" editor_type="LINE">email</field>
+				<field type="Our team: Blockquote" editor_type="AREA">blockquote</field>
+				<field type="Our team: Link" editor_type="LINE">link</field>
+			</fields>
+		</widget>
+
+		<widget name="mfn_photo_box">
+      <conditions>
+        <condition key="widgetType">mfn_photo_box</condition>
+      </conditions>
+      <fields>
+        <field type="Photo box: Title" editor_type="LINE">title</field>
+        <field type="Photo box: Content" editor_type="VISUAL">content</field>
+        <field type="Photo box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_pricing">
+      <conditions>
+        <condition key="widgetType">mfn_pricing</condition>
+      </conditions>
+      <fields>
+        <field type="Pricing: Title" editor_type="LINE">title</field>
+        <field type="Pricing: Currency" editor_type="LINE">currency</field>
+        <field type="Pricing: Period" editor_type="LINE">period</field>
+        <field type="Pricing: Content" editor_type="VISUAL">content</field>
+        <field type="Pricing: Button title" editor_type="LINE">link_title</field>
+        <field type="Pricing: Button link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_progress_bars">
+      <conditions>
+        <condition key="widgetType">mfn_progress_bars</condition>
+      </conditions>
+      <fields>
+        <field type="Progress bar: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Progress bar item: Title" editor_type="LINE">title</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_promo_box">
+      <conditions>
+        <condition key="widgetType">mfn_promo_box</condition>
+      </conditions>
+      <fields>
+        <field type="Promo box: Title" editor_type="LINE">title</field>
+        <field type="Promo box: Content" editor_type="VISUAL">content</field>
+        <field type="Promo box: Button title" editor_type="LINE">btn_text</field>
+        <field type="Promo box: Button link" editor_type="LINE">btn_link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_quick_fact">
+      <conditions>
+        <condition key="widgetType">mfn_quick_fact</condition>
+      </conditions>
+      <fields>
+        <field type="Quick fact: Heading" editor_type="LINE">heading</field>
+        <field type="Quick fact: Title" editor_type="LINE">title</field>
+        <field type="Quick fact: Content" editor_type="VISUAL">content</field>
+        <field type="Quick fact: Prefix" editor_type="LINE">prefix</field>
+        <field type="Quick fact: Postfix" editor_type="LINE">postfix</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_shop_slider">
+      <conditions>
+        <condition key="widgetType">mfn_shop_slider</condition>
+      </conditions>
+      <fields>
+        <field type="Shop slider: Title" editor_type="LINE">title</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_sliding_box">
+      <conditions>
+        <condition key="widgetType">mfn_sliding_box</condition>
+      </conditions>
+      <fields>
+        <field type="Sliding box: Title" editor_type="LINE">title</field>
+        <field type="Sliding box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_story_box">
+      <conditions>
+        <condition key="widgetType">mfn_story_box</condition>
+      </conditions>
+      <fields>
+        <field type="Story box: Title" editor_type="LINE">title</field>
+        <field type="Story box: Content" editor_type="VISUAL">content</field>
+        <field type="Story box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_table_of_contents">
+      <conditions>
+        <condition key="widgetType">mfn_table_of_contents</condition>
+      </conditions>
+      <fields>
+        <field type="Table of contents: Slogan" editor_type="LINE">slogan</field>
+        <field type="Table of contents: Title" editor_type="LINE">title</field>
+        <field type="Table of contents: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+    <widget name="mfn_tabs">
+      <conditions>
+        <condition key="widgetType">mfn_tabs</condition>
+      </conditions>
+      <fields>
+        <field type="Tabs: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Tabs item: Title" editor_type="LINE">title</field>
+        <field type="Tabs item: Content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+
+    <widget name="mfn_timeline">
+      <conditions>
+        <condition key="widgetType">mfn_timeline</condition>
+      </conditions>
+      <fields>
+        <field type="Timeline: Title" editor_type="LINE">title</field>
+      </fields>
+      <fields-in-item items_of="tabs">
+        <field type="Timeline item: Title" editor_type="LINE">title</field>
+        <field type="Timeline item: Content" editor_type="VISUAL">content</field>
+      </fields-in-item>
+    </widget>
+
+		<widget name="mfn_trailer_box">
+      <conditions>
+        <condition key="widgetType">mfn_trailer_box</condition>
+      </conditions>
+      <fields>
+        <field type="Trailer box: Slogan" editor_type="LINE">slogan</field>
+        <field type="Trailer box: Title" editor_type="LINE">title</field>
+        <field type="Trailer box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+		<widget name="mfn_zoom_box">
+      <conditions>
+        <condition key="widgetType">mfn_zoom_box</condition>
+      </conditions>
+      <fields>
+        <field type="Zoom box: Content" editor_type="VISUAL">content</field>
+        <field type="Zoom box: Link" editor_type="LINE">link</field>
+      </fields>
+    </widget>
+
+  </elementor-widgets>
+
+</wpml-config>

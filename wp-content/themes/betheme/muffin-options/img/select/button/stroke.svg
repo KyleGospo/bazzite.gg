@@ -1,0 +1,37 @@
+<svg id="stroke" xmlns="http://www.w3.org/2000/svg" width="153" height="61" viewBox="0 0 153 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f9f9;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-width: 2px;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        font-family: Lato;
+        font-weight: 700;
+      }
+
+      .cls-3, .cls-4, .cls-5 {
+        fill: #1a1a1a;
+      }
+
+      .cls-5 {
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="wh" class="cls-1" width="153" height="61"/>
+  <rect id="bg" class="cls-2" x="15" y="6" width="123" height="49" rx="6" ry="6"/>
+  <text id="txt" class="cls-3" x="66.319" y="35.032">Button</text>
+  <g id="icon">
+    <rect id="rectangle" class="cls-4" x="39" y="29" width="5" height="2"/>
+    <path id="triangle" class="cls-5" d="M1090,700l5,4-5,4v-8Z" transform="translate(-1048 -674)"/>
+    <circle id="circle" class="cls-2" cx="43" cy="30" r="9"/>
+  </g>
+</svg>

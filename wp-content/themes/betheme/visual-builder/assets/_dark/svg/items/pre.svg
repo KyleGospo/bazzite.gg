@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 28.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="th_color" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 26 26" style="enable-background:new 0 0 26 26;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#C4D6FF;stroke-width:1.5;stroke-linecap:round;stroke-linejoin:round;}
+	.st1{fill:#C4D6FF;}
+	.st2{fill:none;}
+</style>
+<polyline class="st0" points="8,17.5 4,13 8,8.5 "/>
+<polyline class="st0" points="18,8.5 22,13 18,17.5 "/>
+<g>
+	<path class="st1" d="M9.7,11H8.1v4h1v-1.4h0.6c1,0,1.5-0.7,1.5-1.3C11.2,11.6,10.7,11,9.7,11z M9.6,12.8H9.1v-1h0.5
+		c0.4,0,0.6,0.2,0.6,0.5S10,12.8,9.6,12.8z"/>
+	<path class="st1" d="M13.3,12.8h-0.6v-1h0.6c0.3,0,0.5,0.2,0.5,0.5S13.7,12.8,13.3,12.8z M14.7,15l-0.8-1.5
+		c0.6-0.2,0.9-0.7,0.9-1.2c0-0.7-0.5-1.3-1.5-1.3h-1.6v4h1v-1.4h0.2l0.8,1.4H14.7z"/>
+	<polygon class="st1" points="16.4,11.8 16.4,12.6 17.7,12.6 17.7,13.4 16.4,13.4 16.4,14.3 17.9,14.3 17.9,15 15.4,15 15.4,11 
+		17.9,11 17.9,11.8 	"/>
+</g>
+<line class="st2" x1="14.7" y1="15" x2="13.6" y2="15"/>
+</svg>

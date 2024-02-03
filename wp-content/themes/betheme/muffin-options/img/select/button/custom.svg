@@ -1,0 +1,33 @@
+<svg id="custom" xmlns="http://www.w3.org/2000/svg" width="153" height="61" viewBox="0 0 153 61">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #f8f9f9;
+      }
+
+      .cls-2 {
+        fill: #cfd2d4;
+        opacity: 0.7;
+      }
+
+      .cls-3 {
+        font-size: 15px;
+        fill: #1a1a1a;
+        font-family: "Playfair Display";
+        font-weight: 700;
+      }
+
+      .cls-4 {
+        fill: none;
+        stroke: #1a1a1a;
+        stroke-linecap: round;
+        stroke-width: 2px;
+        fill-rule: evenodd;
+      }
+    </style>
+  </defs>
+  <rect id="wh" class="cls-1" width="153" height="61"/>
+  <rect id="button" class="cls-2" x="6" y="6" width="141" height="49" rx="12" ry="12"/>
+  <text id="txt" class="cls-3" x="34.32" y="35.032">Custom</text>
+  <path id="icon" class="cls-4" d="M1167.89,784.117l-6.43,6.426-5.36.358,0.36-5.356,6.43-6.427Zm-5-5,1.07-1.071a3.535,3.535,0,0,1,5,0h0a3.534,3.534,0,0,1,0,5l-1.07,1.072" transform="translate(-1048 -755)"/>
+</svg>
