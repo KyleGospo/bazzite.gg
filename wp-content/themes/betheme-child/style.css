@@ -134,10 +134,6 @@ select:focus {
   padding-bottom: 0px;
 }
 
-h2 {
-  font-size: 55px;
-}
-
 rs-slide {
   top: -60px;
 }
@@ -326,6 +322,12 @@ rs-slide {
 @media only screen and (max-width: 1440px) {
   .apps-fade::after {
     background: radial-gradient(#262626 50%, rgba(0,0,0,0) 100%);
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  h2 {
+    font-size: 55px;
   }
 }
 
