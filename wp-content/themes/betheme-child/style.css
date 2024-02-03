@@ -125,6 +125,10 @@ select:focus {
   transform: scale(1.0);
 }
 
+#image-picker {
+  padding-bottom: 0px;
+}
+
 .gradients-container {
   top: 0;
   position: absolute;
@@ -309,10 +313,6 @@ select:focus {
 @media only screen and (max-width: 480px) {
   .hidden-fade {
     display: none;
-  }
-
-  #image-picker {
-    padding-bottom: 10px;
   }
 
   #apps .mcb-item-button-inner {
