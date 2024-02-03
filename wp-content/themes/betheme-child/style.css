@@ -134,6 +134,10 @@ select:focus {
   padding-bottom: 0px;
 }
 
+h2 {
+  font-size: 55px;
+}
+
 .gradients-container {
   top: 0;
   position: absolute;
