@@ -74,6 +74,8 @@ select:focus {
   font-family: 'Fira Code';
   font-size: 10px;
   line-height: 14px;
+  user-select: all;
+  cursor: pointer;
 }
 
 .command-header {
@@ -89,6 +91,8 @@ select:focus {
   font-size: 10px;
   line-height:25px;
   font-family: 'Fira Code';
+  user-select: all;
+  cursor: pointer;
 }
 
 #image-builder-result {
