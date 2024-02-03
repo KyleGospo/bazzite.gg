@@ -295,3 +295,13 @@ select:focus {
     white-space:nowrap!important;
   }
 }
+
+@media only screen and (max-width: 480px) {
+  .hidden-fade {
+    display: none;
+  }
+
+  #image-picker {
+    padding-bottom: 10px;
+  }
+}
