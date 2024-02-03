@@ -186,6 +186,11 @@ select:focus {
   color: #ccc;
 }
 
+.mcb-section .mcb-wrap .mcb-item-o12qouxct {
+  flex: 0 0 240px;
+  max-width: 240px;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
@@ -337,7 +342,7 @@ select:focus {
 
 @media only screen and (min-height: 480px) {
   rs-slide {
-    top: -60px;
+    top: -30px;
   }
 }
 
