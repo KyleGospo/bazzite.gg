@@ -71,6 +71,9 @@ select:focus {
   padding: 5px;
   background: #000;
   border-radius: 5px;
+  font-family: 'Fira Code';
+  font-size: 10px;
+  line-height: 14px;
 }
 
 .command-header {
@@ -83,7 +86,9 @@ select:focus {
   background: #000;
   border-radius: 5px;
   padding: 10px;
-  font-size: 13px;
+  font-size: 10px;
+  line-height:25px;
+  font-family: 'Fira Code';
 }
 
 #image-builder-result {
