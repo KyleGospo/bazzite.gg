@@ -288,6 +288,10 @@ select:focus {
     font-size: 10px !important;
     margin-left: 15px !important;
   }
+
+  #apps {
+    background-size: contain;
+  }
 }
 
 @media only screen and (min-width: 481px) {
@@ -303,5 +307,16 @@ select:focus {
 
   #image-picker {
     padding-bottom: 10px;
+  }
+
+  #apps .mcb-item-button-inner {
+    padding-bottom: 30px;
+  }
+
+  #apps {
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-y: 70%;
+    background-origin: inherit;
   }
 }
