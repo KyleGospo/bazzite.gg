@@ -125,6 +125,11 @@ select:focus {
   transform: scale(1.0);
 }
 
+#apps {
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 #image-picker {
   padding-bottom: 0px;
 }
@@ -320,7 +325,6 @@ select:focus {
   }
 
   #apps {
-    background-repeat: no-repeat;
     background-size: contain;
     background-position-y: 70%;
     background-origin: inherit;
