@@ -195,6 +195,11 @@ select:focus {
   max-width: 240px;
 }
 
+#slider-1-slide-1-layer-6,
+.button-custom .button {
+  font-family: "DM Sans"!important;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
