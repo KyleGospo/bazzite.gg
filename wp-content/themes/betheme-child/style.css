@@ -372,6 +372,11 @@ select:focus {
   #menu-main-menu-2 {
     display: none !important;
   }
+
+  .mcb-section .mcb-wrap .mcb-item-o12qouxct {
+    flex: 0 0 200px;
+    max-width: 200px;
+  }
 }
 
 @media only screen and (min-width: 960px) {
