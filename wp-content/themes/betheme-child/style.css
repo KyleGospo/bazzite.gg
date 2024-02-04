@@ -391,6 +391,11 @@ rs-layer-wrap {
     flex: 0 0 200px;
     max-width: 200px;
   }
+
+  #diy .mcb-item-button-inner,
+  #diy .desc {
+    text-align: center!important;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -405,11 +410,6 @@ rs-layer-wrap {
   .mcb-section .mcb-wrap .mcb-item-o12qouxct {
     flex: 0 0 240px;
     max-width: 240px;
-  }
-
-  #diy .mcb-item-button-inner,
-  #diy .desc {
-    text-align: center!important;
   }
 }
 
