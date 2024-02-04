@@ -396,6 +396,12 @@ rs-layer-wrap {
   #diy .desc {
     text-align: center!important;
   }
+
+  .mcb-section .mcb-wrap .mcb-item-0270g8ums .button,
+  .mcb-section .mcb-wrap .mcb-item-3itblyq2a .button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (min-width: 960px) {
