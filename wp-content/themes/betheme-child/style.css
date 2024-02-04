@@ -39,6 +39,10 @@ Version: 2.0.1
   background-color: rgba(38,38,38,0.95);
 }
 
+#mfn-header-template .button_label {
+  white-space: nowrap !important;
+}
+
 .trailer_box .desc .subtitle, .trailer_box.plain .desc .line {
   background-color: rgba(0,0,0,0.4);
   backdrop-filter: blur(10px);
