@@ -350,6 +350,30 @@ select:focus {
   .apps-fade::after {
     background: radial-gradient(#262626 50%, rgba(0,0,0,0) 100%);
   }
+
+  #mfn-header-template .hide-mobile {
+    display: block !important;
+  }
+
+  #menu-main-menu,
+  #menu-main-menu-2 {
+    display: none !important;
+  }
+
+  #mfn-header-template .button {
+    background: none;
+  }
+
+  #mfn-header-template .button > .button_label {
+    display: none;
+    visibility: hidden;
+  }
+
+  #mfn-header-template .button > .button_icon {
+    font-size: 20px;
+    top: -2px;
+    position: relative;
+  }
 }
 
 @media only screen and (min-width: 960px) {
