@@ -418,4 +418,8 @@ rs-layer-wrap {
     background-position-y: 70%;
     background-origin: inherit;
   }
+
+  h5 {
+    padding-top: 15px;
+  }
 }
