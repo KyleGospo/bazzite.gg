@@ -406,6 +406,11 @@ rs-layer-wrap {
     flex: 0 0 240px;
     max-width: 240px;
   }
+
+  #diy .mcb-item-button-inner,
+  #diy .desc {
+    text-align: center!important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
@@ -417,11 +422,6 @@ rs-layer-wrap {
     background-size: contain;
     background-position-y: 70%;
     background-origin: inherit;
-  }
-
-  #diy .mcb-item-button-inner,
-  #diy .desc {
-    text-align: center;
   }
 
   h5 {
