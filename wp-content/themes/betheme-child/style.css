@@ -402,6 +402,14 @@ rs-layer-wrap {
     text-align: center!important;
   }
 
+  #diy .mcb-item-button-inner {
+    margin-left: 0px;
+  }
+
+  #apps .column_button {
+    margin-bottom: 15px;
+  }
+
   .mcb-section .mcb-wrap .mcb-item-0270g8ums .button,
   .mcb-section .mcb-wrap .mcb-item-3itblyq2a .button {
     padding-top: 10px;
