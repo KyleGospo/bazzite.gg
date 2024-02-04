@@ -459,4 +459,8 @@ rs-layer-wrap {
   h5 {
     padding-top: 15px;
   }
+
+  .gamemode label::after {
+    font-size: 12px;
+  }
 }
