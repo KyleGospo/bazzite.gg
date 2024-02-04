@@ -200,6 +200,10 @@ select:focus {
   font-family: "DM Sans"!important;
 }
 
+#hardware .tablet-two-third.column {
+  width: 100% !important;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
