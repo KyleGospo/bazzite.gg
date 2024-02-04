@@ -419,6 +419,11 @@ rs-layer-wrap {
     background-origin: inherit;
   }
 
+  #diy .mcb-item-button-inner,
+  #diy .desc {
+    text-align: center;
+  }
+
   h5 {
     padding-top: 15px;
   }
