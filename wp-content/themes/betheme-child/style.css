@@ -408,12 +408,6 @@ rs-layer-wrap {
   }
 }
 
-@media only screen and (min-height: 480px) {
-  rs-slide {
-    top: -30px;
-  }
-}
-
 @media only screen and (max-width: 480px) {
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
