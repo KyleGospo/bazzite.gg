@@ -121,6 +121,7 @@ select:focus {
   overflow: hidden;
   visibility: hidden;
   transform: scale(0.75);
+  position: absolute;
 }
 
 .shown-fade {
@@ -360,10 +361,6 @@ select:focus {
 }
 
 @media only screen and (max-width: 480px) {
-  .hidden-fade {
-    display: none;
-  }
-
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
   }
