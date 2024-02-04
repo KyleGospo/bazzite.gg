@@ -22,6 +22,11 @@ document.addEventListener('DOMContentLoaded', function () {
     move();
 });
 
+var currentDate = new Date();
+var currentYear = currentDate.getFullYear();
+var currentYearElement = document.getElementById("currentYear");
+currentYearElement.textContent = currentYear;
+
 jQuery(document).ready(function() {
   jQuery('#image-builder #desktopEnvironment').on('change', function() {
     var selectedDesktopEnvironment = jQuery(this).val();
