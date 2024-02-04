@@ -329,6 +329,9 @@ rs-layer-wrap {
   #mfn-header-template .button {
     font-size: 10px !important;
     margin-left: 15px !important;
+    position: absolute;
+    right: 45px;
+    top: -25px;
   }
 
   #apps {
@@ -363,6 +366,9 @@ rs-layer-wrap {
 
   #mfn-header-template .button {
     background: none;
+    position: absolute;
+    right: 45px;
+    top: -25px;
   }
 
   #mfn-header-template .button > .button_label {
