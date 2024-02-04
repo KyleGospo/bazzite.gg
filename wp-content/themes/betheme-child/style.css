@@ -331,7 +331,7 @@ rs-layer-wrap {
     margin-left: 15px !important;
     position: absolute;
     right: 45px;
-    top: -25px;
+    top: -20px;
   }
 
   #apps {
@@ -368,7 +368,7 @@ rs-layer-wrap {
     background: none;
     position: absolute;
     right: 45px;
-    top: -25px;
+    top: -20px;
   }
 
   #mfn-header-template .button > .button_label {
