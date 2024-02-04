@@ -205,6 +205,10 @@ select:focus {
   width: 100% !important;
 }
 
+#image-builder select {
+  min-width: 350px;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
