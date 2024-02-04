@@ -337,6 +337,8 @@ select:focus {
 @media only screen and (min-width: 481px) {
   #slider-1-slide-1-layer-0 {
     white-space:nowrap!important;
+    width:100%!important;
+    top:-10px;
   }
 }
 
