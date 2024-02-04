@@ -352,14 +352,11 @@ select:focus {
   .apps-fade::after {
     background: radial-gradient(#262626 50%, rgba(0,0,0,0) 100%);
   }
+}
 
+@media only screen and (max-width: 959px) {
   #mfn-header-template .hide-mobile {
     display: block !important;
-  }
-
-  #menu-main-menu,
-  #menu-main-menu-2 {
-    display: none !important;
   }
 
   #mfn-header-template .button {
@@ -376,11 +373,20 @@ select:focus {
     top: -2px;
     position: relative;
   }
+  
+  #menu-main-menu,
+  #menu-main-menu-2 {
+    display: none !important;
+  }
 }
 
 @media only screen and (min-width: 960px) {
   h2 {
     font-size: 55px;
+  }
+
+  .mfn-header-menu-burger {
+    display: none!important;
   }
 }
 
