@@ -200,11 +200,12 @@ rs-layer-wrap {
   }
 }
 
-#image-builder-result a {
+a {
+  color: #fff;
   text-decoration: underline;
 }
 
-#image-builder-result a:hover {
+a:hover {
   color: #ccc;
 }
 
