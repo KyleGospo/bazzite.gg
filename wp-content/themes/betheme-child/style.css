@@ -209,7 +209,7 @@ rs-layer-wrap {
 }
 
 #image-builder select {
-  min-width: 350px;
+  min-width: 300px;
 }
 
 .gradient-bg {
