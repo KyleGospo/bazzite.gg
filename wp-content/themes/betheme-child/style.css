@@ -200,13 +200,13 @@ rs-layer-wrap {
   }
 }
 
-a {
-  color: #fff;
-  text-decoration: underline;
+#image-builder-result a {
+  color: #ccc;
 }
 
-a:hover {
-  color: #ccc;
+#image-builder-result a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
 
 #slider-1-slide-1-layer-6,
