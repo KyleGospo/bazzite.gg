@@ -217,6 +217,15 @@ rs-layer-wrap {
   min-width: 300px;
 }
 
+.gamemode label::after {
+  content: '(This will automatically login to game mode)';
+  width: 100%;
+  display: inline-block;
+  font-weight: 300;
+  font-size: 16px;
+  font-style: italic;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
