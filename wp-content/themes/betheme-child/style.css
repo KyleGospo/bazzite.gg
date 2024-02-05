@@ -374,7 +374,7 @@ rs-layer-wrap {
 
 @media only screen and (max-width: 1440px) {
   .apps-fade::after {
-    background: radial-gradient(#262626 50%, rgba(0,0,0,0) 100%);
+    background: radial-gradient(#262626 40%, rgba(0,0,0,0) 100%);
   }
 }
 
