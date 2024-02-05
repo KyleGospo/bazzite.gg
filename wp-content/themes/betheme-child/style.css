@@ -231,6 +231,10 @@ rs-layer-wrap {
   font-style: italic;
 }
 
+#features {
+  background-position: center;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
