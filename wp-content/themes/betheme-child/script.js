@@ -125,13 +125,7 @@ jQuery(document).ready(function() {
 
     if( imagename !== '' && allSelectionsMade ) {
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
-      jQuery('#image-builder-result .image-name').fadeOut(function() {
-        if(jQuery(this).text == imagename) {
-          return;
-        }
-
-        jQuery(this).text(imagename);
-      }).fadeIn();
+      jQuery('#image-builder-result .image-name').text(imagename);
     } else {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
