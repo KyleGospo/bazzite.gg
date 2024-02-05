@@ -116,7 +116,7 @@ jQuery(document).ready(function() {
 
     // Display the result
     var allSelectionsMade = true;
-    jQuery('#image-builder select.shown-fade').each(function() {
+    jQuery('#image-builder .shown-fade select').each(function() {
         if (!jQuery(this).val()) {
             allSelectionsMade = false;
             return false;
@@ -125,7 +125,13 @@ jQuery(document).ready(function() {
 
     if( imagename !== '' && allSelectionsMade ) {
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
-      jQuery('#image-builder-result .image-name').text(imagename);
+      jQuery('#image-builder-result .image-name').fadeOut(function() {
+        if(jQuery(this).text == imagename) {
+          return;
+        }
+
+        jQuery(this).text(imagename);
+      }).fadeIn();
     } else {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
