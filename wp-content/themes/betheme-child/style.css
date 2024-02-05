@@ -37,6 +37,7 @@ Version: 2.0.1
 .mfn-header-sticky-section {
   backdrop-filter: blur(10px);
   background-color: rgba(38,38,38,0.95);
+  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
 }
 
 #mfn-header-template .button_label {
@@ -111,6 +112,7 @@ select:focus {
 .mfn-header-tmpl-menu-sidebar {
   backdrop-filter: blur(10px);
   background-color: rgba(38,38,38,0.95);
+  box-shadow: -3px 0px 8px rgba(0,0,0,0.25);
 }
 
 .mfn-header-menu .mfn-menu-li > .mfn-menu-link {
@@ -233,14 +235,6 @@ rs-layer-wrap {
 
 #features {
   background-position: center;
-}
-
-.mfn-header-sticky-section {
-  box-shadow: 0px 3px 8px rgba(0,0,0,0.25);
-}
-
-.mfn-header-tmpl-menu-sidebar {
-  box-shadow: -3px 0px 8px rgba(0,0,0,0.25);
 }
 
 .gradient-bg {
