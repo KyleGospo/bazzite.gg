@@ -106,7 +106,7 @@ select:focus {
 }
 
 #image-builder-result {
-  transition: all 0.75s;
+  transition: opacity 0.55s ease-in-out, transform 0.75s ease-in-out;
 }
 
 .mfn-header-tmpl-menu-sidebar {
