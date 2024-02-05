@@ -105,7 +105,8 @@ select:focus {
   cursor: pointer;
 }
 
-#image-builder-result {
+#image-builder-result,
+#image-builder > div {
   transition: opacity 0.55s ease-in-out, transform 0.75s ease-in-out;
 }
 
