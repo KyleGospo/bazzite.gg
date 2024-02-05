@@ -29,38 +29,38 @@ jQuery(document).ready(function() {
   jQuery('#image-builder #desktopEnvironment').on('change', function() {
     var selectedDesktopEnvironment = jQuery(this).val();
     if (selectedDesktopEnvironment !== '') {
-      jQuery('#image-builder .selectedHardware').show();
+      jQuery('#image-builder .selectedHardware').removeClass('hidden-fade').addClass('shown-fade');
     } else {
-      jQuery('#image-builder .selectedHardware, #image-builder .gpu, #image-builder .gamemode').hide();
+      jQuery('#image-builder .selectedHardware, #image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     }
   });
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     var selectedHardware = jQuery(this).val();
     if (selectedHardware !== '') {
-      jQuery('#image-builder .gpu').show();
-      jQuery('#image-builder .gamemode').show();
+      jQuery('#image-builder .gpu').removeClass('hidden-fade').addClass('shown-fade');
+      jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
       var gpuVendor = jQuery('#gpuVendor').val();
       if (selectedHardware == 'steamdeck' || selectedHardware == 'ally' || selectedHardware == 'handheld') {
-        jQuery('#image-builder .gpu, #image-builder .gamemode').hide();
+        jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       } else if (gpuVendor === 'nvidia') {
-        jQuery('#image-builder .gamemode').hide();
+        jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       } else if (!gpuVendor) {
-        jQuery('#image-builder .gamemode').hide();
+        jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       }
     } else {
-      jQuery('#image-builder .gpu, #image-builder .gamemode').hide();
+      jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     }
   });
 
   jQuery('#image-builder #gpuVendor').on('change', function() {
     var selectedGPU = jQuery(this).val();
     if (selectedGPU == 'nvidia') {
-      jQuery('#image-builder .gamemode').hide();
+      jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     } else if (selectedGPU !== '') {
-      jQuery('#image-builder .gamemode').show();
+      jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
     } else {
-      jQuery('#image-builder .gamemode').hide();
+      jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     }
   });
 
