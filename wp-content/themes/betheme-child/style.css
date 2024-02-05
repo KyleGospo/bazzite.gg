@@ -105,6 +105,11 @@ select:focus {
   cursor: pointer;
 }
 
+.code:hover,
+.command:hover {
+  background-color: #444;
+}
+
 #image-builder-result {
   transition: opacity 0.55s ease-in-out, transform 0.75s ease-in-out, max-height 0.45s ease-in-out;
 }
