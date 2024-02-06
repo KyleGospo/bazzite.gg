@@ -102,6 +102,10 @@ jQuery(document).ready(function() {
       case 'gnome':
         imagename += '-gnome';
         break;
+
+      case 'budgie':
+        imagename += '-budgie';
+        break;
     }
 
     if (gpuVendor === 'nvidia') {
