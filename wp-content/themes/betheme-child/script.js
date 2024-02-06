@@ -43,7 +43,7 @@ jQuery(document).ready(function() {
       var gpuVendor = jQuery('#gpuVendor').val();
       if (selectedHardware == 'steamdeck' || selectedHardware == 'ally' || selectedHardware == 'handheld') {
         jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
-      } else if (gpuVendor === 'nvidia') {
+      } else if (gpuVendor === 'nvidia' || selectedHardware == 'surface') {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       } else if (!gpuVendor) {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
@@ -54,8 +54,9 @@ jQuery(document).ready(function() {
   });
 
   jQuery('#image-builder #gpuVendor').on('change', function() {
+    var selectedHardware = jQuery('#image-builder #selectedHardware').val();
     var selectedGPU = jQuery(this).val();
-    if (selectedGPU == 'nvidia') {
+    if (selectedGPU == 'nvidia' || selectedHardware == 'surface') {
       jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     } else if (selectedGPU !== '') {
       jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
@@ -114,6 +115,8 @@ jQuery(document).ready(function() {
 
     if (hardware === 'framework' && steamGameMode === 'yes') {
       imagename = imagename.replace('-framework', '-framegame');
+    } else if (hardware === 'asus' && steamGameMode === 'yes') {
+      imagename = imagename.replace('-asus', '-ally');
     } else if (hardware === 'desktop' && steamGameMode === 'yes') {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
