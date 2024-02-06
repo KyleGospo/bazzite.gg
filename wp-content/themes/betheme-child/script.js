@@ -65,10 +65,10 @@ jQuery(document).ready(function() {
   });
 
   jQuery('#image-builder #desktopEnvironment, #image-builder #selectedHardware, #image-builder #gpuVendor, #image-builder #steamGameMode').on('change', function() {
-    var desktopEnvironment = jQuery('#desktopEnvironment').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
-    var hardware = jQuery('#selectedHardware').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
-    var gpuVendor = jQuery('#gpuVendor').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
-    var steamGameMode = jQuery('#steamGameMode').hasClass('hidden-fade') ? '' : jQuery('#steamGameMode').val();
+    var desktopEnvironment = jQuery('#desktopEnvironment').parent('div').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
+    var hardware = jQuery('#selectedHardware').parent('div').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
+    var gpuVendor = jQuery('#gpuVendor').parent('div').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
+    var steamGameMode = jQuery('#steamGameMode').parent('div').hasClass('hidden-fade') ? '' : jQuery('#steamGameMode').val();
 
     var imagename = 'bazzite';
 
