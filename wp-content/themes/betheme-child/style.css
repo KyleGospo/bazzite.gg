@@ -8,6 +8,10 @@ Template: betheme
 Version: 2.0.1
 */
 
+:root {
+  color-scheme: only light;
+}
+
 .mfn-main-slider.mfn-rev-slider {
   background: #002d6d;
 }
