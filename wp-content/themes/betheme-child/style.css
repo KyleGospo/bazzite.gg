@@ -282,6 +282,10 @@ rs-layer-wrap,
   margin-left: 5px;
 }
 
+.hover-contrib:hover {
+  background: #dfdfdf;
+}
+
 .hover-contrib::after {
   content: url('https://repobeats.axiom.co/api/embed/86b500d79c613015ad16f56df76c8e13f3fd98ae.svg');
   left: -510px;
