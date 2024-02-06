@@ -111,11 +111,11 @@ select:focus {
 }
 
 #image-builder-result {
-  transition: opacity 0.55s ease-in-out, transform 0.75s ease-in-out, max-height 0.45s ease-in-out;
+  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, max-height 0.35s ease-in-out;
 }
 
 #image-builder > div {
-  transition: opacity 0.30s ease-in-out, transform 0.45s ease-in-out, max-height 0.25s ease-in-out;
+  transition: opacity 0.20s ease-in-out, transform 0.35s ease-in-out, max-height 0.15s ease-in-out;
 }
 
 .mfn-header-tmpl-menu-sidebar {
