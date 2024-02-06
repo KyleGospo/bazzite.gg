@@ -167,10 +167,6 @@ rs-layer-wrap {
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.25));
 }
 
-#mfn-header-template .button {
-  box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
-}
-
 #diy {
   padding-bottom: 25px;
 }
@@ -446,6 +442,7 @@ rs-layer-wrap {
     font-size: 20px;
     top: -2px;
     position: relative;
+    text-shadow: 0px 0px 5px rgba(0,0,0,0.25);
   }
 
   #menu-main-menu,
@@ -490,6 +487,10 @@ rs-layer-wrap {
   .mcb-section .mcb-wrap .mcb-item-o12qouxct {
     flex: 0 0 240px;
     max-width: 240px;
+  }
+
+  #mfn-header-template .button {
+    box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
   }
 }
 
