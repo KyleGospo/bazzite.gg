@@ -268,9 +268,9 @@ rs-layer-wrap,
 }
 
 .hover-contrib {
-  background: #000;
+  background: #f0f0f0;
+  color: #000;
   border-radius: 100%;
-  color: #fff;
   padding: 5px 9px;
   font-size: 17px;
   line-height: 20px;
