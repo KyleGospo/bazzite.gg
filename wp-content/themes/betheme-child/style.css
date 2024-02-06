@@ -220,6 +220,14 @@ rs-layer-wrap {
   text-decoration: underline;
 }
 
+#desktop a {
+  color: #999;
+}
+
+#desktop a:hover {
+  color: #000;
+}
+
 #slider-1-slide-1-layer-6,
 .button-custom .button {
   font-family: "DM Sans"!important;
@@ -357,6 +365,15 @@ rs-layer-wrap {
   left: -50%;
 
   opacity: 0.7;
+}
+
+@media only screen and (min-width: 768px) {
+  .mcb-item-7hplt2hve {
+    width: 60% !important;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
 }
 
 @media only screen and (min-width: 481px) and (max-width: 1440px) {
