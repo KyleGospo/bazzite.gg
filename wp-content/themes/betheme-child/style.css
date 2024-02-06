@@ -367,9 +367,9 @@ rs-layer-wrap {
   opacity: 0.7;
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 768px) and (max-width: 1440px) {
   .mcb-item-7hplt2hve {
-    width: 60% !important;
+    width: 66.666% !important;
     left: 0;
     right: 0;
     margin: auto;
@@ -401,6 +401,13 @@ rs-layer-wrap {
 @media only screen and (min-width: 1441px) {
   #apps {
     background-position: top;
+  }
+
+  .mcb-item-7hplt2hve {
+    width: 60% !important;
+    left: 0;
+    right: 0;
+    margin: auto;
   }
 }
 
