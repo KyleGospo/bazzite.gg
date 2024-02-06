@@ -258,6 +258,12 @@ rs-layer-wrap {
   background-position: center;
 }
 
+.affiliated {
+  color: #606060;
+  font-size: 14px;
+  font-style: italic;
+}
+
 .gradient-bg {
   width: 100vw;
   height: 100vh;
@@ -510,6 +516,10 @@ rs-layer-wrap {
   }
 
   .gamemode label::after {
+    font-size: 12px;
+  }
+
+  .affiliated {
     font-size: 12px;
   }
 }
