@@ -58,6 +58,11 @@ Version: 2.0.1
 .trailer_box .title {
   color: #fff;
   font-size: 15px !important;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 10px;
+  opacity: 0.75;
 }
 
 .trailer_box .desc > .line {
