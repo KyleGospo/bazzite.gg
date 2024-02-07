@@ -176,48 +176,8 @@ rs-layer-wrap,
   padding-bottom: 25px;
 }
 
-.gradients-container {
-  top: 0;
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  filter: brightness(60%) blur(45px)!important;
-}
-
-@keyframes moveInCircle {
-  0% {
-    transform: rotate(0deg);
-  }
-  50% {
-    transform: rotate(180deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-@keyframes moveVertical {
-  0% {
-    transform: translateY(-50%);
-  }
-  50% {
-    transform: translateY(50%);
-  }
-  100% {
-    transform: translateY(-50%);
-  }
-}
-
-@keyframes moveHorizontal {
-  0% {
-    transform: translateX(-50%) translateY(-10%);
-  }
-  50% {
-    transform: translateX(50%) translateY(10%);
-  }
-  100% {
-    transform: translateX(-50%) translateY(-10%);
-  }
+#features .column_trailer_box {
+  min-height: 25vw;
 }
 
 #image-builder-result a {
@@ -306,6 +266,50 @@ rs-layer-wrap,
 .hover-contrib:hover::after {
   opacity: 1;
   transform: scale(1.0);
+}
+
+.gradients-container {
+  top: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  filter: brightness(60%) blur(45px)!important;
+}
+
+@keyframes moveInCircle {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes moveVertical {
+  0% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: translateY(-50%);
+  }
+}
+
+@keyframes moveHorizontal {
+  0% {
+    transform: translateX(-50%) translateY(-10%);
+  }
+  50% {
+    transform: translateX(50%) translateY(10%);
+  }
+  100% {
+    transform: translateX(-50%) translateY(-10%);
+  }
 }
 
 .gradient-bg {
@@ -558,6 +562,10 @@ rs-layer-wrap,
   #hardware .one-third {
     min-height: 510px;
   }
+
+  #features .column_trailer_box {
+    min-height: 50vw;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -583,6 +591,10 @@ rs-layer-wrap,
   #community .one-third,
   #hardware .one-third {
     min-height: inherit;
+  }
+
+  #features .column_trailer_box {
+    min-height: 100vw;
   }
 }
 
