@@ -621,3 +621,9 @@ rs-layer-wrap,
     font-size: 12px;
   }
 }
+
+@media only screen and (max-width: 400px) {
+  rs-slides {
+    top: 30px;
+  }
+}
