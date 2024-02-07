@@ -63,6 +63,7 @@ Version: 2.0.1
   right: 0;
   bottom: 10px;
   opacity: 0.75;
+  font-style: italic;
 }
 
 .trailer_box .desc > .line {
