@@ -404,7 +404,7 @@ blockquote {
 }
 
 .icon_box .icon_wrapper {
-  transform: scale(.94);
+  transform: scale(.94)!important;
 }
 
 .trailer_box:hover .desc {
@@ -428,7 +428,7 @@ blockquote {
 }
 
 .mcb-item-trailer_box-inner {
-  transition: transform 0.5s ease-in-out, box-shadow 0.5s ease-in-out;
+  transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
 }
 
 .mcb-item-trailer_box-inner:hover {
