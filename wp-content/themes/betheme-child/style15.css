@@ -465,6 +465,14 @@ d-topics-list > iframe {
   filter: brightness(60%) blur(45px)!important;
 }
 
+.mcb-section .mcb-item-a03bk7cxj {
+  animation-delay: 180ms;
+}
+
+.mcb-section .mcb-item-a03bk7cxk {
+  animation-delay: 240ms;
+}
+
 @keyframes moveInCircle {
   0% {
     transform: rotate(0deg);
