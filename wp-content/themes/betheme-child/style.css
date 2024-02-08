@@ -325,12 +325,22 @@ blockquote {
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
-  content: '\f360';
+  content: '\f35d';
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   margin-left: 10px;
   font-size: 24px;
   top: 2px;
+  position: relative;
+  font-weight: 900;
+}
+
+.icon-quote::before {
+  content: '\f10d';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  font-size: 45px;
+  top: -5px;
   position: relative;
 }
 
@@ -661,6 +671,11 @@ blockquote {
 
   #features .column_trailer_box {
     min-height: 100vw;
+  }
+
+  .icon-quote::before {
+    font-size: 40px;
+    top: 5px;
   }
 }
 
