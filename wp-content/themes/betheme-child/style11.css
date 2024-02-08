@@ -403,6 +403,10 @@ blockquote {
   font-size: 16px;
 }
 
+.icon_box .icon_wrapper {
+  transform: scale(.94);
+}
+
 .trailer_box:hover .desc {
   transform: translateY(60px);
   opacity: 0;
