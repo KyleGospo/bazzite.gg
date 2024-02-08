@@ -404,7 +404,7 @@ blockquote {
 }
 
 .trailer_box:hover .desc {
-  transform: translateY(-60px);
+  transform: translateY(60px);
   opacity: 0;
 }
 
