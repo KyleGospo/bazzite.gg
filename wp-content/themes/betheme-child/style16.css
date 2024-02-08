@@ -471,6 +471,8 @@ d-topics-list > iframe {
 
 .mcb-section .mcb-item-a03bk7cxk {
   animation-delay: 240ms;
+  margin-left: 15px !important;
+  margin-right: 15px !important;
 }
 
 @keyframes moveInCircle {
