@@ -174,6 +174,24 @@ rs-layer-wrap,
   text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
 }
 
+[class^="fa-"]::before,
+rs-module [class*=" fa-"]::before,
+.rb-modal-wrapper [class^="fa-"]::before,
+.rb-modal-wrapper [class*=" fa-"]::before,
+#rs_overview [class^="fa-"]::before,
+#rs_overview [class*=" fa-"]::before,
+#objectlibrary [class^="fa-"]::before,
+#objectlibrary [class*=" fa-"]::before,
+#waitaminute [class^="fa-"]::before,
+#waitaminute [class*=" fa-"]::before,
+#rs_overview_menu [class^="fa-"]::before,
+#rs_overview_menu [class*=" fa-"]::before,
+#builderView [class^="fa-"]::before,
+#builderView [class*=" fa-"]::before {
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 800;
+}
+
 .tp-rs-img {
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.25));
 }
