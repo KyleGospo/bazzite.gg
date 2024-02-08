@@ -188,8 +188,8 @@ rs-module [class*=" fa-"]::before,
 #rs_overview_menu [class*=" fa-"]::before,
 #builderView [class^="fa-"]::before,
 #builderView [class*=" fa-"]::before {
-  font-family: 'Font Awesome 5 Free';
-  font-weight: 800;
+  font-family: 'Font Awesome 5 Free'!important;
+  font-weight: 800!important;
 }
 
 .tp-rs-img {
