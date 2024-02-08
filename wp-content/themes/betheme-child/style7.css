@@ -318,7 +318,7 @@ blockquote {
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a {
-  color:#888;
+  color:#a2a2a2;
 }
 
 .testimonials_slider .testimonials_slider_ul li .author .company,
@@ -336,6 +336,7 @@ blockquote {
   top: 2px;
   position: relative;
   font-weight: 900;
+  color: #888;
 }
 
 .icon-quote::before {
@@ -345,6 +346,38 @@ blockquote {
   font-size: 45px;
   top: -5px;
   position: relative;
+}
+
+.mfn-close-icon > span::after {
+  content: '\f057';
+  font-family: 'Font Awesome 5 Free';
+  display: inline-block;
+  visibility: visible;
+  font-size: 30px;
+  right: 25px;
+  top: 25px;
+  position: relative;
+}
+
+.mfn-close-icon > span {
+  display: none;
+  visibility: hidden;
+}
+
+.mfn-close-icon:hover .icon {
+  transform: none!important;
+}
+
+.slider_pagination .slick-active a::after, .slider_pagination a.selected::after {
+  display: none;
+  visibility: hidden;
+}
+
+.slider_pagination .slick-active a, .slider_pagination a.selected {
+  border-radius: 100%;
+  height: 12px;
+  width: 12px;
+  background: linear-gradient(180deg, rgb(89, 202, 253) 0%, rgb(43, 80, 239) 100%);
 }
 
 .gradients-container {
@@ -692,6 +725,11 @@ blockquote {
 
   .author .title {
     font-size: 12px;
+  }
+
+  .mfn-close-icon > span::after {
+    right: 7px;
+    top: 5px;
   }
 }
 
