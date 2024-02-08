@@ -386,12 +386,14 @@ blockquote {
   transform: none!important;
 }
 
-.slider_pagination .slick-active a::after, .slider_pagination a.selected::after {
+.slider_pagination .slick-active a::after,
+.slider_pagination a.selected::after {
   display: none;
   visibility: hidden;
 }
 
-.slider_pagination .slick-active a, .slider_pagination a.selected {
+.slider_pagination .slick-active a,
+.slider_pagination a.selected {
   border-radius: 100%;
   height: 12px;
   width: 12px;
@@ -405,6 +407,11 @@ blockquote {
 
 .icon_box .icon_wrapper {
   transform: scale(.94)!important;
+}
+
+.icon_box .icon_wrapper::before,
+.icon_box a .icon_wrapper::before {
+  background-color: #fff!important;
 }
 
 .trailer_box:hover .desc {
