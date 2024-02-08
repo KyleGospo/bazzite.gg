@@ -290,7 +290,7 @@ rs-layer-wrap,
 }
 
 .author .title {
-  font-size: 15px;
+  font-size: 14px;
 }
 
 blockquote {
@@ -684,6 +684,10 @@ blockquote {
 
   blockquote {
     margin-left: 45px;
+  }
+
+  .author .title {
+    font-size: 12px;
   }
 }
 
