@@ -280,14 +280,13 @@ rs-layer-wrap,
 
 .slick-slide img {
   width:auto;
-  height:100%;
 }
 
 .testimonials_slider.single-photo .testimonials_slider_ul li .single-photo-img {
   border-radius: 0px !important;
-  overflow: visible !important;
   max-width: 230px !important;
   width: auto;
+  height: inherit;
 }
 
 blockquote {
