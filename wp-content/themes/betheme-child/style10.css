@@ -398,6 +398,31 @@ blockquote {
   background: linear-gradient(180deg, rgb(89, 202, 253) 0%, rgb(43, 80, 239) 100%);
 }
 
+.mcb-section .mcb-wrap .mcb-item-e4e38c6f9 .trailer_box .desc .subtitle {
+  text-transform: none;
+  font-size: 16px;
+}
+
+.trailer_box:hover .desc {
+  transform: translateY(-60px);
+  opacity: 0;
+}
+
+.trailer_box .desc > div {
+  pointer-events: none;
+}
+
+.trailer_box .desc {
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  -o-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+.trailer_box:hover .desc .subtitle {
+  bottom:inherit;
+}
+
 .gradients-container {
   top: 0;
   position: absolute;
