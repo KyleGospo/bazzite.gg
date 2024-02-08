@@ -289,6 +289,10 @@ rs-layer-wrap,
   height: inherit;
 }
 
+.author .title {
+  font-size: 15px;
+}
+
 blockquote {
   margin-left: 65px;
   top: 5px;
