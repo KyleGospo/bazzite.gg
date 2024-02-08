@@ -674,8 +674,13 @@ blockquote {
   }
 
   .icon-quote::before {
-    font-size: 40px;
+    font-size: 30px;
     top: 5px;
+    left: -15px;
+  }
+
+  blockquote {
+    margin-left: 45px;
   }
 }
 
@@ -700,6 +705,15 @@ blockquote {
 
   .affiliated {
     font-size: 12px;
+  }
+
+  .icon-quote::before {
+    font-size: 25px;
+    left: -25px;
+  }
+
+  blockquote {
+    margin-left: 35px;
   }
 }
 
