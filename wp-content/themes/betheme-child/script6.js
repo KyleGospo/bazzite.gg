@@ -148,6 +148,8 @@ jQuery(document).ready(function() {
 
   jQuery('.discord-modal-btn').click(function(e) {
     e.preventDefault();
-    jQuery('#discord-modal').modal();
+    jQuery('#discord-modal').modal({
+      fadeDuration: 250
+    });
   });
 });
