@@ -672,7 +672,9 @@ d-topics-list > iframe {
   .apps-fade::after {
     background: radial-gradient(#262626 40%, rgba(0,0,0,0) 100%);
   }
+}
 
+@media only screen and (max-width: 1239px) {
   .hover-contrib {
     display: none;
     visibility: hidden;
