@@ -31,11 +31,6 @@ jQuery(document).ready(function() {
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
-  jQuery('.discord-modal-btn').click(function(e) {
-    e.preventDefault();
-    jQuery('#discord-modal').modal();
-  });
-
   jQuery('#image-builder #desktopEnvironment').on('change', function() {
     var selectedDesktopEnvironment = jQuery(this).val();
     if (selectedDesktopEnvironment !== '') {
@@ -146,5 +141,13 @@ jQuery(document).ready(function() {
     } else {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
+  });
+
+  // Load Discord iframe last
+  jQuery('#discord-modal > iframe').attr('src', jQuery('#discord-modal > iframe').attr('lazy-src'));
+
+  jQuery('.discord-modal-btn').click(function(e) {
+    e.preventDefault();
+    jQuery('#discord-modal').modal();
   });
 });
