@@ -289,7 +289,8 @@ rs-module [class*=" fa-"]::before,
   margin-left: 5px;
 }
 
-.hover-contrib:hover {
+.hover-contrib:hover,
+.discourse-docs:hover {
   background: #dfdfdf;
 }
 
