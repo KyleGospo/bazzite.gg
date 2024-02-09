@@ -269,6 +269,14 @@ rs-module [class*=" fa-"]::before,
   display: block;
 }
 
+.answer-overflow-icon {
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+  margin-left: 10px;
+  position: absolute;
+}
+
 .hover-contrib {
   background: #f0f0f0;
   color: #000;
