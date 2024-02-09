@@ -142,14 +142,4 @@ jQuery(document).ready(function() {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
   });
-
-  // Load Discord iframe last
-  jQuery('#discord-modal > iframe').attr('src', jQuery('#discord-modal > iframe').attr('lazy-src'));
-
-  jQuery('.discord-modal-btn').click(function(e) {
-    e.preventDefault();
-    jQuery('#discord-modal').modal({
-      fadeDuration: 250
-    });
-  });
 });
