@@ -31,6 +31,11 @@ jQuery(document).ready(function() {
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
+  jQuery('.discord-modal-btn').click(function(e) {
+    e.preventDefault();
+    jQuery('#discord-modal').modal();
+  });
+
   jQuery('#image-builder #desktopEnvironment').on('change', function() {
     var selectedDesktopEnvironment = jQuery(this).val();
     if (selectedDesktopEnvironment !== '') {

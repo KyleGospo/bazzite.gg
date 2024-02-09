@@ -160,6 +160,20 @@ select:focus {
   max-height: 100%;
 }
 
+#discord-modal {
+  padding: 0px;
+  background: #000;
+  box-shadow: 0 0 30px rgba(0,0,0,0.5);
+}
+
+#discord-modal > iframe {
+  margin-bottom: -9px;
+}
+
+.jquery-modal.blocker.current {
+  z-index: 10;
+}
+
 #apps {
   background-repeat: no-repeat;
   background-position: center;
