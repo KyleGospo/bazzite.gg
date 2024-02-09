@@ -367,6 +367,12 @@ blockquote {
   visibility: hidden;
 }
 
+.icon-up-open-big::before {
+  content: '\f062';
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 800;
+}
+
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
   content: '\f35d';
   font-family: 'Font Awesome 5 Free';
