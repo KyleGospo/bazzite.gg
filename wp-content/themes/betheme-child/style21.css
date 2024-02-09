@@ -457,12 +457,13 @@ blockquote {
 }
 
 .mcb-item-trailer_box-inner {
-  transition: transform .3s ease-in-out, box-shadow .3s ease-in-out;
+  transition: transform .3s ease-in-out, box-shadow .3s ease-in-out, border-radius .3s ease-in-out;
 }
 
 .mcb-item-trailer_box-inner:hover {
   transform: scale(1.05);
   box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
+  border-radius: 0px !important;
 }
 
 .mcb-section .mcb-wrap .mcb-item-04ef71fa8 .title {
@@ -841,6 +842,13 @@ d-topics-list > iframe {
   .mfn-close-icon > span::after {
     right: 7px;
     top: 5px;
+  }
+
+  .answer-overflow-icon {
+    height: 25px;
+    width: 25px;
+    margin-left: 5px;
+    margin-top: -2px;
   }
 }
 
