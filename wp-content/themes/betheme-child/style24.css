@@ -294,6 +294,10 @@ rs-module [class*=" fa-"]::before,
   background: #dfdfdf;
 }
 
+.answer-overflow-icon:hover {
+  filter: brightness(0.8);
+}
+
 .hover-contrib::after {
   content: url('https://repobeats.axiom.co/api/embed/86b500d79c613015ad16f56df76c8e13f3fd98ae.svg');
   left: -510px;
