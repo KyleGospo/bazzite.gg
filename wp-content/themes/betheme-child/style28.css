@@ -189,7 +189,7 @@ rs-module [class*=" fa-"]::before,
 #builderView [class^="fa-"]::before,
 #builderView [class*=" fa-"]::before {
   font-family: 'Font Awesome 5 Free'!important;
-  font-weight: 800!important;
+  font-weight: 900!important;
 }
 
 .tp-rs-img {
@@ -362,7 +362,7 @@ blockquote {
 .icon-up-open-big::before {
   content: '\f062';
   font-family: 'Font Awesome 5 Free';
-  font-weight: 800;
+  font-weight: 900;
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
@@ -389,6 +389,7 @@ blockquote {
 .mfn-close-icon > span::after {
   content: '\f057';
   font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
   display: inline-block;
   visibility: visible;
   font-size: 30px;
