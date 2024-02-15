@@ -1,3 +1,4 @@
 User-agent: *
 Disallow: /wp-admin/
+Disallow: README.md
 Allow: /wp-admin/admin-ajax.php
