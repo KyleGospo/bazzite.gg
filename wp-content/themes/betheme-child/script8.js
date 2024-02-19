@@ -31,18 +31,10 @@ jQuery(document).ready(function() {
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
-  jQuery('#image-builder #desktopEnvironment').on('change', function() {
-    var selectedDesktopEnvironment = jQuery(this).val();
-    if (selectedDesktopEnvironment !== '') {
-      jQuery('#image-builder .selectedHardware').removeClass('hidden-fade').addClass('shown-fade');
-    } else {
-      jQuery('#image-builder .selectedHardware, #image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
-    }
-  });
-
   jQuery('#image-builder #selectedHardware').on('change', function() {
     var selectedHardware = jQuery(this).val();
     if (selectedHardware !== '') {
+      jQuery('#image-builder .desktopEnvironment').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder .gpu').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
       var gpuVendor = jQuery('#gpuVendor').val();
