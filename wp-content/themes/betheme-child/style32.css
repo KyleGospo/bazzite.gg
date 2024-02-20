@@ -12,10 +12,6 @@ Version: 2.0.1
   color-scheme: only light;
 }
 
-.mfn-header-menu > .mfn-menu-li > .mfn-menu-link {
-  padding: 8px 15px;
-}
-
 .mfn-main-slider.mfn-rev-slider {
   background: #002d6d;
 }
@@ -710,6 +706,10 @@ d-topics-list > iframe {
 @media only screen and (max-width: 1239px) and (min-width:768px) {
   .mfn-header-menu > .mfn-menu-li > .mfn-menu-link > .label-wrapper > .menu-label {
     font-size: 12px;
+  }
+
+  .mfn-header-menu > .mfn-menu-li > .mfn-menu-link {
+    padding: 8px 15px;
   }
 
   #community .one-third {
