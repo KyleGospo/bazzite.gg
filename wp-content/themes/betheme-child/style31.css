@@ -708,6 +708,10 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 1239px) and (min-width:768px) {
+  .mfn-header-menu > .mfn-menu-li > .mfn-menu-link > .label-wrapper > .menu-label {
+    font-size: 12px;
+  }
+
   #community .one-third {
     min-height: 340px;
   }
@@ -731,10 +735,6 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 959px) {
-  .mfn-header-menu > .mfn-menu-li > .mfn-menu-link > .label-wrapper > .menu-label {
-    font-size: 13px;
-  }
-
   #mfn-header-template .hide-mobile {
     display: block !important;
   }
