@@ -76,23 +76,8 @@ jQuery(document).ready(function() {
         imagename += '-deck';
         break;
 
-      case 'asus':
-        imagename += '-asus';
-        break;
-
       case 'ally':
         imagename += '-ally';
-        break;
-
-      case 'framework':
-        imagename += '-framework';
-        break;
-
-      case 'surface':
-        imagename += '-surface';
-        break;
-
-      default:
         break;
     }
 
@@ -103,6 +88,20 @@ jQuery(document).ready(function() {
 
       case 'budgie':
         imagename += '-budgie';
+        break;
+    }
+
+    switch(hardware) {
+      case 'asus':
+        imagename += '-asus';
+        break;
+
+      case 'framework':
+        imagename += '-framework';
+        break;
+
+      case 'surface':
+        imagename += '-surface';
         break;
     }
 
