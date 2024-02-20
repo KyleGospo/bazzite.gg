@@ -79,6 +79,18 @@ jQuery(document).ready(function() {
       case 'ally':
         imagename += '-ally';
         break;
+
+      case 'asus':
+        if(steamGameMode === 'yes') {
+          imagename += '-ally';
+        }
+        break;
+
+      case 'framework':
+        if(steamGameMode === 'yes') {
+          imagename += '-framegame';
+        }
+        break;
     }
 
     switch(desktopEnvironment) {
@@ -93,11 +105,15 @@ jQuery(document).ready(function() {
 
     switch(hardware) {
       case 'asus':
-        imagename += '-asus';
+        if(steamGameMode !== 'yes') {
+          imagename += '-asus';
+        }
         break;
 
       case 'framework':
-        imagename += '-framework';
+        if(steamGameMode !== 'yes') {
+          imagename += '-framework';
+        }
         break;
 
       case 'surface':
@@ -109,11 +125,7 @@ jQuery(document).ready(function() {
       imagename += '-nvidia';
     }
 
-    if (hardware === 'framework' && steamGameMode === 'yes') {
-      imagename = imagename.replace('-framework', '-framegame');
-    } else if (hardware === 'asus' && steamGameMode === 'yes') {
-      imagename = imagename.replace('-asus', '-ally');
-    } else if (hardware === 'desktop' && steamGameMode === 'yes') {
+    if (hardware === 'desktop' && steamGameMode === 'yes') {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
