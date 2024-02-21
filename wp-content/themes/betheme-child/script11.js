@@ -141,6 +141,7 @@ jQuery(document).ready(function() {
     if( imagename !== '' && allSelectionsMade ) {
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder-result .image-name').text(imagename);
+      jQuery('.ghcr-details').attr('href', 'https://github.com/ublue-os/bazzite/pkgs/container/' + imagename);
     } else {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
