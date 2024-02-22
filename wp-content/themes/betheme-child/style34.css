@@ -87,6 +87,17 @@ select:focus {
   width: 100%;
 }
 
+.fine-print {
+  font-size: 16px;
+  line-height: 22px;
+  display: inline-block;
+}
+
+.fine-print a {
+  font-weight: 800;
+  text-decoration: underline;
+}
+
 .code {
   padding: 5px;
   background: #000;
@@ -115,6 +126,8 @@ select:focus {
   font-family: 'Fira Code';
   user-select: all;
   cursor: pointer;
+  display: inline-block;
+  text-align: left;
 }
 
 .code:hover,
@@ -128,6 +141,79 @@ select:focus {
 
 #image-builder > div {
   transition: opacity 0.20s ease-in-out, transform 0.35s ease-in-out, max-height 0.15s ease-in-out;
+}
+
+.button-download-container {
+  margin: 20px 0px;
+}
+
+.button-download {
+  background-image: linear-gradient(100deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 100%);
+  background-color: rgb(5, 70, 173)!important;
+  overflow: visible;
+  margin-right: 0px!important;
+  transform-style: preserve-3d;
+  box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.01);
+  transition: background-color 0.1s ease-in-out;
+}
+
+.button-download:hover {
+  background-image: none;
+  background-color:#000!important;
+}
+
+.button-download > .button_label {
+  font-family: 'MuseoModerno';
+  font-weight: 500;
+}
+
+.button-download > .button_label,
+.button-download > .button_icon {
+  color: #fff;
+}
+
+.button-download::after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  height: 100%;
+  width: 100%;
+  transform: scale(0.9) translateZ(-1px);
+  filter: blur(10px);
+  background: linear-gradient(100deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 50%, rgb(5, 70, 173) 100%);
+  background-size: 200% 200%;
+  -webkit-animation: animateGlow 2s linear infinite;
+          animation: animateGlow 2s linear infinite;
+  opacity: 0.5;
+}
+
+@-webkit-keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes animateGlow {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+.mcb-column-inner-j1cgwfhsd .button {
+  background-color: #4078c0!important;
+}
+
+.mcb-column-inner-j1cgwfhsd .button:hover {
+  background-color: #325d95!important;
 }
 
 .mfn-header-tmpl-menu-sidebar {
@@ -151,7 +237,6 @@ select:focus {
 .hidden-fade {
   opacity: 0;
   overflow: hidden;
-  transform: scale(0.75);
   max-height: 0px;
 }
 
@@ -803,6 +888,20 @@ d-topics-list > iframe {
   .testimonials_slider .testimonials_slider_ul li .bq_wrapper {
     margin: 0 15px 20px !important;
   }
+
+  #image-builder-result {
+    padding-bottom: 30px;
+    border-bottom: 2px solid #575757;
+  }
+
+  #image-builder,
+  #image-builder-result {
+    text-align: center;
+  }
+
+  #image-builder select {
+    width: 100%;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -821,6 +920,11 @@ d-topics-list > iframe {
 
   #mfn-header-template .button {
     box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .download-icon {
+    display:none;
+    visbility:hidden;
   }
 }
 

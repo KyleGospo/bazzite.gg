@@ -28,6 +28,7 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 jQuery(document).ready(function() {
+  var hasScrolled = false;
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
@@ -40,7 +41,7 @@ jQuery(document).ready(function() {
       var gpuVendor = jQuery('#gpuVendor').val();
       if (selectedHardware == 'steamdeck' || selectedHardware == 'ally' || selectedHardware == 'handheld') {
         jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
-      } else if (gpuVendor === 'nvidia' || selectedHardware == 'surface') {
+      } else if (gpuVendor === 'nvidia') {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       } else if (!gpuVendor) {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
@@ -53,7 +54,7 @@ jQuery(document).ready(function() {
   jQuery('#image-builder #gpuVendor').on('change', function() {
     var selectedHardware = jQuery('#image-builder #selectedHardware').val();
     var selectedGPU = jQuery(this).val();
-    if (selectedGPU == 'nvidia' || selectedHardware == 'surface') {
+    if (selectedGPU == 'nvidia') {
       jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     } else if (selectedGPU !== '') {
       jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
@@ -85,12 +86,6 @@ jQuery(document).ready(function() {
           imagename += '-ally';
         }
         break;
-
-      case 'framework':
-        if(steamGameMode === 'yes') {
-          imagename += '-framegame';
-        }
-        break;
     }
 
     switch(desktopEnvironment) {
@@ -108,16 +103,6 @@ jQuery(document).ready(function() {
         if(steamGameMode !== 'yes') {
           imagename += '-asus';
         }
-        break;
-
-      case 'framework':
-        if(steamGameMode !== 'yes') {
-          imagename += '-framework';
-        }
-        break;
-
-      case 'surface':
-        imagename += '-surface';
         break;
     }
 
@@ -141,7 +126,14 @@ jQuery(document).ready(function() {
     if( imagename !== '' && allSelectionsMade ) {
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder-result .image-name').text(imagename);
+      jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso');
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
+      if(!hasScrolled) {
+        jQuery('html,body').animate({
+          scrollTop:jQuery('#image-builder-result').offset().top - jQuery('#mfn-header-template').outerHeight() - 30
+        }, 500);
+        hasScrolled = true;
+      }
     } else {
       jQuery('#image-builder-result').addClass('hidden-fade').removeClass('shown-fade');
     }
