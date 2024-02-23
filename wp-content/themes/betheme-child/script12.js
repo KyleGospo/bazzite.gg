@@ -28,6 +28,14 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 jQuery(document).ready(function() {
+  jQuery(document).on('click', '.button-to-download', function (event) {
+      event.preventDefault();
+
+      jQuery('html, body').animate({
+          scrollTop: jQuery(jQuery.attr(this, 'href')).offset().top - jQuery('#mfn-header-template').outerHeight()
+      }, 500);
+  });
+
   var hasScrolled = false;
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
