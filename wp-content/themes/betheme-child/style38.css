@@ -332,13 +332,19 @@ rs-module [class*=" fa-"]::before,
   font-style: italic;
 } 
 
-.no-gamemode-message {
+.picker-message {
   color: #a4a4a4;
   font-style: italic;
   font-size: 14px;
   max-width: 400px;
   display: inline-block;
   line-height: 20px;
+  margin-bottom: 15px;
+}
+
+.picker-message > a {
+  font-weight: 600;
+  text-decoration: underline;
 }
 
 #features {
