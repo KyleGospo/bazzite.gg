@@ -998,7 +998,8 @@ d-topics-list > iframe {
     margin-top: -3px;
   }
 
-  .ghcr-details {
+  .ghcr-details,
+  .sha256 {
     display: none;
     visibility: hidden;
   }
