@@ -166,6 +166,7 @@ select:focus {
 .button-download > .button_label {
   font-family: 'MuseoModerno';
   font-weight: 500;
+  line-height: 18px;
 }
 
 .button-download > .button_label,
