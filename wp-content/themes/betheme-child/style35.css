@@ -607,7 +607,7 @@ d-topics-list > iframe {
 }
 
 .sha256 .fa-file {
-  color: #fff;
+  color: #ccc;
   font-size: 25px;
 }
 
@@ -620,10 +620,6 @@ d-topics-list > iframe {
 }
 
 .sha256:hover .fa-file {
-  color: #737373;
-}
-
-.sha256:hover .fa-check {
   color: #fff;
 }
 
