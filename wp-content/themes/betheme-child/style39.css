@@ -947,6 +947,14 @@ d-topics-list > iframe {
   #image-builder select {
     width: 100%;
   }
+
+  .sha256 {
+    margin-top: 16px;
+  }
+
+  .ghcr-details {
+    margin-top: 5px;
+  }
 }
 
 @media only screen and (min-width: 960px) {
