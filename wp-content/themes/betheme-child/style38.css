@@ -343,7 +343,6 @@ rs-module [class*=" fa-"]::before,
 }
 
 .picker-message > a {
-  font-weight: 600;
   text-decoration: underline;
 }
 
