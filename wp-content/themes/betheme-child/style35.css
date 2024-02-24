@@ -600,6 +600,33 @@ d-topics-list > iframe {
   margin-top: 2px;
 }
 
+.sha256 {
+  position: absolute;
+  margin-top: 13px;
+  margin-left: 15px;
+}
+
+.sha256 .fa-file {
+  color: #fff;
+  font-size: 25px;
+}
+
+.sha256 .fa-check {
+  color: #262626;
+  position: absolute;
+  font-size: 14px;
+  top: 9px;
+  left: 3px;
+}
+
+.sha256:hover .fa-file {
+  color: #737373;
+}
+
+.sha256:hover .fa-check {
+  color: #fff;
+}
+
 @keyframes moveInCircle {
   0% {
     transform: rotate(0deg);

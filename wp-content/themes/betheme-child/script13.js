@@ -142,6 +142,7 @@ jQuery(document).ready(function() {
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder-result .image-name').text(imagename);
       jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso');
+      jQuery('.sha256').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable-CHECKSUM');
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
       if(!hasScrolled) {
         jQuery('html,body').animate({
