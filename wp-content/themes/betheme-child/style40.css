@@ -367,6 +367,7 @@ rs-module [class*=" fa-"]::before,
 }
 
 .hover-contrib,
+.sponsor,
 .discourse-docs {
   background: #f0f0f0;
   color: #000;
@@ -379,8 +380,13 @@ rs-module [class*=" fa-"]::before,
 }
 
 .hover-contrib:hover,
+.sponsor:hover,
 .discourse-docs:hover {
   background: #dfdfdf;
+}
+
+.sponsor {
+  color: rgb(219, 97, 162);
 }
 
 .answer-overflow-icon:hover {
