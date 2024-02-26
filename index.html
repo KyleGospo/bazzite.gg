@@ -5841,18 +5841,24 @@
 																			<label for="selectedHardware">What hardware are you using?</label>
 																			<select id="selectedHardware" name="hardware">
 																				<option disabled selected value>Select your hardware</option>
-																				<option value="desktop">Desktop or HTPC</option>
-																				<option value="steamdeck">Valve Steam Deck (OLED in development)</option>
-																				<option value="ally">ASUS Ally</option>
-																				<option value="handheld">Lenovo Legion Go</option>
-																				<option value="handheld">GPD</option>
-																				<option value="handheld">AYANEO</option>
-																				<option value="handheld">AYN</option>
-																				<option value="handheld">Other Handheld PC</option>
-																				<option value="desktop">Framework Laptop (+Custom handhelds)</option>
-																				<option value="desktop">Surface Laptop</option>
-																				<option value="asus">ASUS Laptop</option>
-																				<option value="desktop">Other Laptop</option>
+																				<optgroup label="PCs">
+																					<option value="desktop">Desktop or HTPC</option>
+																				</optgroup>
+																				<optgroup label="Handhelds">
+																					<option value="steamdeck">Valve Steam Deck (OLED in development)</option>
+																					<option value="ally">ASUS Ally</option>
+																					<option value="handheld">Lenovo Legion Go</option>
+																					<option value="handheld">GPD</option>
+																					<option value="handheld">AYANEO</option>
+																					<option value="handheld">AYN</option>
+																					<option value="handheld">Other Handheld PC</option>
+																				</optgroup>
+																				<optgroup label="Laptops">
+																					<option value="desktop">Framework Laptop (+Custom handhelds)</option>
+																					<option value="desktop">Surface Laptop</option>
+																					<option value="asus">ASUS Laptop</option>
+																					<option value="desktop">Other Laptop</option>
+																				</optgroup>
 																			</select>
 																		</div>
 																		<div class="steam-deck hidden-fade">
