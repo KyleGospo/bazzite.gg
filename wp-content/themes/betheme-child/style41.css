@@ -131,6 +131,11 @@ select:focus {
   text-align: left;
 }
 
+.command-nobg {
+  font-family: 'Fira Code';
+  font-size: 10px;
+}
+
 .code:hover,
 .command:hover {
   background-color: #444;
