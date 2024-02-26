@@ -133,7 +133,10 @@ select:focus {
 
 .command-nobg {
   font-family: 'Fira Code';
-  font-size: 10px;
+  font-size: 12px;
+  font-style: normal;
+  color: #fff;
+  font-weight: 400;
 }
 
 .code:hover,
