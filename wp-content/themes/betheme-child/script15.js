@@ -48,11 +48,14 @@ jQuery(document).ready(function() {
       jQuery('#image-builder .gamemode').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder .hhd').removeClass('shown-fade').addClass('hidden-fade');
+      jQuery('#image-builder .steam-deck').removeClass('shown-fade').addClass('hidden-fade');
       var gpuVendor = jQuery('#gpuVendor').val();
       if (selectedHardware == 'steamdeck' || selectedHardware == 'ally' || selectedHardware == 'handheld') {
         jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
-        if(selectedHardware == 'ally' || selectedHardware == 'handheld') {
+        if (selectedHardware == 'ally' || selectedHardware == 'handheld') {
           jQuery('#image-builder .hhd').addClass('shown-fade').removeClass('hidden-fade');
+        } else if (selectedHardware == 'steamdeck') {
+          jQuery('#image-builder .steam-deck').addClass('shown-fade').removeClass('hidden-fade');
         }
       } else if (gpuVendor === 'nvidia' || gpuVendor === 'old-intel') {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
