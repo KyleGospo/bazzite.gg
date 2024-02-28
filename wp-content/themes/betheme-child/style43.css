@@ -330,7 +330,7 @@ rs-module [class*=" fa-"]::before,
 }
 
 .gamemode label::after {
-  content: '(This will automatically login to game mode)';
+  content: '(This will automatically login to game mode and only supports a single user)';
   width: 100%;
   display: inline-block;
   font-weight: 300;
