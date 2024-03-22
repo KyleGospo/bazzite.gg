@@ -1,3 +1,7 @@
+<p align="center">
+  <a href="https://bazzite.gg/"><img src="/wp-content/uploads/2024/02/preview.png?raw=true" alt="Bazzite"/></a>
+</p>
+
 # Public website for [Bazzite](https://github.com/ublue-os/bazzite)
 This is a WordPress site that has been flattened to raw HTML, with any PHP files or files that would otherwise not be public removed.
 
