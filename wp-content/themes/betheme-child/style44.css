@@ -28,6 +28,10 @@ Version: 2.0.1
   margin-bottom: 0px;
 }
 
+.anticheat {
+  background-color: #0e82c3 !important;
+}
+
 .apps-fade::after {
   background: radial-gradient(#262626 30%, rgba(0,0,0,0) 100%);
   top: 0;
