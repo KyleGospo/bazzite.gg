@@ -1033,6 +1033,22 @@ d-topics-list > iframe {
     display: none;
     visibility: hidden;
   }
+
+  .protondb,
+  .anticheat {
+    width:100%;
+  }
+
+  .protondb > span,
+  .anticheat > span {
+    text-align: center;
+    width: 100%;
+  }
+
+  .button.protondb {
+    margin-bottom: 15px!important;
+    margin-top: 15px!important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
