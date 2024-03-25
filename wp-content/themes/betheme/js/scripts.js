@@ -4232,7 +4232,7 @@ function msnryGalleryInit() {
         prevArrow: '<a class="button the-icon slider_prev" href="#"><span class="button_icon"><i class="icon-left-open-big" aria-label="previous slide"></i></span></a>',
         nextArrow: '<a class="button the-icon slider_next" href="#"><span class="button_icon"><i class="icon-right-open-big" aria-label="next slide"></i></span></a>',
 
-        adaptiveHeight: true,
+        adaptiveHeight: false,
         appendDots: slider.siblings('.slider_pager'),
         customPaging: pager,
 
