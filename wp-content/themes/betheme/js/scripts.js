@@ -4237,8 +4237,8 @@ function msnryGalleryInit() {
         customPaging: pager,
 
         rtl: rtl ? true : false,
-        autoplay: mfn.slider.testimonials ? true : false,
-        autoplaySpeed: mfn.slider.testimonials ? mfn.slider.testimonials : 5000,
+        autoplay: true,
+        autoplaySpeed: 5000,
 
         slidesToShow: 1,
         slidesToScroll: 1
