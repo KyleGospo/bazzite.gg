@@ -85,10 +85,17 @@ select:focus {
   background-color: #464646 !important;
 }
 
-.iso-selection {
-  margin-bottom: 30px;
+#image-builder-result {
+  margin-bottom: 5px;
+  border-top: 2px solid #575757;
+  padding-top: 50px;
+}
+
+.iso-selection,
+.rebase {
+  margin-bottom: 50px;
   float: left;
-  width: 100%;
+  width: 50%;
 }
 
 .fine-print {
@@ -113,13 +120,21 @@ select:focus {
   cursor: pointer;
 }
 
+#hardware-description {
+  font-size: 16px;
+}
+
+#hardware-description h3 > a > i {
+  font-size: 20px;
+  top: -5px;
+  position: relative;
+  display: inline-block;
+}
+
 .command-header {
   width: 100%;
   float: left;
   margin-bottom: 5px;
-  border-top: 2px solid #575757;
-  padding-top: 30px;
-  font-size: 17px;
 }
 
 .command {
@@ -148,8 +163,9 @@ select:focus {
   background-color: #444;
 }
 
-#image-builder-result {
-  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, max-height 0.35s ease-in-out;
+.fade-transition {
+  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out;
+  display: block;
 }
 
 #image-builder > div {
@@ -485,7 +501,7 @@ blockquote {
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
-  content: '\f35d';
+  content: '\f0c1';
   font-family: 'Font Awesome 5 Free';
   font-style: normal;
   margin-left: 10px;
@@ -951,12 +967,30 @@ d-topics-list > iframe {
   }
 
   #image-builder-result {
+    padding-top: 30px;
     padding-bottom: 30px;
+    margin-top: 50px;
     border-bottom: 2px solid #575757;
+  }
+
+  .iso-selection {
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .rebase {
+    border-top: 2px solid #575757;
+    padding-top: 50px;
+    margin-bottom: 0px;
+    width: 100%;
   }
 
   #image-builder,
   #image-builder-result {
+    text-align: center;
+  }
+
+  #hardware-description {
     text-align: center;
   }
 

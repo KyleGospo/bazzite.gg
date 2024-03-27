@@ -4801,10 +4801,10 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style45.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style46.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-		<script type="text/javascript" src="wp-content/themes/betheme-child/script16.js" id="script-js"></script>
+		<script type="text/javascript" src="wp-content/themes/betheme-child/script17.js" id="script-js"></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js"></script>
 		<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
@@ -5883,14 +5883,14 @@
 																				<option disabled selected value>Select your hardware</option>
 																				<optgroup label="PCs">
 																					<option value="desktop">Desktop</option>
-																					<option value="desktop">Home Theater PC</option>
+																					<option value="htpc">Home Theater PC</option>
 																				</optgroup>
 																				<optgroup label="Handhelds">
 																					<option value="steamdeck">Steam Deck 256GB+ (OLED in development)</option>
 																					<option value="ally">ASUS Ally</option>
-																					<option value="handheld">Lenovo Legion Go</option>
-																					<option value="handheld">GPD</option>
-																					<option value="handheld">AYN</option>
+																					<option value="legion">Lenovo Legion Go</option>
+																					<option value="gpd">GPD</option>
+																					<option value="ayn">AYN</option>
 																					<option value="handheld">Other Handheld PC</option>
 																				</optgroup>
 																				<optgroup label="Laptops">
@@ -5949,38 +5949,141 @@
 														<div class="column mcb-column mcb-item-u50oajrqh one laptop-one tablet-one mobile-one column_plain_text">
 															<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-u50oajrqh mcb-item-plain_text-inner">
 																<div class="desc">
-																	<div id="image-builder-result" class="hidden-fade">
-																		<span class="iso-selection">
-																			<h3>New Users</h3>
-																			<div class="button-download-container">
-																				<a class="button-download button has-icon button_right">
-																					<span class="button_icon">
-																						<i class="fas fa-download"></i>
-																					</span>
-																					<span class="button_label">Download the <span style="white-space:nowrap;"><span class="bazzite-name image-name"></span> ISO</span></span>
-																				</a>
-																				<a class="sha256" title="Verify (SHA256)"><i class="fas fa-file"><i class="fas fa-check"></i></i></a>
-																			</div>
-																			<span class="fine-print">View our initial setup guide <a href="https://universal-blue.discourse.group/docs?topic=30" target="_blank">here</a>.<br>
-																			The full list of documentation can be found <a href="https://docs.bazzite.gg/" target="_blank">here</a>.</span>
+																	<div id="hardware-description">
+																		<span class="fade-transition hidden-fade legion">
+																			<h3>Lenovo Legion Go <a href="https://www.lenovo.com/us/en/p/handheld/legion-go/len106g0001" target="_blank"><i class="fa-solid fa-link"></i></a></h3>
+																			A high resolution screen, detachable controllers with dual gyros, sturdy hinge, 
+																			and hall effect joysticks and triggers, make the Legion Go the highest engineered
+																			handheld in the market.
+																			With dual per-controller gyro, 4 paddles, RGB, and touchpad that are usable in Steam 
+																			Input, it matches and exceeds the Steam Deck, there's nothing to miss from 
+																			Valve's offerings.<br><br>Even better, detach the controllers and enjoy the same experience on the couch
+																			and bump to 30W to give that extra oomph to new titles.
+																			Or pop the stand open, dock, and use yours as a desktop replacement, as many of us
+																			are doing.<br>Having the fastest Laptop CPU AMD makes, you'll forget you even had a laptop.
+																			The Legion Go also makes for a great tablet, utilizing our built-in Android App
+																			support to take full advantage of that touch screen.
 																		</span>
-																		<span class="command-header">
-																			<h3>Existing <a href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic</a> Users</h3>
-																			You may rebase to Bazzite with this command:
+																		<span class="fade-transition hidden-fade ally">
+																			<h3>ROG Ally <a href="https://www.asus.com/us/site/gaming/rog/gaming-handheld/rog-ally.html" target="_blank"><i class="fa-solid fa-link"></i></a></h3>
+																			Being ASUS' little Hot Rod, the ROG Ally runs at over 40W stock, with a cooling 
+																			system to match.<br>
+																			Combined with its 120hz VRR display and 800Hz gyro, the Ally is a joy to use
+																			and a must for the most discerning gamers.
+																			Experience 0 latency with your actions and the most consistent frame pacing in
+																			the market.<br>
+																			With granular TDP controls, fan curves, RGB, and paddle support in Steam Input,
+																			Bazzite offers a hand-tuned experience for the Ally, that will have you leaving 
+																			Windows behind.
 																		</span>
-																		<span class="command">rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/<span class="image-name"></span>:stable</span><a class="ghcr-details" title="View details on the GitHub Container registry" target="_blank"><i style="padding-left:7px;top:3px;position:relative;font-size:18px;" class="fas fa-box-open"></i></a>
-																		<br>
-																		<br>
-																		<span class="fine-print">
-																			If you're using secure boot, follow our <strong><a href="https://github.bazzite.gg/#secure-boot" target="_blank">secure boot documentation</a></strong> before rebasing.<br>
+																		<span class="fade-transition hidden-fade steamdeck">
+																			<h3>Valve Steam Deck <a href="https://store.steampowered.com/steamdeck/" target="_blank"><i class="fa-solid fa-link"></i></a></h3>
+																			Bazzite offers a solid upgrade over SteamOS, with up-to-date kernel,
+																			packages, and a first class desktop experience. Choose between
+																			KDE and Gnome, and layer your packages to turn your Steam Deck into a mini
+																			computer.<br>
+																			Having feature parity with SteamOS, including firmware and BIOS
+																			updates, there is no reason to look back.<br>
 																			<br>
-																			<strong>It's recommended by upstream that you stick to the same desktop environment as your current install when rebasing.</strong>
+																			The Steam Deck LCD works perfectly.<br>
+																			However, due to our recent kernel, we still have some issues to iron out with
+																			the OLED variant (certain frame-rate limiting, intermittent speaker issues).
+																			We still rock Bazzite on our Steam Deck OLEDs, but we can't recommend you do,
+																			just yet.
+																		</span>
+																		<span class="fade-transition hidden-fade gpd">
+																			<h3>GPD Devices <a href="https://gpd.hk/" target="_blank"><i class="fa-solid fa-link"></i></a></h3>
+																			Made for the seasoned road warrior, GPD devices offer the smallest form factor
+																			laptops out in the market, with high quality controllers built-in.<br>
+																			Great for gaming, work, and even light Machine Learning, the GPD devices are a
+																			joy to use, and fully supported by Bazzite.<br>
+																			With out-of-the-box support for the L4, R4 buttons, touchpad, and gyro to be used in 
+																			Steam Input, and bundled ROCm for your machine learning needs.<br>
+																			<br>
+																			We support the whole 2023 GPD collection, including GPD Win 4, GPD Win Mini, Max 2.
+																			If your device is not perfectly supported, get in touch in our discord, and we will get
+																			that sorted ASAP.
+																		</span>
+																		<span class="fade-transition hidden-fade ayn">
+																			<h3>Ayn Loki <a href="https://www.ayntec.com/products/loki" target="_blank"><i class="fa-solid fa-link"></i></a></h3>
+																			The Ayn Loki is our pick for the most portable handheld in the market right now.<br>
+																			With a great high resolution screen, controls that feel great, and sick looking
+																			RGB handles, there's a lot to love.<br>
+																			We offer RGB control out-of-the-box, and the handheld experience you would expect
+																			with such a handheld.<br>
+																			We have verified support for the Loki Max, have one of the other variants? Get in touch
+																			in our discord, and we will make sure the next Bazzite version has great support 
+																			for your unit too.
+																		</span>
+																		<span class="fade-transition hidden-fade htpc">
+																			<h3>Home Theater PCs</h3>
+																			What makes Bazzite great for handhelds transfers over to Home Theater PCs.<br>
+																			Enjoy the PC gaming console experience that a setup like that should have from the
+																			comfort of your couch.<br>
+																			And feel free to bump up the frame-rate and resolution, without the power limitations
+																			of a handheld.<br>
+																			<br>
+																			This experience is powered by Valve's window manager, Gamescope, which is included
+																			in our deck images.<br>
+																			Gamescope has certain hardware requirements, with great support for recent
+																			AMD GPUs, and decent Intel support.<br>
+																			Nvidia is not supported at all, unfortunately.<br>
+																			Have an Nvidia card? We support those on our desktop images, so continue reading.
+																		</span>
+																		<span class="fade-transition hidden-fade desktop">
+																			<h3>Desktops & Laptops</h3>
+																			Bazzite marries Cloud technology, gaming, and developer tools into a compelling package.
+																			With Bazzite, you can work and game on the same OS, regardless of what your hardware is
+																			or what your work consists of.<br>
+																			<br>
+																			We make sure our desktop images work on ASUS Laptops, Lenovo Legion Laptops,
+																			Framework Laptops and on both AMD and Nvidia GPUs.<br>
+																			With out-of-the-box tools such as distrobox, flatpak, and package layering, you 
+																			can install this one missing package for your work or that weird VPN you bought 
+																			a year ago, while keeping the benefits of an immutable distro.<br>
+																			<br>
+																			We put our money where our mouth is: <strong>Bazzite is developed on Bazzite</strong>!<br>
+																			<br>
+																			What benefits does immutability have? Did an update break a package? Completely rollback 
+																			safely and quickly to any Bazzite version that came out the last 90 days.<br>
+																			Delivered straight to you from our image repositories.<br>
+																			Almost like a cloud save. Cool, huh?
 																		</span>
 																	</div>
 																</div>
 															</div>
 														</div>
 													</div>
+												</div>
+												<div id="image-builder-result" class="fade-transition hidden-fade">
+													<span class="iso-selection">
+														<h3>New Users</h3>
+														<div class="button-download-container">
+															<a class="button-download button has-icon button_right">
+																<span class="button_icon">
+																	<i class="fas fa-download"></i>
+																</span>
+																<span class="button_label">Download the <span style="white-space:nowrap;"><span class="bazzite-name image-name"></span> ISO</span></span>
+															</a>
+															<a class="sha256" title="Verify (SHA256)"><i class="fas fa-file"><i class="fas fa-check"></i></i></a>
+														</div>
+														<span class="fine-print">View our initial setup guide <a href="https://universal-blue.discourse.group/docs?topic=30" target="_blank">here</a>.<br>
+														The full list of documentation can be found <a href="https://docs.bazzite.gg/" target="_blank">here</a>.</span>
+													</span>
+													<span class="rebase">
+														<span class="command-header">
+															<h3>Existing <a href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic</a> Users</h3>
+															You may rebase to Bazzite with this command:
+														</span>
+														<span class="command">rpm-ostree rebase ostree-unverified-registry:ghcr.io/ublue-os/<span class="image-name"></span>:stable</span><a class="ghcr-details" title="View details on the GitHub Container registry" target="_blank"><i style="padding-left:7px;top:3px;position:relative;font-size:18px;" class="fas fa-box-open"></i></a>
+														<br>
+														<br>
+														<span class="fine-print">
+															If you're using secure boot, follow our <strong><a href="https://github.bazzite.gg/#secure-boot" target="_blank">secure boot documentation</a></strong> before rebasing.<br>
+															<br>
+															<strong>It's recommended by upstream that you stick to the same desktop environment as your current install when rebasing.</strong>
+														</span>
+													</span>
 												</div>
 											</div>
 										</div>
