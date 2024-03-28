@@ -130,7 +130,6 @@ select:focus {
 
 #hardware-description .explaination {
   font-size: 20px;
-  margin-top: 80px;
 }
 
 #hardware-description h3 > a > i {
@@ -401,7 +400,11 @@ rs-module [class*=" fa-"]::before,
   font-weight: 300;
   font-size: 16px;
   font-style: italic;
-} 
+}
+
+.mcb-wrap-inner-9ae7bff78 {
+  align-items: center;
+}
 
 .picker-message {
   color: #a4a4a4;
