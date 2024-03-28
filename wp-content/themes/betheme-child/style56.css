@@ -332,12 +332,8 @@ rs-module [class*=" fa-"]::before,
   background-color: #1c1c1c!important;
 }
 
-#Footer {
+#Footer .footer_copy {
   padding-top: 60px;
-}
-
-.ublue-container .text-container {
-  margin-left: 20px;
 }
 
 .ublue-container {
@@ -350,8 +346,14 @@ rs-module [class*=" fa-"]::before,
   margin: 15px auto 30px auto;
 }
 
-.mfn-footer .footer_copy {
-  border-top: 0px;
+.ublue-container .text-container {
+  margin-left: 20px;
+}
+
+#back_to_top {
+  background: #262626;
+  color: #fff !important;
+  border-radius: 30px;
 }
 
 #image-builder-result a {
@@ -387,8 +389,9 @@ rs-module [class*=" fa-"]::before,
 .select-wrapper {
   display: block;
   position: relative;
-  background: #1c1c1c;
+  background: #262626;
   max-width: 300px;
+  border-radius: 5px 5px 0px 0px;
 }
 
 .gamemode label::after {
@@ -418,12 +421,19 @@ rs-module [class*=" fa-"]::before,
   background-position: center;
 }
 
+.copyright-text {
+  margin-bottom: 15px;
+  display: inline-block;
+  width: 100%;
+}
+
 .affiliated {
   color: #606060;
   font-size: 14px;
   font-style: italic;
-  margin-top: 10px;
-  display: block;
+  display: inline-block;
+  max-width:600px;
+  margin:auto;
 }
 
 .answer-overflow-icon {
