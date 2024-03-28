@@ -164,7 +164,7 @@ select:focus {
 }
 
 .fade-transition {
-  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out;
+  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, visibility 0s;
   display: block;
 }
 
