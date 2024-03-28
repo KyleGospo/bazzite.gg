@@ -124,6 +124,8 @@ jQuery(document).ready(function() {
       case 'steamdeck':
       case 'handheld':
       case 'legion':
+      case 'ayn':
+      case 'gpd':
         imagename += '-deck';
         break;
 
