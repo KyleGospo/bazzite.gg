@@ -336,6 +336,20 @@ rs-module [class*=" fa-"]::before,
   padding-top: 60px;
 }
 
+.ublue-container .text-container {
+  margin-left: 20px;
+}
+
+.ublue-container {
+  width: 100%;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 815px;
+  margin: 15px auto 30px auto;
+}
+
 .mfn-footer .footer_copy {
   border-top: 0px;
 }
