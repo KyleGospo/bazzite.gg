@@ -266,6 +266,7 @@ select:focus {
   opacity: 0;
   overflow: hidden;
   max-height: 0px;
+  visiblity: hidden;
 }
 
 .shown-fade {
