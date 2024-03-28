@@ -87,7 +87,7 @@ select:focus {
 
 #image-builder-result {
   margin-bottom: 5px;
-  border-top: 2px solid #575757;
+  border-top: 2px solid rgba(255, 255, 255, 0.1);
   padding-top: 50px;
 }
 
@@ -294,6 +294,10 @@ select:focus {
 
 #image-picker {
   padding-bottom: 0px;
+}
+
+#image-picker > .section_wrapper {
+  border-bottom: 2px solid #575757;
 }
 
 rs-layer-wrap,
