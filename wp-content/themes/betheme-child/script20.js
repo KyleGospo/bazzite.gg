@@ -57,11 +57,12 @@ jQuery(document).ready(function() {
   const noGamemodeHardware = ['nvidia', 'old-intel'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
+    jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
     var selectedHardware = jQuery(this).val();
     jQuery('#hardware-description > span').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
-    jQuery('.hardware-wrapper').removeClass('glow-effect');
+    jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
 
     if (selectedHardware !== '') {
       jQuery('#image-builder .desktopEnvironment').removeClass('hidden-fade').addClass('shown-fade');
@@ -95,6 +96,7 @@ jQuery(document).ready(function() {
   });
 
   jQuery('#image-builder #gpuVendor').on('change', function() {
+    jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
     var selectedHardware = jQuery('#image-builder #selectedHardware').val();
     var selectedGPU = jQuery(this).val();
     if (noGamemodeHardware.includes(selectedGPU)) {
@@ -110,6 +112,7 @@ jQuery(document).ready(function() {
   });
 
   jQuery('#image-builder #desktopEnvironment, #image-builder #selectedHardware, #image-builder #gpuVendor, #image-builder #steamGameMode').on('change', function() {
+    jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
     var desktopEnvironment = jQuery('#desktopEnvironment').parent('div').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
     var hardware = jQuery('#selectedHardware').parent('div').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
     var gpuVendor = jQuery('#gpuVendor').parent('div').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
@@ -171,6 +174,7 @@ jQuery(document).ready(function() {
     });
 
     if( imagename !== '' && allSelectionsMade ) {
+      jQuery('.download-logo').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder-result .image-name').text(imagename);
       jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso');

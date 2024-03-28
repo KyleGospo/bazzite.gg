@@ -124,6 +124,11 @@ select:focus {
   font-size: 16px;
 }
 
+#hardware-description .explaination {
+  font-size: 20px;
+  margin-top: 80px;
+}
+
 #hardware-description h3 > a > i {
   font-size: 20px;
   top: -5px;
@@ -166,6 +171,11 @@ select:focus {
 .fade-transition {
   transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, visibility 0s;
   display: block;
+}
+
+#image-builder .download-logo {
+  text-align: center;
+  max-width: 300px;
 }
 
 #image-builder > div {
@@ -266,7 +276,8 @@ select:focus {
   opacity: 0;
   overflow: hidden;
   max-height: 0px;
-  visiblity: hidden;
+  visiblity: hidden!important;
+  margin-top: 0px!important;
 }
 
 .shown-fade {
@@ -350,7 +361,7 @@ rs-module [class*=" fa-"]::before,
   min-width: 300px;
 }
 
-.hardware-wrapper {
+.select-wrapper {
   display: block;
   position: relative;
   background: #262626;
@@ -918,7 +929,8 @@ d-topics-list > iframe {
     top: -20px;
   }
 
-  #mfn-header-template .button > .button_label {
+  #mfn-header-template .button > .button_label,
+  #hardware-description .explaination {
     display: none;
     visibility: hidden;
   }
@@ -1003,7 +1015,8 @@ d-topics-list > iframe {
   }
 
   #image-builder select,
-  .hardware-wrapper {
+  .select-wrapper,
+  #image-builder .download-logo {
     width: 100%;
     max-width: inherit;
   }
@@ -1033,6 +1046,11 @@ d-topics-list > iframe {
 
   #mfn-header-template .button {
     box-shadow: 0px 0px 5px rgba(0,0,0,0.25);
+  }
+
+  .mcb-item-vm71wq22a {
+    display: none;
+    visibility: hidden;
   }
 }
 
