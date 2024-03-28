@@ -61,6 +61,7 @@ jQuery(document).ready(function() {
     jQuery('#hardware-description > span').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
+    jQuery('.hardware-wrapper').removeClass('glow-effect');
 
     if (selectedHardware !== '') {
       jQuery('#image-builder .desktopEnvironment').removeClass('hidden-fade').addClass('shown-fade');

@@ -200,7 +200,7 @@ select:focus {
   color: #fff;
 }
 
-.button-download::after {
+.glow-effect::after {
   position: absolute;
   content: "";
   top: 10px;
@@ -347,6 +347,13 @@ rs-module [class*=" fa-"]::before,
 
 #image-builder select {
   min-width: 300px;
+}
+
+.hardware-wrapper {
+  display: block;
+  position: relative;
+  background: #262626;
+  max-width: 300px;
 }
 
 .gamemode label::after {
@@ -994,8 +1001,10 @@ d-topics-list > iframe {
     text-align: center;
   }
 
-  #image-builder select {
+  #image-builder select,
+  .hardware-wrapper {
     width: 100%;
+    max-width: inherit;
   }
 
   .sha256 {

@@ -4801,10 +4801,10 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style46.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style47.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-		<script type="text/javascript" src="wp-content/themes/betheme-child/script17.js" id="script-js"></script>
+		<script type="text/javascript" src="wp-content/themes/betheme-child/script18.js" id="script-js"></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js"></script>
 		<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
@@ -5879,27 +5879,29 @@
 																	<form id="image-builder" autocomplete="off">
 																		<div class="selectedHardware">
 																			<label for="selectedHardware">What hardware are you using?</label>
-																			<select id="selectedHardware" name="hardware">
-																				<option disabled selected value>Select your hardware</option>
-																				<optgroup label="PCs">
-																					<option value="desktop">Desktop</option>
-																					<option value="htpc">Home Theater PC</option>
-																				</optgroup>
-																				<optgroup label="Handhelds">
-																					<option value="steamdeck">Steam Deck 256GB+ (OLED in development)</option>
-																					<option value="ally">ASUS Ally</option>
-																					<option value="legion">Lenovo Legion Go</option>
-																					<option value="gpd">GPD</option>
-																					<option value="ayn">AYN</option>
-																					<option value="handheld">Other Handheld PC</option>
-																				</optgroup>
-																				<optgroup label="Laptops">
-																					<option value="desktop">Framework Laptop (+Custom handhelds)</option>
-																					<option value="desktop">Surface Laptop</option>
-																					<option value="asus">ASUS Laptop</option>
-																					<option value="desktop">Other Laptop</option>
-																				</optgroup>
-																			</select>
+																			<div class="hardware-wrapper glow-effect">
+																				<select id="selectedHardware" name="hardware">
+																					<option disabled selected value>Select your hardware</option>
+																					<optgroup label="PCs">
+																						<option value="desktop">Desktop</option>
+																						<option value="htpc">Home Theater PC</option>
+																					</optgroup>
+																					<optgroup label="Handhelds">
+																						<option value="steamdeck">Steam Deck 256GB+ (OLED in development)</option>
+																						<option value="legion">Lenovo Legion Go</option>
+																						<option value="ally">ROG Ally</option>
+																						<option value="gpd">GPD</option>
+																						<option value="ayn">AYN</option>
+																						<option value="handheld">Other Handheld PC</option>
+																					</optgroup>
+																					<optgroup label="Laptops">
+																						<option value="desktop">Framework Laptop (+Custom handhelds)</option>
+																						<option value="desktop">Surface Laptop</option>
+																						<option value="asus">ASUS Laptop</option>
+																						<option value="desktop">Other Laptop</option>
+																					</optgroup>
+																				</select>
+																			</div>
 																		</div>
 																		<div class="steam-deck hidden-fade">
 																			<span class="picker-message">If you're having issues booting this ISO, ensure the <span class="command-nobg">Setup Utility -&gt; USB Configuration -&gt; USB Dual Role Device</span> setting in your BIOS is set to <span class="command-nobg">XHCI</span> and not <span class="command-nobg">DRD</span>.</span>
@@ -6059,7 +6061,7 @@
 													<span class="iso-selection">
 														<h3>New Users</h3>
 														<div class="button-download-container">
-															<a class="button-download button has-icon button_right">
+															<a class="button-download glow-effect button has-icon button_right">
 																<span class="button_icon">
 																	<i class="fas fa-download"></i>
 																</span>
