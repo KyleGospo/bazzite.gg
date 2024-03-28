@@ -429,10 +429,9 @@ rs-module [class*=" fa-"]::before,
 
 .affiliated {
   color: #606060;
-  font-size: 14px;
+  font-size: 13px;
   font-style: italic;
   display: inline-block;
-  max-width:600px;
   margin:auto;
 }
 
