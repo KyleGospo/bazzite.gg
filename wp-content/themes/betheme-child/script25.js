@@ -184,7 +184,7 @@ jQuery(document).ready(function() {
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
       if(!hasScrolled) {
         jQuery('html,body').animate({
-          scrollTop:jQuery('#image-builder-result').offset().top - jQuery('#mfn-header-template').outerHeight() - 30
+          scrollTop:jQuery('#hardware-description').offset().top + jQuery('#hardware-description').outerHeight() - jQuery('#mfn-header-template').outerHeight()
         }, 500);
         hasScrolled = true;
       }
