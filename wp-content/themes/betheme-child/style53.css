@@ -32,8 +32,12 @@ Version: 2.0.1
   background-color: #0e82c3 !important;
 }
 
+.mcb-section-86dec4e7c {
+  background-color: #1c1c1c!important;
+}
+
 .apps-fade::after {
-  background: radial-gradient(#262626 30%, rgba(0,0,0,0) 100%);
+  background: radial-gradient(#1c1c1c 30%, rgba(0,0,0,0) 100%);
   top: 0;
   width: 100%;
   height: 100%;
