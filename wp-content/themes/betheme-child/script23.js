@@ -113,10 +113,10 @@ jQuery(document).ready(function() {
 
   jQuery('#image-builder #desktopEnvironment, #image-builder #selectedHardware, #image-builder #gpuVendor, #image-builder #steamGameMode').on('change', function() {
     jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
-    var desktopEnvironment = jQuery('#desktopEnvironment').parent('div').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
-    var hardware = jQuery('#selectedHardware').parent('div').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
-    var gpuVendor = jQuery('#gpuVendor').parent('div').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
-    var steamGameMode = jQuery('#steamGameMode').parent('div').hasClass('hidden-fade') ? '' : jQuery('#steamGameMode').val();
+    var desktopEnvironment = jQuery('#desktopEnvironment').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
+    var hardware = jQuery('#selectedHardware').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
+    var gpuVendor = jQuery('#gpuVendor').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
+    var steamGameMode = jQuery('#steamGameMode').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#steamGameMode').val();
 
     var imagename = 'bazzite';
 
@@ -158,7 +158,7 @@ jQuery(document).ready(function() {
         break;
     }
 
-    if (gpuVendor === 'nvidia') {
+    if (gpuVendor === 'nvidia' && !handheldHardware.includes(hardware)) {
       imagename += '-nvidia';
     }
 
