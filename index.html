@@ -4598,6 +4598,63 @@
 				background-color: #262626;
 			}
 
+			.frontpage {
+				height: 100%;
+				width: 100%;
+				display: flex;
+				align-items: center;
+				text-align: center;
+				flex-wrap: wrap;
+				color: #fff;
+			}
+
+			.frontpage > .frontpage-container {
+				flex: 0 0 100%;
+				width: 100%;
+				z-index: 1;
+				position: relative;
+				text-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+				margin-top: 70px;
+			}
+
+			.frontpage > .frontpage-container > h1 {
+				color: #fff;
+				font-weight: 400;
+				font-size: 53px;
+				margin-left: 15px;
+  				margin-right: 15px;
+			}
+
+			.frontpage > .frontpage-container > img {
+				max-width: 925px;
+				width: 95%;
+				max-width: 925px;
+				margin-top: -20px;
+				filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.1));
+			}
+
+			.frontpage > .frontpage-container > .container {
+				margin-top: 40px;
+				font-size: 28px;
+				font-weight: 400;
+				line-height: 42px;
+			}
+
+			.frontpage-container .button {
+				width: auto;
+				margin-top: 30px;
+				background-color: #6333d2 !important;
+				box-shadow: 0px 0px 20px rgba(0,0,0,0.1);
+			}
+
+			.frontpage-container .button:hover {
+				background-color: #1044b1 !important;
+			}
+
+			.frontpage-container .button i {
+				font-style: normal;
+			}
+
 			@media(max-width: 1440px) {
 				.mcb-section .mcb-wrap .mcb-item-i5lymoo27 {
 					flex: 0 0 175px;
@@ -4606,6 +4663,23 @@
 			}
 
 			@media(max-width: 959px) {
+				.frontpage > .frontpage-container {
+					margin-top: 64px;
+				}
+
+				.frontpage > .frontpage-container > h1 {
+					font-size: 40px;
+				}
+
+				.frontpage > .frontpage-container > img {
+					margin-top: 0px;
+				}
+
+				.frontpage > .frontpage-container > .container {
+					font-size: 20px;
+					line-height: 32px;
+				}
+
 				.mcb-section .mcb-wrap .mcb-item-o12qouxct .logo-wrapper {
 					align-items: center;
 				}
@@ -4701,6 +4775,10 @@
 			}
 
 			@media(max-width: 767px) {
+				.frontpage > .frontpage-container {
+					margin-top: 44px;
+				}
+
 				.mcb-section .mcb-wrap .mcb-item-o12qouxct .logo-wrapper {
 					align-items: center;
 				}
@@ -4801,70 +4879,15 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style63.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style64.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-		<script type="text/javascript" src="wp-content/themes/betheme-child/script26.js" id="script-js"></script>
+		<script type="text/javascript" src="wp-content/themes/betheme-child/script27.js" id="script-js"></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js"></script>
 		<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
 		<link rel="canonical" href="https://bazzite.gg/" />
 		<link rel='shortlink' href='https://bazzite.gg/' />
-		<script>
-			function setREVStartSize(e) {
-				//window.requestAnimationFrame(function() {
-				window.RSIW = window.RSIW === undefined ? window.innerWidth : window.RSIW;
-				window.RSIH = window.RSIH === undefined ? window.innerHeight : window.RSIH;
-				try {
-					var pw = document.getElementById(e.c).parentNode.offsetWidth,
-						newh;
-					pw = pw === 0 || isNaN(pw) || (e.l == "fullwidth" || e.layout == "fullwidth") ? window.RSIW : pw;
-					e.tabw = e.tabw === undefined ? 0 : parseInt(e.tabw);
-					e.thumbw = e.thumbw === undefined ? 0 : parseInt(e.thumbw);
-					e.tabh = e.tabh === undefined ? 0 : parseInt(e.tabh);
-					e.thumbh = e.thumbh === undefined ? 0 : parseInt(e.thumbh);
-					e.tabhide = e.tabhide === undefined ? 0 : parseInt(e.tabhide);
-					e.thumbhide = e.thumbhide === undefined ? 0 : parseInt(e.thumbhide);
-					e.mh = e.mh === undefined || e.mh == "" || e.mh === "auto" ? 0 : parseInt(e.mh, 0);
-					if (e.layout === "fullscreen" || e.l === "fullscreen") newh = Math.max(e.mh, window.RSIH);
-					else {
-						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
-						for (var i in e.rl)
-							if (e.gw[i] === undefined || e.gw[i] === 0) e.gw[i] = e.gw[i - 1];
-						e.gh = e.el === undefined || e.el === "" || (Array.isArray(e.el) && e.el.length == 0) ? e.gh : e.el;
-						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
-						for (var i in e.rl)
-							if (e.gh[i] === undefined || e.gh[i] === 0) e.gh[i] = e.gh[i - 1];
-						var nl = new Array(e.rl.length),
-							ix = 0,
-							sl;
-						e.tabw = e.tabhide >= pw ? 0 : e.tabw;
-						e.thumbw = e.thumbhide >= pw ? 0 : e.thumbw;
-						e.tabh = e.tabhide >= pw ? 0 : e.tabh;
-						e.thumbh = e.thumbhide >= pw ? 0 : e.thumbh;
-						for (var i in e.rl) nl[i] = e.rl[i] < window.RSIW ? 0 : e.rl[i];
-						sl = nl[0];
-						for (var i in nl)
-							if (sl > nl[i] && nl[i] > 0) {
-								sl = nl[i];
-								ix = i;
-							}
-						var m = pw > (e.gw[ix] + e.tabw + e.thumbw) ? 1 : (pw - (e.tabw + e.thumbw)) / (e.gw[ix]);
-						newh = (e.gh[ix] * m) + (e.tabh + e.thumbh);
-					}
-					var el = document.getElementById(e.c);
-					if (el !== null && el) el.style.height = newh + "px";
-					el = document.getElementById(e.c + "_wrapper");
-					if (el !== null && el) {
-						el.style.height = newh + "px";
-						el.style.display = "block";
-					}
-				} catch (e) {
-					console.log("Failure at Presize of Slider:" + e)
-				}
-				//});
-			};
-		</script>
 	</head>
 	<body class="home page-template-default page page-id-6 mfn-header-template template-slider  color-custom content-brightness-light input-brightness-light style-default button-custom layout-full-width one-page if-zoom no-content-padding no-shadows subheader-both-center footer-copy-center responsive-overflow-x-mobile mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-6 be-reg-2735">
 		<div id="home"></div>
@@ -5151,65 +5174,24 @@
 					</section>
 				</div>
 			</header>
-			<div class="gradient-bg mfn-main-slider mfn-rev-slider">
-				<!-- START Bazzite Banner REVOLUTION SLIDER 6.6.20 -->
-				<p class="rs-p-wp-fix"></p>
-				<rs-module-wrap id="rev_slider_1_1_wrapper" data-alias="bazzite" data-source="gallery" style="visibility:hidden;background:transparent;padding:0;">
-					<rs-module id="rev_slider_1_1" data-version="6.6.20">
-						<rs-slides style="overflow: hidden; position: absolute;">
-							<rs-slide style="position: absolute;" data-key="rs-1" data-title="Slide" data-in="o:0;row:400;" data-out="a:false;">
-								<img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Slide" class="rev-slidebg tp-rs-img rs-lazyload" data-lazyload="//bazzite.gg/wp-content/plugins/revslider/public/assets/assets/transparent.png" data-no-retina>
-								<!--
-							-->
-								<rs-layer id="slider-1-slide-1-layer-0" class="rs-selectable" data-type="text" data-rsp_ch="on" data-xy="x:c;yo:208px,208px,70px,27px;" data-text="w:normal;s:53,53,39,44;l:33,33,24,60;a:center;" data-dim="w:904,904,667,478px;" data-frame_1="y:-1px,-1px,0px,0px;" data-frame_999="o:0;st:w;sR:7700;" style="z-index:6;font-family:'DM Sans';">The next generation of Linux Gaming <br />
-								</rs-layer>
-								<!--
-
-							-->
-								<rs-layer id="slider-1-slide-1-layer-1" class="rs-selectable" data-type="text" data-rsp_ch="on" data-xy="x:c;yo:422px,422px,228px,229px;" data-text="w:normal;s:28,28,22,28;l:42,42,28,39;a:center;" data-dim="w:1227,1227,736px,460px;h:auto,auto,auto,324px;" data-frame_1="st:230;sR:230;" data-frame_999="o:0;st:w;sR:7470;" style="z-index:8;font-family:'DM Sans';">Bazzite is a custom image built on <a href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic</a> technology that brings the best of Linux gaming to <strong>all of your devices (yep, even your favorite handheld)</strong>. Featuring a rock-solid base with automatic updates and ninety days of rollbacks.</rs-layer>
-								<!--
-
-							-->
-								<rs-layer id="slider-1-slide-1-layer-5" class="rs-selectable" data-type="image" data-rsp_ch="on" data-xy="x:c;yo:257px,257px,113px,160px;" data-text="w:normal;s:20,20,9,5;l:0,0,11,6;" data-dim="w:925px,925px,679px,462px;h:63px,63px,46px,31px;" data-frame_999="o:0;st:w;sR:7700;" style="z-index:7;">
-									<img src="wp-content/plugins/revslider/public/assets/assets/dummy.png" alt="Powered by Fedora and Universal Blue" class="tp-rs-img rs-lazyload" width="" height="" data-lazyload="//bazzite.gg/wp-content/uploads/2024/02/bazzite_tagline_powered.svg" data-no-retina>
-								</rs-layer>
-								<!--
-
-							-->
-								<rs-layer id="slider-1-slide-1-layer-6" class="rev-btn rs-selectable" data-type="button" data-bsh="c:#461d7d;v:5px,5px,5px,4px;b:20px,20px,24px,19px;" data-rsp_ch="on" data-xy="x:c;yo:628px,628px,433px,610px;" data-text="s:18,18,21,15;l:50,50,61,54;fw:500;a:center;" data-dim="minh:0px,0px,none,none;" data-actions='id:features;o:click;a:scrollto;offset:-80px;sp:1000ms;e:power1.inOut;' data-padding="r:40,40,50,46;l:40,40,50,46;" data-border="bor:5px,5px,5px,5px;" data-frame_0="x:0,0,0px,0px;y:0,0,0px,0px;" data-frame_1="x:0,0,0px,0px;y:0,0,0px,0px;st:390;sR:390;" data-frame_999="o:0;st:w;sR:7310;" data-frame_hover="bgc:linear-gradient(181deg, rgba(110,74,185,1) 0%, rgba(110,74,185,1) 6.67%, rgba(109,73,185,1) 13.34%, rgba(108,72,184,1) 20.01%, rgba(107,70,184,1) 26.68%, rgba(106,69,183,1) 33.35%, rgba(104,67,182,1) 40.02%, rgba(103,65,181,1) 46.69%, rgba(101,62,181,1) 53.36%, rgba(100,60,180,1) 60.03%, rgba(98,58,179,1) 66.70%, rgba(97,57,178,1) 73.37%, rgba(96,55,178,1) 80.04%, rgba(95,54,177,1) 86.71%, rgba(94,53,177,1) 93.38%, rgba(94,53,177,1) 100%);bor:5px,5px,5px,5px;e:power1.inOut;bri:120%;" style="z-index:9;background:linear-gradient(181deg, rgba(110,74,185,1) 0%, rgba(110,74,185,1) 6.67%, rgba(109,73,185,1) 13.34%, rgba(108,72,184,1) 20.01%, rgba(107,70,184,1) 26.68%, rgba(106,69,183,1) 33.35%, rgba(104,67,182,1) 40.02%, rgba(103,65,181,1) 46.69%, rgba(101,62,181,1) 53.36%, rgba(100,60,180,1) 60.03%, rgba(98,58,179,1) 66.70%, rgba(97,57,178,1) 73.37%, rgba(96,55,178,1) 80.04%, rgba(95,54,177,1) 86.71%, rgba(94,53,177,1) 93.38%, rgba(94,53,177,1) 100%);font-family:'DM Sans';">
-									<i style="padding-right:15px;" class="fa-arrow-down"></i>Learn More
-								</rs-layer>
-								<!--
--->
-							</rs-slide>
-						</rs-slides>
-						<rs-static-layers>
-							<!--
-					-->
-						</rs-static-layers>
-					</rs-module>
-					<script>
-						setREVStartSize({
-							c: 'rev_slider_1_1',
-							rl: [1240, 1240, 778, 480],
-							el: [900, 900, 560, 720],
-							gw: [1640, 1640, 778, 480],
-							gh: [900, 900, 560, 720],
-							type: 'standard',
-							justify: '',
-							layout: 'fullscreen',
-							offsetContainer: '',
-							offset: '',
-							mh: "0"
-						});
-						if (window.RS_MODULES !== undefined && window.RS_MODULES.modules !== undefined && window.RS_MODULES.modules["revslider11"] !== undefined) {
-							window.RS_MODULES.modules["revslider11"].once = false;
-							window.revapi1 = undefined;
-							if (window.RS_MODULES.checkMinimal !== undefined) window.RS_MODULES.checkMinimal()
-						}
-					</script>
-				</rs-module-wrap>
-				<!-- END REVOLUTION SLIDER -->
+			<div class="gradient-bg">
+				<div class="frontpage">
+					<div class="frontpage-container">
+						<h1><span style="white-space:nowrap;">The next generation</span> <span style="white-space:nowrap;">of Linux Gaming</span></h1>
+						<img src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue">
+						<div class="container">
+							Bazzite is a custom image built on <a href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic</a> technology that brings the best of Linux gaming to <strong>all of your devices (yep, even your favorite handheld)</strong>. Featuring a rock-solid base with automatic updates and ninety days of rollbacks.
+							<div class="btn-container">
+								<a class="button scroll has-icon button_left button_full_width button_size_2" href="#features" title="Learn More">
+									<span class="button_icon">
+										<i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
+									</span>
+									<span class="button_label">Learn More</span>
+								</a>
+							</div>
+						</div>
+					</div>
+				</div>
 				<div class="gradients-container">
 					<div class="g1"></div>
 					<div class="g2"></div>
@@ -6196,14 +6178,6 @@
 			window.RS_MODULES.type = 'compiled';
 		</script>
 		<link rel='stylesheet' id='mfn-post-local-styles-61706924878-css' href='wp-content/uploads/betheme/css/post-6.css' type='text/css' media='all' />
-		<link rel='stylesheet' id='rs-plugin-settings-css' href='wp-content/plugins/revslider/public/assets/css/rs6.css%3Fver=6.6.20.css' type='text/css' media='all' />
-		<style id='rs-plugin-settings-inline-css' type='text/css'>
-			#rev_slider_1_1_wrapper rs-loader.spinner4 div {
-				background-color: rgba(255, 255, 255, 0.63) !important
-			}
-		</style>
-		<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/rbtools.min.js%3Fver=6.6.20" defer async id="tp-tools-js"></script>
-		<script type="text/javascript" src="wp-content/plugins/revslider/public/assets/js/rs6.min.js%3Fver=6.6.20" defer async id="revmin-js"></script>
 		<script type="text/javascript" src="wp-includes/js/jquery/ui/core.min.js%3Fver=1.13.2" id="jquery-ui-core-js"></script>
 		<script type="text/javascript" src="wp-includes/js/jquery/ui/tabs.min.js%3Fver=1.13.2" id="jquery-ui-tabs-js"></script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/debouncedresize.min.js%3Fver=27.3.5" id="mfn-debouncedresize-js"></script>
@@ -6323,63 +6297,5 @@
 			/* ]]> */
 		</script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
-		<script>
-			var tpj = jQuery;
-			var revapi1;
-			if (window.RS_MODULES === undefined) window.RS_MODULES = {};
-			if (RS_MODULES.modules === undefined) RS_MODULES.modules = {};
-			RS_MODULES.modules["revslider11"] = {
-				once: RS_MODULES.modules["revslider11"] !== undefined ? RS_MODULES.modules["revslider11"].once : undefined,
-				init: function() {
-					window.revapi1 = window.revapi1 === undefined || window.revapi1 === null || window.revapi1.length === 0 ? document.getElementById("rev_slider_1_1") : window.revapi1;
-					if (window.revapi1 === null || window.revapi1 === undefined || window.revapi1.length == 0) {
-						window.revapi1initTry = window.revapi1initTry === undefined ? 0 : window.revapi1initTry + 1;
-						if (window.revapi1initTry < 20) requestAnimationFrame(function() {
-							RS_MODULES.modules["revslider11"].init()
-						});
-						return;
-					}
-					window.revapi1 = jQuery(window.revapi1);
-					if (window.revapi1.revolution == undefined) {
-						revslider_showDoubleJqueryError("rev_slider_1_1");
-						return;
-					}
-					revapi1.revolutionInit({
-						revapi: "revapi1",
-						DPR: "dpr",
-						sliderLayout: "fullscreen",
-						duration: "8000ms",
-						visibilityLevels: "1240,1240,778,480",
-						gridwidth: "1640,1640,778,480",
-						gridheight: "900,900,560,720",
-						lazyType: "smart",
-						spinner: "spinner4",
-						perspective: 600,
-						perspectiveType: "global",
-						editorheight: "900,768,560,720",
-						responsiveLevels: "1240,1240,778,480",
-						progressBar: {
-							disableProgressBar: true
-						},
-						navigation: {
-							keyboardNavigation: true,
-							wheelCallDelay: 1000,
-							onHoverStop: false,
-							touch: {
-								touchenabled: true
-							}
-						},
-						viewPort: {
-							global: true,
-							globalDist: "-200px",
-							enable: false
-						},
-					});
-				}
-			} // End of RevInitScript
-			if (window.RS_MODULES.checkMinimal !== undefined) {
-				window.RS_MODULES.checkMinimal();
-			};
-		</script>
 	</body>
 </html>

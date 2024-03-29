@@ -27,17 +27,7 @@ document.addEventListener('DOMContentLoaded', function () {
     move();
 });
 
-function onResize() {
-    jQuery('rs-slide').css('top', jQuery('#mfn-header-template').outerHeight()/2 + 'px');
-}
-
-jQuery(window).on('resize', function() {
-    onResize();
-});
-
 jQuery(document).ready(function() {
-  onResize();
-  
   jQuery(document).on('click', '.button-to-download', function (event) {
       event.preventDefault();
 
