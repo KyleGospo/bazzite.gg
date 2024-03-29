@@ -130,7 +130,6 @@ select:focus {
 
 #hardware-description .explaination {
   font-size: 20px;
-  margin-top: 80px;
 }
 
 #hardware-description h3 > a > i {
@@ -858,6 +857,30 @@ d-topics-list > iframe {
   left: -50%;
 
   opacity: 0.7;
+}
+
+@media only screen and (min-width: 768px) {
+  .mcb-section-inner-3df89b357 {
+    align-items: center;
+  }
+
+  .mcb-section .mcb-wrap .mcb-item-235acfvz .mcb-column-inner-235acfvz,
+  .mcb-section .mcb-wrap .mcb-item-rg4adi35 .mcb-column-inner-rg4adi35,
+  .mcb-section .mcb-wrap .mcb-item-nor1bulra .mcb-column-inner-nor1bulra {
+    margin: 0px!important;
+  }
+
+  .mcb-section-inner-6r8me65zo {
+    align-items: center;
+  }
+
+  .mcb-wrap-inner-9ae7bff78 {
+    align-items: center;
+  }
+
+  .mcb-wrap-8qc5znbk {
+    align-self: flex-start;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
