@@ -41,8 +41,14 @@ jQuery(document).ready(function() {
   jQuery(document).on('click', '.button-to-download', function (event) {
       event.preventDefault();
 
+      var scrollLocation = jQuery(jQuery.attr(this, 'href')).offset().top - jQuery('#mfn-header-template').outerHeight();
+
+      if(jQuery('#image-builder-result.shown-fade').length > 0) {
+        scrollLocation = jQuery('#hardware-description').offset().top + jQuery('#hardware-description').outerHeight() - jQuery('#mfn-header-template').outerHeight()
+      }
+
       jQuery('html, body').animate({
-          scrollTop: jQuery(jQuery.attr(this, 'href')).offset().top - jQuery('#mfn-header-template').outerHeight()
+          scrollTop: scrollLocation
       }, 500);
   });
 
@@ -184,7 +190,7 @@ jQuery(document).ready(function() {
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
       if(!hasScrolled) {
         jQuery('html,body').animate({
-          scrollTop:jQuery('#hardware-description').offset().top + jQuery('#hardware-description').outerHeight() - jQuery('#mfn-header-template').outerHeight()
+          scrollTop: jQuery('#hardware-description').offset().top + jQuery('#hardware-description').outerHeight() - jQuery('#mfn-header-template').outerHeight()
         }, 500);
         hasScrolled = true;
       }
