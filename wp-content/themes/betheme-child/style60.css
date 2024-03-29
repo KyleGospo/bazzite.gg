@@ -992,6 +992,22 @@ d-topics-list > iframe {
     text-align: center!important;
   }
 
+  .ublue-container {
+    display: block;
+  }
+
+  .ublue-container > a,
+  .ublue-container .text-container {
+      width: 100%;
+      margin: auto;
+      display: block !important;
+      text-align: center;
+  }
+
+  .ublue-container > a {
+    margin-bottom: 15px;
+  }
+
   #diy .mcb-item-button-inner {
     margin-left: 0px;
   }
