@@ -431,6 +431,7 @@ rs-module [class*=" fa-"]::before,
   font-style: italic;
   display: inline-block;
   margin:auto;
+  max-width: 830px;
 }
 
 .answer-overflow-icon {
