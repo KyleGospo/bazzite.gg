@@ -463,6 +463,26 @@
 				font-weight: 400;
 			}
 
+			.hidden-fade {
+				opacity: 0;
+				overflow: hidden;
+				max-height: 0px;
+				visiblity: hidden!important;
+				margin-top: 0px!important;
+			}
+
+			.shown-fade {
+				opacity: 1;
+				visibility: visible;
+				transform: scale(1.0);
+				max-height: 100%;
+			}
+
+			.fade-transition {
+				transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, visibility 0s;
+				display: block;
+			}
+
 			body,
 			button,
 			span.date_label,
@@ -1541,6 +1561,7 @@
 
 			.frontpage-container .main-logo {
 				max-height: 250px;
+				filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.1));
 			}
 
 			.logo-overflow #Top_bar:not(.is-sticky) .logo {
@@ -4894,10 +4915,10 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style66.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style67.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
-		<script type="text/javascript" src="wp-content/themes/betheme-child/script27.js" id="script-js"></script>
+		<script type="text/javascript" src="wp-content/themes/betheme-child/script28.js" id="script-js"></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js"></script>
 		<link rel="alternate" type="application/json" href="wp-json/wp/v2/pages/6" />
 		<link rel="EditURI" type="application/rsd+xml" title="RSD" href="xmlrpc.php%3Frsd" />
@@ -6095,7 +6116,7 @@
 													</div>
 												</div>
 												<div id="image-builder-result" class="fade-transition hidden-fade">
-													<span class="iso-selection">
+													<div class="iso-selection">
 														<h3>New Users</h3>
 														<div class="button-download-container">
 															<a class="button-download glow-effect button has-icon button_right">
@@ -6108,8 +6129,8 @@
 														</div>
 														<span class="fine-print">View our initial setup guide <a href="https://universal-blue.discourse.group/docs?topic=30" target="_blank">here</a>.<br>
 														The full list of documentation can be found <a href="https://docs.bazzite.gg/" target="_blank">here</a>.</span>
-													</span>
-													<span class="rebase">
+													</div>
+													<div class="rebase">
 														<span class="command-header">
 															<h3>Existing <a href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic Desktop</a> Users</h3>
 															You may rebase to Bazzite with this command:
@@ -6122,7 +6143,10 @@
 															<br>
 															<strong>It's recommended by upstream that you stick to the same desktop environment as your current install when rebasing.</strong>
 														</span>
-													</span>
+													</div>
+													<div class="changelog fade-transition hidden-fade">
+
+													</div>
 												</div>
 											</div>
 										</div>
@@ -6302,5 +6326,6 @@
 			/* ]]> */
 		</script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js" integrity="sha512-pSeTnZAQF/RHxb0ysMoYQI/BRZsa5XuklcrgFfU3YZIdnD3LvkkqzrIeHxzFi6gKtI8Cpq2DEWdZjMTcNVhUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 	</body>
 </html>

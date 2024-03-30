@@ -102,6 +102,40 @@ select:focus {
   width: 50%;
 }
 
+.changelog {
+  font-size: 14px;
+  line-height: 20px;
+  overflow-y: scroll;
+  width: 100%;
+  background: #262626;
+  border-radius: 15px;
+  padding: 20px;
+  text-align: left;
+  float: left;
+}
+
+.changelog.shown-fade {
+  max-height: 700px;
+}
+
+.changelog > h1 {
+  font-size: 48px;
+  line-height: 48px;
+}
+
+.changelog > h2 {
+  font-size: 32px;
+  line-height: 32px;
+  marign-top: 25px;
+  margin-bottom: 25px;
+}
+
+.changelog > h3 {
+  font-size: 24px;
+  line-height: 24px;
+  margin-top: 15px;
+}
+
 .fine-print {
   font-size: 16px;
   line-height: 22px;
@@ -169,11 +203,6 @@ select:focus {
 .code:hover,
 .command:hover {
   background-color: #444;
-}
-
-.fade-transition {
-  transition: opacity 0.45s ease-in-out, transform 0.65s ease-in-out, visibility 0s;
-  display: block;
 }
 
 #image-builder .download-logo {
@@ -273,21 +302,6 @@ select:focus {
 
 .mfn-header-menu .mfn-menu-li:hover > .mfn-menu-link {
   color: #fff;
-}
-
-.hidden-fade {
-  opacity: 0;
-  overflow: hidden;
-  max-height: 0px;
-  visiblity: hidden!important;
-  margin-top: 0px!important;
-}
-
-.shown-fade {
-  opacity: 1;
-  visibility: visible;
-  transform: scale(1.0);
-  max-height: 100%;
 }
 
 #apps {
@@ -976,6 +990,10 @@ d-topics-list > iframe {
 @media only screen and (max-width: 959px) {
   #mfn-header-template .hide-mobile {
     display: block !important;
+  }
+
+  .changelog {
+    margin-top: 30px;
   }
 
   .mcb-section-6r8me65zo,

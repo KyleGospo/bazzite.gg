@@ -178,6 +178,18 @@ jQuery(document).ready(function() {
       jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso');
       jQuery('.sha256').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable-CHECKSUM');
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
+
+      if(jQuery('.changelog.hidden-fade').length > 0) {
+        //Show changelog
+        jQuery.ajax({
+            url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-SHORT.md",
+            dataType: "text",
+            success : function (data) {
+                jQuery('.changelog').html(marked.parse(data)).addClass('shown-fade').removeClass('hidden-fade');
+            }
+        });
+      }
+
       if(!hasScrolled) {
         jQuery('html,body').animate({
           scrollTop: jQuery('#hardware-description').offset().top + jQuery('#hardware-description').outerHeight() - jQuery('#mfn-header-template').outerHeight()
