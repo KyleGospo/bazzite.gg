@@ -46,6 +46,36 @@ jQuery(document).ready(function() {
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
+  const mainContributors = ['KyleGospo', 'EyeCantCU', 'HikariKnight', 'antheas', 'aarron-lee', 'castrojo', 'bsherman', 'noelmiller', 'nicknamenamenick', 'BoukeHaarsma23', 'matte-schwart', 'gerblesh', 'reisvg', 'SuperRiderTH', 'CharlieBros'];
+  const ignoredContributors = ['github-actions[bot]', 'dependabot[bot]'];
+
+  jQuery.ajax({
+    url : "https://api.github.com/repos/ublue-os/bazzite/contributors",
+    dataType: "json",
+    success : function (data) {
+      var includeCount = 0;
+      data.forEach(function(contributor) {
+        if(includeCount == 5) {
+          return true;
+        }
+
+        var contributorLogin = contributor['login'];
+        if(!mainContributors.includes(contributorLogin) && !ignoredContributors.includes(contributorLogin)) {
+          mainContributors.push(contributorLogin);
+          includeCount = includeCount + 1;
+        }
+      });
+
+      mainContributors.forEach(function(contributor) {
+        document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge" data-user="' + contributor + '"></div';
+      });
+
+      var githubContributorScript = document.createElement('script');
+      githubContributorScript.setAttribute('src', 'https://cdn.jsdelivr.net/gh/Rapsssito/github-profile-badge@latest/src/widget.min.js');
+      document.head.appendChild(githubContributorScript);
+    }
+  });
+
   const desktopHardware = ['desktop', 'laptop', 'htpc', 'asus'];
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];

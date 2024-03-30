@@ -625,6 +625,31 @@ blockquote {
   font-size: 16px;
 }
 
+.mcb-section .mcb-wrap .mcb-item-mdz8bm5ch .title {
+  background-position:center center;
+  text-align:center;
+}
+
+.mcb-column-inner-d7bngqrz7 {
+  margin-bottom: 60px !important;
+  text-align: center;
+}
+
+#contributor-container {
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 30px;
+}
+
+.github-profile-badge {
+  word-break: normal!important;
+}
+
+.github-profile-badge-name-wrapper {
+  background-color: #1c1c1c!important;
+  white-space: nowrap;
+}
+
 .icon_box .icon_wrapper {
   transform: scale(.94)!important;
 }
