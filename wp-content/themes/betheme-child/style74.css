@@ -700,6 +700,14 @@ blockquote {
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.2));
 }
 
+.special-thanks {
+  margin-top:20px;
+}
+
+.special-thanks a {
+  white-space: nowrap;
+}
+
 .icon_box .icon_wrapper {
   transform: scale(.94)!important;
 }
