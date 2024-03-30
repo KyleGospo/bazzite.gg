@@ -1283,6 +1283,11 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 480px) {
+  .github-profile-badge-name-wrapper {
+    display: none;
+    visibility: hidden;
+  }
+  
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
   }
