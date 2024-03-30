@@ -683,7 +683,7 @@ d-topics-list > iframe {
   position: absolute;
   width: 100%;
   height: 100%;
-  filter: brightness(60%) blur(45px)!important;
+  filter: brightness(40%) blur(45px)!important;
 }
 
 .mcb-section .mcb-item-a03bk7cxj {
