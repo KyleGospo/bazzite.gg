@@ -637,17 +637,67 @@ blockquote {
 
 #contributor-container {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: wrap;
   margin-top: 30px;
+  justify-content: center;
+}
+
+.github-profile-badge-wrapper {
+    text-decoration: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+.github-profile-badge-img-wrapper {
+    position: relative;
+    height: 50px;
+}
+
+.github-profile-badge-img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
+.github-profile-badge-name-wrapper {
+    box-sizing: content-box;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    background: #1c1c1c;
+    white-space: nowrap;
+    align-self: stretch;
+    padding-left: 25px;
+    margin-left: -25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    transition: all 0.5s ease;
+}
+
+.github-profile-badge-name {
+    font-size: 15px;
+    font-family: monospace;
+    color: white;
+    margin: 0;
+    padding: 0;
+    margin-left: 5px;
+    margin-right: 10px;
+    font-family: 'Fira Code';
 }
 
 .github-profile-badge {
   word-break: normal!important;
+  padding: 5px;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0));
+  transition: transform .3s ease-in-out, filter .3s ease-in-out;
 }
 
-.github-profile-badge-name-wrapper {
-  background-color: #1c1c1c!important;
-  white-space: nowrap;
+.github-profile-badge:hover {
+  transform: scale(1.2);
+  z-index: 1;
+  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.2));
 }
 
 .icon_box .icon_wrapper {
