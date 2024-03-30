@@ -379,11 +379,11 @@ rs-module [class*=" fa-"]::before,
 }
 
 #desktop a {
-  color: #999;
+  color: #000;
 }
 
 #desktop a:hover {
-  color: #000;
+  color: #999;
 }
 
 #slider-1-slide-1-layer-6,
