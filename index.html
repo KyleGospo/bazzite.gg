@@ -607,6 +607,13 @@
 				letter-spacing: 0px
 			}
 
+			@media only screen and (max-height:770px) {
+				.main-logo {
+					display: none;
+					visibility: hidden;
+				}
+			}
+
 			@media only screen and (min-width:768px) and (max-width:959px) {
 
 				body,
@@ -938,6 +945,10 @@
 			}
 
 			@media only screen and (max-width:479px) {
+
+				.frontpage-container .main-logo {
+					max-height: 120px;
+				}
 
 				body,
 				.mfn-menu-item-megamenu {
@@ -1528,6 +1539,10 @@
 				padding: 15px 0
 			}
 
+			.frontpage-container .main-logo {
+				max-height: 250px;
+			}
+
 			.logo-overflow #Top_bar:not(.is-sticky) .logo {
 				height: 90px
 			}
@@ -1553,6 +1568,10 @@
 					height: 50px !important;
 					line-height: 50px !important;
 					margin: 5px 0
+				}
+
+				.frontpage-container .main-logo {
+					max-height: 175px;
 				}
 			}
 
@@ -4630,7 +4649,7 @@
 			}
 
 			.frontpage > .frontpage-container > .container {
-				margin-top: 40px;
+				margin-top: 20px;
 				font-size: 28px;
 				font-weight: 400;
 				line-height: 42px;
@@ -4667,7 +4686,7 @@
 					font-size: 40px;
 				}
 
-				.frontpage > .frontpage-container > img {
+				.frontpage > .frontpage-container > .container {
 					margin-top: 0px;
 				}
 
@@ -4875,7 +4894,7 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style65.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style66.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 		<script type="text/javascript" src="wp-content/themes/betheme-child/script27.js" id="script-js"></script>
@@ -5162,7 +5181,7 @@
 			<div class="gradient-bg">
 				<div class="frontpage">
 					<div class="frontpage-container">
-						<img style="max-height:300px;" class="main-logo animate" data-anim-type="fadeInDown" src="wp-content/uploads/2024/02/Bazzite_Color.svg" title="Bazzite" width="600" height="600">
+						<img class="main-logo animate" data-anim-type="fadeInDown" src="wp-content/uploads/2024/02/Bazzite_Color.svg" title="Bazzite" width="600" height="600">
 						<h1>The next generation of Linux gaming</h1>
 						<img src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue" width="1479" height="100">
 						<div class="container">

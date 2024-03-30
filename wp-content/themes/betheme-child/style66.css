@@ -1132,10 +1132,6 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 767px) {
-  .main-logo {
-    max-height: 200px;
-  }
-
   #community .one-third,
   #hardware .one-third {
     min-height: inherit;
@@ -1195,10 +1191,6 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 480px) {
-  .main-logo {
-    max-height: 150px;
-  }
-
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
   }
