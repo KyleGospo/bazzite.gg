@@ -628,9 +628,20 @@
 			}
 
 			@media only screen and (max-height:770px) {
-				.main-logo {
+				.main-logo,
+				.logo-wrapper .logo-no-icon {
 					display: none;
 					visibility: hidden;
+				}
+
+				.logo-wrapper .logo-with-icon {
+					display: block!important;
+					visibility: visible!important;
+				}
+
+				.frontpage > .frontpage-container > img {
+					margin-top: -35px!important;
+					margin-bottom: -20px;
 				}
 			}
 
@@ -4443,6 +4454,10 @@
 				align-items: center;
 			}
 
+			.logo-wrapper .logo-no-icon {
+				max-height: 70px;
+			}
+
 			.mcb-section .mcb-wrap .mcb-item-o12qouxct {
 				flex: 0 0 175px;
 				max-width: 175px;
@@ -4941,7 +4956,8 @@
 									<div class="column mcb-column mcb-item-o12qouxct one laptop-one tablet-one mobile-one column_header_logo mfn-item-custom-width">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-o12qouxct mcb-item-header_logo-inner">
 											<a class="logo-wrapper" href="#">
-												<img style="max-height:70px;" src="wp-content/uploads/2024/03/bazzite_text.svg" alt="Bazzite" width="1600" height="608">
+												<img class="logo-no-icon" src="wp-content/uploads/2024/03/bazzite_text.svg" alt="Bazzite" width="1600" height="608">
+												<img class="logo-with-icon" style="display:none;visibility:hidden;" src="wp-content/uploads/2024/02/Bazzite_Color_Long.svg#76" alt="Bazzite" width="1964" height="608" decoding="async" loading="lazy">
 											</a>
 										</div>
 									</div>
