@@ -705,14 +705,14 @@ blockquote {
 }
 
 .github-profile-badge.stargazers .fa-solid {
-  font-size: 25px;
+  font-size: 35px;
   line-height: 50px;
   width: 50px;
   display: inline-block;
-  background: #151a21;
+  background: #f0f0f0;
   border-radius: 50%;
   font-style: normal;
-  color: #ffe300;
+  color: #958a31;
 }
 
 .special-thanks {
