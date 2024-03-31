@@ -49,6 +49,74 @@ jQuery(document).ready(function() {
   const mainContributors = ['KyleGospo', 'EyeCantCU', 'HikariKnight', 'antheas', 'aarron-lee', 'castrojo', 'bsherman', 'noelmiller', 'nicknamenamenick', 'BoukeHaarsma23', 'matte-schwartz', 'gerblesh', 'reisvg', 'SuperRiderTH', 'CharlieBros'];
   const ignoredContributors = ['github-actions[bot]', 'dependabot[bot]'];
 
+
+  /**
+   * Lightly modified from:
+   * https://github.com/Rapsssito/github-profile-badge
+   */
+  const BASE_SIZE = 50;
+  const LOGO_SIZE = 20;
+  const LOGO_OFFSET = 5;
+
+  /**
+   * @param {string} username
+   */
+  function getWrapper(username) {
+      const wrapper = document.createElement('a');
+      wrapper.href = `https://github.com/${username}`;
+      wrapper.target = '_blank';
+      wrapper.className = 'github-profile-badge-wrapper';
+      return wrapper;
+  }
+
+  /**
+   * @param {string} username
+   */
+  function getProfile(username) {
+      const profileImg = document.createElement('img');
+      profileImg.src = `https://avatars.githubusercontent.com/${username}`;
+      profileImg.alt = `${username} GitHub Profile`;
+      profileImg.className = 'github-profile-badge-img';
+      return profileImg;
+  }
+
+  /**
+   * @param {string} username
+   */
+  function getImagesDiv(username) {
+      const parentDiv = document.createElement('div');
+      parentDiv.className = 'github-profile-badge-img-wrapper';
+      parentDiv.appendChild(getProfile(username));
+      return parentDiv;
+  }
+
+  /**
+   * @param {string} username
+   */
+  function getNameText(username) {
+      const nameText = document.createElement('p');
+      nameText.className = 'github-profile-badge-name';
+      nameText.innerText = username;
+      return nameText;
+  }
+
+  /**
+   * @param {HTMLElement} widget
+   */
+  function fillWidget(widget) {
+      const username = widget.getAttribute('data-user');
+      const wrapper = getWrapper(username);
+
+      wrapper.appendChild(getImagesDiv(username));
+
+      const nameDiv = document.createElement('div');
+      nameDiv.className = 'github-profile-badge-name-wrapper';
+      const nameText = getNameText(username);
+      nameDiv.appendChild(nameText);
+      wrapper.appendChild(nameDiv);
+      widget.appendChild(wrapper);
+  }
+
   jQuery.ajax({
     url : "https://api.github.com/repos/ublue-os/bazzite/contributors",
     dataType: "json",
@@ -69,73 +137,6 @@ jQuery(document).ready(function() {
       mainContributors.forEach(function(contributor) {
         document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge" data-user="' + contributor + '"></div';
       });
-
-      /**
-       * Lightly modified from:
-       * https://github.com/Rapsssito/github-profile-badge
-       */
-      const BASE_SIZE = 50;
-      const LOGO_SIZE = 20;
-      const LOGO_OFFSET = 5;
-
-      /**
-       * @param {string} username
-       */
-      function getWrapper(username) {
-          const wrapper = document.createElement('a');
-          wrapper.href = `https://github.com/${username}`;
-          wrapper.target = '_blank';
-          wrapper.className = 'github-profile-badge-wrapper';
-          return wrapper;
-      }
-
-      /**
-       * @param {string} username
-       */
-      function getProfile(username) {
-          const profileImg = document.createElement('img');
-          profileImg.src = `https://avatars.githubusercontent.com/${username}`;
-          profileImg.alt = `${username} GitHub Profile`;
-          profileImg.className = 'github-profile-badge-img';
-          return profileImg;
-      }
-
-      /**
-       * @param {string} username
-       */
-      function getImagesDiv(username) {
-          const parentDiv = document.createElement('div');
-          parentDiv.className = 'github-profile-badge-img-wrapper';
-          parentDiv.appendChild(getProfile(username));
-          return parentDiv;
-      }
-
-      /**
-       * @param {string} username
-       */
-      function getNameText(username) {
-          const nameText = document.createElement('p');
-          nameText.className = 'github-profile-badge-name';
-          nameText.innerText = username;
-          return nameText;
-      }
-
-      /**
-       * @param {HTMLElement} widget
-       */
-      function fillWidget(widget) {
-          const username = widget.getAttribute('data-user');
-          const wrapper = getWrapper(username);
-
-          wrapper.appendChild(getImagesDiv(username));
-
-          const nameDiv = document.createElement('div');
-          nameDiv.className = 'github-profile-badge-name-wrapper';
-          const nameText = getNameText(username);
-          nameDiv.appendChild(nameText);
-          wrapper.appendChild(nameDiv);
-          widget.appendChild(wrapper);
-      }
 
       const widgets = document.getElementsByClassName('github-profile-badge');
       for (let i = 0; i < widgets.length; i++) {
