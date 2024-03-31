@@ -1209,6 +1209,11 @@ d-topics-list > iframe {
   .ghcr-details {
     margin-top: 5px;
   }
+  
+  .github-profile-badge-name-wrapper {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (min-width: 960px) {
@@ -1295,11 +1300,6 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 480px) {
-  .github-profile-badge-name-wrapper {
-    display: none;
-    visibility: hidden;
-  }
-  
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
   }
