@@ -704,7 +704,7 @@ blockquote {
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.2));
 }
 
-.github-profile-badge.stargazers .fa-solid {
+.github-profile-badge.always-expanded .fa-solid {
   font-size: 30px;
   line-height: 50px;
   width: 50px;
@@ -712,7 +712,14 @@ blockquote {
   background: #f0f0f0;
   border-radius: 50%;
   font-style: normal;
-  color: #958a31;
+}
+
+.github-profile-badge.always-expanded .fa-star {
+  color: #b9a500;
+}
+
+.github-profile-badge.always-expanded .fa-layer-group {
+  color: #6333d2;
 }
 
 .special-thanks {
@@ -1221,7 +1228,7 @@ d-topics-list > iframe {
     margin-top: 5px;
   }
 
-  .github-profile-badge:not(.stargazers) .github-profile-badge-name-wrapper {
+  .github-profile-badge:not(.always-expanded) .github-profile-badge-name-wrapper {
     display: none;
     visibility: hidden;
   }
