@@ -159,7 +159,7 @@ jQuery(document).ready(function() {
             dataType: "json",
             success : function (data) {
               var totalPulls = 0;
-              var lastData = data[Object.keys(data)[Object.keys(data).length - 1]]
+              var lastData = data[Object.keys(data)[Object.keys(data).length - 1]];
               
               $.each(lastData, function(key, value) {
                 if (key.indexOf("bazzite") !== -1) {
