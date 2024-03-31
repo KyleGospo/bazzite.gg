@@ -704,6 +704,17 @@ blockquote {
   filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.2));
 }
 
+.github-profile-badge.stargazers .fa-solid {
+  font-size: 25px;
+  line-height: 50px;
+  width: 50px;
+  display: inline-block;
+  background: #151a21;
+  border-radius: 50%;
+  font-style: normal;
+  color: #ffe300;
+}
+
 .special-thanks {
   margin-top:20px;
 }
@@ -1209,8 +1220,8 @@ d-topics-list > iframe {
   .ghcr-details {
     margin-top: 5px;
   }
-  
-  .github-profile-badge-name-wrapper {
+
+  .github-profile-badge:not(.stargazers) .github-profile-badge-name-wrapper {
     display: none;
     visibility: hidden;
   }

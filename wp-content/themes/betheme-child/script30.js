@@ -141,6 +141,19 @@ jQuery(document).ready(function() {
       for (let i = 0; i < widgets.length; i++) {
           fillWidget(widgets[i]);
       }
+
+      jQuery.ajax({
+        url : "https://api.github.com/repos/ublue-os/bazzite",
+        dataType: "json",
+        success : function (data) {
+          var stargazersCount = Intl.NumberFormat('en-US', {
+            notation: "compact",
+            maximumFractionDigits: 1
+          }).format(data['stargazers_count']);
+
+          document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge stargazers"><a href="https://github.com/ublue-os/bazzite/stargazers" target="_blank" class="github-profile-badge-wrapper"><div class="github-profile-badge-img-wrapper"><i class="fa-solid fa-star"></i></div><div class="github-profile-badge-name-wrapper"><p class="github-profile-badge-name">' + stargazersCount + ' Stargazers</p></div></a></div>';
+        }
+      });
     }
   });
 
