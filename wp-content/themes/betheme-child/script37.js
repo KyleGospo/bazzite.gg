@@ -160,35 +160,35 @@ jQuery(document).ready(function() {
       }
 
       jQuery.ajax({
-        url : "https://api.github.com/repos/ublue-os/bazzite",
+        url : "https://storage.googleapis.com/ghp-stats/ublue-os/data.json",
         dataType: "json",
         success : function (data) {
-          var stargazersCount = Intl.NumberFormat('en-US', {
+          var totalPulls = 0;
+          var lastData = data[Object.keys(data)[Object.keys(data).length - 1]];
+          
+          $.each(lastData, function(key, value) {
+            if (key.indexOf("bazzite") !== -1) {
+              totalPulls += value;
+            }
+          });
+
+          var pullCount = Intl.NumberFormat('en-US', {
             notation: "compact",
             maximumFractionDigits: 1
-          }).format(data['stargazers_count']);
+          }).format(totalPulls);
 
-          document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge always-expanded"><a href="https://github.com/ublue-os/bazzite/stargazers" target="_blank" class="github-profile-badge-wrapper"><div class="github-profile-badge-img-wrapper"><i class="fa-solid fa-star"></i></div><div class="github-profile-badge-name-wrapper"><p class="github-profile-badge-name">' + stargazersCount.toLowerCase() + ' Stargazers</p></div></a></div>';
-        
+          document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge always-expanded"><a href="https://github.com/orgs/ublue-os/packages?repo_name=bazzite" target="_blank" class="github-profile-badge-wrapper"><div class="github-profile-badge-img-wrapper"><i class="fa-solid fa-layer-group"></i></div><div class="github-profile-badge-name-wrapper"><p class="github-profile-badge-name">' + pullCount.toLowerCase() + ' Image Pulls</p></div></a></div>';
+
           jQuery.ajax({
-            url : "https://storage.googleapis.com/ghp-stats/ublue-os/data.json",
+            url : "https://api.github.com/repos/ublue-os/bazzite",
             dataType: "json",
             success : function (data) {
-              var totalPulls = 0;
-              var lastData = data[Object.keys(data)[Object.keys(data).length - 1]];
-              
-              $.each(lastData, function(key, value) {
-                if (key.indexOf("bazzite") !== -1) {
-                  totalPulls += value;
-                }
-              });
-
-              var pullCount = Intl.NumberFormat('en-US', {
+              var stargazersCount = Intl.NumberFormat('en-US', {
                 notation: "compact",
                 maximumFractionDigits: 1
-              }).format(totalPulls);
+              }).format(data['stargazers_count']);
 
-              document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge always-expanded"><a href="https://github.com/orgs/ublue-os/packages?repo_name=bazzite" target="_blank" class="github-profile-badge-wrapper"><div class="github-profile-badge-img-wrapper"><i class="fa-solid fa-layer-group"></i></div><div class="github-profile-badge-name-wrapper"><p class="github-profile-badge-name">' + pullCount.toLowerCase() + ' Image Pulls</p></div></a></div>';
+              document.getElementById('contributor-container').innerHTML += '<div class="github-profile-badge always-expanded"><a href="https://github.com/ublue-os/bazzite/stargazers" target="_blank" class="github-profile-badge-wrapper"><div class="github-profile-badge-img-wrapper"><i class="fa-solid fa-star"></i></div><div class="github-profile-badge-name-wrapper"><p class="github-profile-badge-name">' + stargazersCount.toLowerCase() + ' Stargazers</p></div></a></div>';
             }
           });
         }
