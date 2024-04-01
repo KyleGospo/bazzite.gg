@@ -123,7 +123,7 @@ jQuery(document).ready(function() {
     success : function (data) {
       var includeCount = 0;
       data.forEach(function(contributor) {
-        if(includeCount == 5) {
+        if(includeCount == 6) {
           return true;
         }
 
