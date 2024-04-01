@@ -1324,6 +1324,10 @@ d-topics-list > iframe {
     font-size: 16px!important;
   }
 
+  .github-profile-badge:hover {
+    transform: none!important;
+  }
+
   .mcb-item-trailer_box-inner .js-tilt-glare {
     display: none;
     visibility: hidden;
