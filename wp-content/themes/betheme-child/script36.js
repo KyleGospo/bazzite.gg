@@ -47,7 +47,7 @@ jQuery(document).ready(function() {
   jQuery('#current-year').text(currentDate.getFullYear());
 
   const mainContributors = ['KyleGospo', 'EyeCantCU', 'HikariKnight', 'antheas', 'aarron-lee', 'castrojo', 'bsherman', 'noelmiller', 'nicknamenamenick', 'BoukeHaarsma23', 'matte-schwartz', 'gerblesh', 'reisvg', 'SuperRiderTH', 'CharlieBros'];
-  const ignoredContributors = ['github-actions[bot]', 'dependabot[bot]'];
+  const ignoredContributors = [-1813244642, -1398026401, 1719077676, -1610463138, 375703382];
 
 
   /**
@@ -127,8 +127,24 @@ jQuery(document).ready(function() {
           return true;
         }
 
+        /**
+         * Returns a hash code from a string
+         * @param  {String} str The string to hash.
+         * @return {Number}    A 32bit integer
+         * @see http://werxltd.com/wp/2010/05/13/javascript-implementation-of-javas-string-hashcode-method/
+         */
+        function hashCode(str) {
+            let hash = 0;
+            for (let i = 0, len = str.length; i < len; i++) {
+                let chr = str.charCodeAt(i);
+                hash = (hash << 5) - hash + chr;
+                hash |= 0; // Convert to 32bit integer
+            }
+            return hash;
+        }
+
         var contributorLogin = contributor['login'];
-        if(!mainContributors.includes(contributorLogin) && !ignoredContributors.includes(contributorLogin)) {
+        if(!mainContributors.includes(contributorLogin) && !ignoredContributors.includes(hashCode(contributorLogin))) {
           mainContributors.push(contributorLogin);
           includeCount = includeCount + 1;
         }
