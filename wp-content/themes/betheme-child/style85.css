@@ -1309,6 +1309,21 @@ d-topics-list > iframe {
     margin-bottom: 15px!important;
     margin-top: 15px!important;
   }
+
+  .mcb-item-trailer_box-inner,
+  .trailer_box .desc {
+    transform: none !important;
+    opacity: 1!important;
+  }
+
+  .trailer_box:hover .desc .subtitle {
+    font-size: 16px!important;
+  }
+
+  .mcb-item-trailer_box-inner .js-tilt-glare {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (max-width: 480px) {
