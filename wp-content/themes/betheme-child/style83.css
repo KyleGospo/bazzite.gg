@@ -722,6 +722,10 @@ blockquote {
   color: #6333d2;
 }
 
+.github-profile-badge.always-expanded .github-profile-badge-name {
+  font-weight: 800;
+}
+
 .special-thanks {
   margin-top:20px;
 }
