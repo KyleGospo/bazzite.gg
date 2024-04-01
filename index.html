@@ -628,7 +628,7 @@
 			}
 
 			@media only screen and (max-height:770px) {
-				.main-logo,
+				.main-logo-container,
 				.logo-wrapper .logo-no-icon {
 					display: none;
 					visibility: hidden;
@@ -1573,6 +1573,7 @@
 			.frontpage-container .main-logo {
 				max-height: 250px;
 				filter: drop-shadow(0px 0px 10px rgba(0,0,0,0.1));
+				width: auto;
 			}
 
 			.logo-overflow #Top_bar:not(.is-sticky) .logo {
@@ -4930,7 +4931,7 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style83.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style84.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 		<script type="text/javascript" src="wp-content/themes/betheme-child/script38.js" id="script-js"></script>
@@ -5218,7 +5219,12 @@
 			<div class="gradient-bg">
 				<div class="frontpage">
 					<div class="frontpage-container">
-						<img class="main-logo animate" data-anim-type="fadeInDown" src="wp-content/uploads/2024/02/Bazzite_Color.svg" title="Bazzite" width="600" height="600">
+						<div class="main-logo-container" style="transform-style:preserve-3d;" data-tilt data-tilt-max="15" data-tilt-speed="100" data-tilt-reverse="true" data-tilt-mouse-event-element="#Wrapper">
+							<img class="main-logo" src="wp-content/uploads/2024/03/bazzite_bg.svg" title="Bazzite" width="600" height="600">
+							<img class="main-logo" style="pointer-events:none;position:absolute;left:0;right:0;top:0;margin:auto;transform:translateZ(5px);" src="wp-content/uploads/2024/03/bazzite_b.svg" width="600" height="600">
+							<img class="main-logo" style="pointer-events:none;position:absolute;left:0;right:0;top:0;margin:auto;transform:translateZ(10px);" src="wp-content/uploads/2024/03/bazzite_dpad.svg" width="600" height="600">
+							<img class="main-logo" style="pointer-events:none;position:absolute;left:0;right:0;top:0;margin:auto;transform:translateZ(15px);" src="wp-content/uploads/2024/03/bazzite_arrows.svg" width="600" height="600">
+						</div>
 						<h1>The next generation of Linux gaming</h1>
 						<img src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue" width="1479" height="100">
 						<div class="container">
@@ -5272,7 +5278,7 @@
 											<div class="mcb-wrap-inner mcb-wrap-inner-330014a1d mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-e4e38c6f9 one-fourth laptop-one-fourth tablet-one-second mobile-one column_trailer_box animate" data-anim-type="fadeInUp">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-e4e38c6f9 mcb-item-trailer_box-inner">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-e4e38c6f9 mcb-item-trailer_box-inner" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.25" style="transform-style:preserve-3d;">
 														<div class="trailer_box ">
 															<img class="scale-with-grid mfn-lazy" data-src="wp-content/uploads/2024/02/haloinf.webp" alt="Halo Infinite" width="1440" height="1440" />
 															<div class="desc">
@@ -5283,7 +5289,7 @@
 													</div>
 												</div>
 												<div class="column mcb-column mcb-item-e05e4e55b one-fourth laptop-one-fourth tablet-one-second mobile-one column_trailer_box animate" data-anim-type="fadeInUp">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-e05e4e55b mcb-item-trailer_box-inner">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-e05e4e55b mcb-item-trailer_box-inner" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.25" style="transform-style:preserve-3d;">
 														<div class="trailer_box ">
 															<img class="scale-with-grid mfn-lazy" data-src="wp-content/uploads/2024/02/fh5.webp" alt="Forza Horizon 5" width="1440" height="1440" />
 															<div class="desc">
@@ -5295,7 +5301,7 @@
 													</div>
 												</div>
 												<div class="column mcb-column mcb-item-6ecd25af1 one-fourth laptop-one-fourth tablet-one-second mobile-one column_trailer_box animate" data-anim-type="fadeInUp">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-6ecd25af1 mcb-item-trailer_box-inner">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-6ecd25af1 mcb-item-trailer_box-inner" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.25" style="transform-style:preserve-3d;">
 														<div class="trailer_box ">
 															<img class="scale-with-grid mfn-lazy" data-src="wp-content/uploads/2024/02/sot3.webp" alt="Sea of Thieves" width="1440" height="1440" />
 															<div class="desc">
@@ -5306,7 +5312,7 @@
 													</div>
 												</div>
 												<div class="column mcb-column mcb-item-835455e92 one-fourth laptop-one-fourth tablet-one-second mobile-one column_trailer_box animate" data-anim-type="fadeInUp">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-835455e92 mcb-item-trailer_box-inner">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-835455e92 mcb-item-trailer_box-inner" data-tilt data-tilt-scale="1.05" data-tilt-glare data-tilt-max-glare="0.25" style="transform-style:preserve-3d;">
 														<div class="trailer_box ">
 															<img class="scale-with-grid mfn-lazy" data-src="wp-content/uploads/2024/03/helldivers2.webp" alt="HELLDIVERS 2" width="1440" height="1440" />
 															<div class="desc">
@@ -6378,6 +6384,7 @@
 			/* ]]> */
 		</script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.8.1/vanilla-tilt.min.js" integrity="sha512-wC/cunGGDjXSl9OHUH0RuqSyW4YNLlsPwhcLxwWW1CR4OeC2E1xpcdZz2DeQkEmums41laI+eGMw95IJ15SS3g==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/marked/12.0.1/marked.min.js" integrity="sha512-pSeTnZAQF/RHxb0ysMoYQI/BRZsa5XuklcrgFfU3YZIdnD3LvkkqzrIeHxzFi6gKtI8Cpq2DEWdZjMTcNVhUYA==" crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
 	</body>
 </html>

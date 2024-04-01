@@ -763,16 +763,6 @@ blockquote {
   bottom:inherit;
 }
 
-.mcb-item-trailer_box-inner {
-  transition: transform .3s ease-in-out, box-shadow .3s ease-in-out, border-radius .3s ease-in-out;
-}
-
-.mcb-item-trailer_box-inner:hover {
-  transform: scale(1.05);
-  box-shadow: 0px 0px 30px rgba(0,0,0,0.5);
-  border-radius: 10px !important;
-}
-
 .mcb-section .mcb-wrap .mcb-item-04ef71fa8 .title {
   background-position:center center;
   text-align:center;
