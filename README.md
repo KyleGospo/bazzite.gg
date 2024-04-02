@@ -9,4 +9,6 @@ This is a WordPress site that has been flattened to raw HTML, with any PHP files
 
 Effects in the header are based on [gradients-bg](https://github.com/baunov/gradients-bg).
 
-![Pagespeed](/metrics.plugin.pagespeed.svg)
+<p align="center">
+  <img src="/metrics.plugin.pagespeed.svg?raw=true" alt="Google Pagespeed Metrics"/>
+</p>
