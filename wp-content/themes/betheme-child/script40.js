@@ -77,6 +77,10 @@ jQuery(document).ready(function() {
       profileImg.src = `https://avatars.githubusercontent.com/${username}`;
       profileImg.alt = `${username} GitHub Profile`;
       profileImg.className = 'github-profile-badge-img';
+      profileImg.width = '400';
+      profileImg.height = '400';
+      profileImg.decoding = 'async';
+      profileImg.loading = 'lazy';
       return profileImg;
   }
 
