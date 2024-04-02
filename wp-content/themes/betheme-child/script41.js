@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', function () {
     function move() {
         var height = window.scrollY;
         var winheight = window.innerHeight;
-        if (document.hasFocus() && height <= winheight) {
+        if (height <= winheight) {
           curX += (tgX - curX) / 20;
           curY += (tgY - curY) / 20;
           interBubble.style.transform = "translate(" + Math.round(curX) + "px, " + Math.round(curY) + "px)";
