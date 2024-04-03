@@ -408,161 +408,160 @@
 			}
 
 			@keyframes moveInCircle {
-			  0% {
-			    transform: rotate(0deg);
-			  }
-			  50% {
-			    transform: rotate(180deg);
-			  }
-			  100% {
-			    transform: rotate(360deg);
-			  }
+				0% {
+					transform: rotate(0deg);
+				}
+				50% {
+					transform: rotate(180deg);
+				}
+				100% {
+					transform: rotate(360deg);
+				}
 			}
 
 			@keyframes moveVertical {
-			  0% {
-			    transform: translateY(-50%);
-			  }
-			  50% {
-			    transform: translateY(50%);
-			  }
-			  100% {
-			    transform: translateY(-50%);
-			  }
+				0% {
+					transform: translateY(-50%);
+				}
+				50% {
+					transform: translateY(50%);
+				}
+				100% {
+					transform: translateY(-50%);
+				}
 			}
 
 			@keyframes moveHorizontal {
-			  0% {
-			    transform: translateX(-50%) translateY(-10%);
-			  }
-			  50% {
-			    transform: translateX(50%) translateY(10%);
-			  }
-			  100% {
-			    transform: translateX(-50%) translateY(-10%);
-			  }
+				0% {
+					transform: translateX(-50%) translateY(-10%);
+				}
+				50% {
+					transform: translateX(50%) translateY(10%);
+				}
+				100% {
+					transform: translateX(-50%) translateY(-10%);
+				}
 			}
 
 			.gradient-bg {
-			  width: 100vw;
-			  height: 100vh;
-			  position: relative;
-			  overflow: hidden;
-			  background: linear-gradient(40deg, rgb(138, 42, 226), rgb(0, 71, 171));
-			  top: 0;
-			  left: 0;
+				width: 100vw;
+				height: 100vh;
+				position: relative;
+				overflow: hidden;
+				background: linear-gradient(40deg, rgb(138, 42, 226), rgb(0, 71, 171));
+				top: 0;
+				left: 0;
 			}
 
 			.gradient-bg svg {
-			  display: none;
+				display: none;
 			}
 
 			.gradient-bg .gradients-container {
-			  width: 100%;
-			  height: 100%;
-			  pointer-events: none;
+				width: 100%;
+				height: 100%;
+				pointer-events: none;
 			}
 
 			.gradient-bg .g1 {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(18, 113, 255, 0.8) 0, rgba(18, 113, 255, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(18, 113, 255, 0.8) 0, rgba(18, 113, 255, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: 90%;
-			  height: 90%;
-			  top: calc(50% - 90% / 2);
-			  left: calc(50% - 90% / 2);
+				width: 90%;
+				height: 90%;
+				top: calc(50% - 90% / 2);
+				left: calc(50% - 90% / 2);
 
-			  transform-origin: center center;
-			  animation: moveVertical 30s ease infinite;
+				transform-origin: center center;
+				animation: moveVertical 30s ease infinite;
 
-			  opacity: 1;
+				opacity: 1;
 			}
 
 			.gradient-bg .g2 {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(221, 74, 255, 0.8) 0, rgba(221, 74, 255, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(221, 74, 255, 0.8) 0, rgba(221, 74, 255, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: 90%;
-			  height: 90%;
-			  top: calc(50% - 90% / 2);
-			  left: calc(50% - 90% / 2);
+				width: 90%;
+				height: 90%;
+				top: calc(50% - 90% / 2);
+				left: calc(50% - 90% / 2);
 
-			  transform-origin: calc(50% - 400px);
-			  animation: moveInCircle 20s reverse infinite;
+				transform-origin: calc(50% - 400px);
+				animation: moveInCircle 20s reverse infinite;
 
-			  opacity: 1;
+				opacity: 1;
 			}
 
 			.gradient-bg .g3 {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(100, 220, 255, 0.8) 0, rgba(100, 220, 255, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(100, 220, 255, 0.8) 0, rgba(100, 220, 255, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: 90%;
-			  height: 90%;
-			  top: calc(50% - 90% / 2 + 200px);
-			  left: calc(50% - 90% / 2 - 500px);
+				width: 90%;
+				height: 90%;
+				top: calc(50% - 90% / 2 + 200px);
+				left: calc(50% - 90% / 2 - 500px);
 
-			  transform-origin: calc(50% + 400px);
-			  animation: moveInCircle 40s linear infinite;
+				transform-origin: calc(50% + 400px);
+				animation: moveInCircle 40s linear infinite;
 
-			  opacity: 1;
+				opacity: 1;
 			}
 
 			.gradient-bg .g4 {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(200, 50, 50, 0.8) 0, rgba(200, 50, 50, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(200, 50, 50, 0.8) 0, rgba(200, 50, 50, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: 80%;
-			  height: 80%;
-			  top: calc(50% - 90% / 2);
-			  left: calc(50% - 90% / 2);
+				width: 80%;
+				height: 80%;
+				top: calc(50% - 90% / 2);
+				left: calc(50% - 90% / 2);
 
-			  transform-origin: calc(50% - 200px);
-			  animation: moveHorizontal 40s ease infinite;
+				transform-origin: calc(50% - 200px);
+				animation: moveHorizontal 40s ease infinite;
 
-			  opacity: 0.7;
+				opacity: 0.7;
 			}
 
 			.gradient-bg .g5 {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(180, 180, 50, 0.8) 0, rgba(180, 180, 50, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(180, 180, 50, 0.8) 0, rgba(180, 180, 50, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: calc(90% * 2);
-			  height: calc(90% * 2);
-			  top: calc(50% - 90%);
-			  left: calc(50% - 90%);
+				width: calc(90% * 2);
+				height: calc(90% * 2);
+				top: calc(50% - 90%);
+				left: calc(50% - 90%);
 
-			  transform-origin: calc(50% - 800px) calc(50% + 200px);
-			  animation: moveInCircle 20s ease infinite;
+				transform-origin: calc(50% - 800px) calc(50% + 200px);
+				animation: moveInCircle 20s ease infinite;
 
-			  opacity: 1;
+				opacity: 1;
 			}
 
 			.gradient-bg .interactive {
-			  position: absolute;
-			  background: radial-gradient(circle at center, rgba(140, 100, 255, 0.8) 0, rgba(140, 100, 255, 0) 50%) no-repeat;
-			  mix-blend-mode: soft-light;
+				position: absolute;
+				background: radial-gradient(circle at center, rgba(140, 100, 255, 0.8) 0, rgba(140, 100, 255, 0) 50%) no-repeat;
+				mix-blend-mode: soft-light;
 
-			  width: 100%;
-			  height: 100%;
-			  top: -50%;
-			  left: -50%;
+				width: 100%;
+				height: 100%;
+				top: -50%;
+				left: -50%;
 
-			  opacity: 0.7;
+				opacity: 0.7;
 			}
 
 			.gradients-container {
-			  top: 0;
-			  position: absolute;
-			  width: 100%;
-			  height: 100%;
-			  filter: blur(45px) !important;
-			  mix-blend-mode: color;
+				top: 0;
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				filter: brightness(0.4) blur(45px) !important;
 			}
 
 			#Wrapper,
@@ -4833,7 +4832,7 @@
 				font-weight: 400;
 				font-size: 53px;
 				margin-left: 15px;
-  				margin-right: 15px;
+					margin-right: 15px;
 			}
 
 			.frontpage > .frontpage-container > img {
@@ -5096,7 +5095,7 @@
 		<link rel="canonical" href="https://bazzite.gg/" />
 		<link rel='shortlink' href='https://bazzite.gg/' />
 	</head>
-	<body class="home page-template-default page page-id-6 mfn-header-template template-slider  color-custom content-brightness-light input-brightness-light style-default button-custom layout-full-width one-page if-zoom no-content-padding no-shadows subheader-both-center footer-copy-center responsive-overflow-x-mobile mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-6 be-reg-2735">
+	<body class="home page-template-default page page-id-6 mfn-header-template template-slider color-custom content-brightness-light input-brightness-light style-default button-custom layout-full-width one-page if-zoom no-content-padding no-shadows subheader-both-center footer-copy-center responsive-overflow-x-mobile mobile-tb-center mobile-side-slide mobile-mini-mr-ll mobile-icon-user-ss mobile-icon-wishlist-ss mobile-icon-search-ss mobile-icon-wpml-ss mobile-icon-action-ss be-page-6 be-reg-2735">
 		<div id="home"></div>
 		<!-- mfn_hook_top -->
 		<!-- mfn_hook_top -->
@@ -5122,7 +5121,7 @@
 							<div class="wrap mcb-wrap mcb-wrap-s2griyc7a mcb-header-wrap one-third tablet-one-third laptop-one-third mobile-one clearfix" data-desktop-col="one-third" data-laptop-col="laptop-one-third" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 								<div class="mcb-wrap-inner mcb-wrap-inner-s2griyc7a mfn-module-wrapper mfn-wrapper-for-wraps">
 									<div class="mcb-wrap-background-overlay"></div>
-									<div class="column mcb-column mcb-item-yz6nyy73w one laptop-one tablet-one mobile-one column_header_menu mfn-item-inline  hide-tablet hide-mobile" style="text-shadow: 0px 0px 5px rgba(0,0,0,0.4);">
+									<div class="column mcb-column mcb-item-yz6nyy73w one laptop-one tablet-one mobile-one column_header_menu mfn-item-inline hide-tablet hide-mobile" style="text-shadow: 0px 0px 5px rgba(0,0,0,0.4);">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-yz6nyy73w mcb-item-header_menu-inner">
 											<ul id="menu-main-menu" class="mfn-header-menu mfn-header-mainmenu mfn-menu-align-flex-start mfn-menu-tablet-align-flex-start mfn-menu-mobile-align-flex-start mfn-menu-icon-left mfn-menu-separator-off mfn-menu-submenu-on-hover">
 												<li id="menu-item-13" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13 mfn-menu-li">
@@ -5166,7 +5165,7 @@
 							<div class="wrap mcb-wrap mcb-wrap-gpe9ewdj mcb-header-wrap one-third tablet-one-third laptop-one-third mobile-one mfn-item-custom-width clearfix" data-desktop-col="one-third" data-laptop-col="laptop-one-third" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 								<div class="mcb-wrap-inner mcb-wrap-inner-gpe9ewdj mfn-module-wrapper mfn-wrapper-for-wraps">
 									<div class="mcb-wrap-background-overlay"></div>
-									<div class="column mcb-column mcb-item-x8qbhdgps one laptop-one tablet-one mobile-one column_header_burger mfn-item-inline  hide-desktop">
+									<div class="column mcb-column mcb-item-x8qbhdgps one laptop-one tablet-one mobile-one column_header_burger mfn-item-inline hide-desktop">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-x8qbhdgps mcb-item-header_burger-inner">
 											<a data-nav="menu-main-menu" aria-label="Main Menu" href="#" class="mfn-icon-box mfn-header-menu-burger mfn-icon-box-top mfn-icon-box-center mfn-header-menu-toggle mfn-icon-box-empty-desc" title="">
 												<div class="icon-wrapper">
@@ -5217,7 +5216,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="column mcb-column mcb-item-0270g8ums one laptop-one tablet-one mobile-one column_button mfn-item-inline  hide-mobile">
+									<div class="column mcb-column mcb-item-0270g8ums one laptop-one tablet-one mobile-one column_button mfn-item-inline hide-mobile">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-0270g8ums mcb-item-button-inner">
 											<a class="button button-to-download has-icon button_right button_size_3" href="#image-picker" title="Download Bazzite">
 												<span class="button_icon download-icon">
@@ -5249,7 +5248,7 @@
 							<div class="wrap mcb-wrap mcb-wrap-bynhi06vk mcb-header-wrap one-third tablet-one-third laptop-one-third mobile-one clearfix" data-desktop-col="one-third" data-laptop-col="laptop-one-third" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 								<div class="mcb-wrap-inner mcb-wrap-inner-bynhi06vk mfn-module-wrapper mfn-wrapper-for-wraps">
 									<div class="mcb-wrap-background-overlay"></div>
-									<div class="column mcb-column mcb-item-j2x914taa one laptop-one tablet-one mobile-one column_header_menu mfn-item-inline  hide-tablet hide-mobile">
+									<div class="column mcb-column mcb-item-j2x914taa one laptop-one tablet-one mobile-one column_header_menu mfn-item-inline hide-tablet hide-mobile">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-j2x914taa mcb-item-header_menu-inner">
 											<ul id="menu-main-menu-2" class="mfn-header-menu mfn-header-mainmenu mfn-menu-align-flex-start mfn-menu-tablet-align-flex-start mfn-menu-mobile-align-flex-start mfn-menu-icon-left mfn-menu-separator-off mfn-menu-submenu-on-hover">
 												<li class="menu-item menu-item-type-custom menu-item-object-custom menu-item-13 mfn-menu-li">
@@ -5293,7 +5292,7 @@
 							<div class="wrap mcb-wrap mcb-wrap-3a47ahump mcb-header-wrap one-third tablet-one-third laptop-one-third mobile-one mfn-item-custom-width clearfix" data-desktop-col="one-third" data-laptop-col="laptop-one-third" data-tablet-col="tablet-one-third" data-mobile-col="mobile-one">
 								<div class="mcb-wrap-inner mcb-wrap-inner-3a47ahump mfn-module-wrapper mfn-wrapper-for-wraps">
 									<div class="mcb-wrap-background-overlay"></div>
-									<div class="column mcb-column mcb-item-bf1e5jy0m one laptop-one tablet-one mobile-one column_header_burger mfn-item-inline  hide-desktop">
+									<div class="column mcb-column mcb-item-bf1e5jy0m one laptop-one tablet-one mobile-one column_header_burger mfn-item-inline hide-desktop">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-bf1e5jy0m mcb-item-header_burger-inner">
 											<a data-nav="menu-main-menu" aria-label="Main Menu" href="#" class="mfn-icon-box mfn-header-menu-burger mfn-icon-box-top mfn-icon-box-center mfn-header-menu-toggle mfn-icon-box-empty-desc" title="">
 												<div class="icon-wrapper">
@@ -5355,7 +5354,7 @@
 											</div>
 										</div>
 									</div>
-									<div class="column mcb-column mcb-item-3itblyq2a one laptop-one tablet-one mobile-one column_button mfn-item-inline  hide-mobile">
+									<div class="column mcb-column mcb-item-3itblyq2a one laptop-one tablet-one mobile-one column_button mfn-item-inline hide-mobile">
 										<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-3itblyq2a mcb-item-button-inner">
 											<a class="button button-to-download has-icon button_right button_size_3" href="#image-picker" title="Download Bazzite">
 												<span class="button_icon download-icon">
@@ -5541,7 +5540,7 @@
 										</div>
 									</div>
 								</section>
-								<section class="section mcb-section mfn-default-section mcb-section-86dec4e7c  dark apps-fade full-width" id="apps">
+								<section class="section mcb-section mfn-default-section mcb-section-86dec4e7c dark apps-fade full-width" id="apps">
 									<div class="mcb-background-overlay"></div>
 									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-86dec4e7c">
 										<div class="wrap mcb-wrap mcb-wrap-490eb2468 one tablet-one laptop-one mobile-one clearfix" data-desktop-col="one" data-laptop-col="laptop-one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
@@ -5580,7 +5579,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-k3axvgr3v one laptop-one tablet-one mobile-one column_button animate" data-anim-type="fadeInUp">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-k3axvgr3v mcb-item-button-inner">
-														<a class="button  button_size_4" href="https://flathub.org/" target="_blank" title="">
+														<a class="button button_size_4" href="https://flathub.org/" target="_blank" title="">
 															<span class="button_label">Visit Flathub</span>
 														</a>
 													</div>
@@ -5592,7 +5591,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-9c0l27uv one laptop-one tablet-one mobile-one column_button animate" data-anim-type="fadeInUp">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-9c0l27uv mcb-item-button-inner">
-														<a class="button  button_size_4" href="https://distrobox.it/" target="_blank" title="">
+														<a class="button button_size_4" href="https://distrobox.it/" target="_blank" title="">
 															<span class="button_label">Distrobox Guide</span>
 														</a>
 													</div>
@@ -5635,10 +5634,10 @@
 												</div>
 											</div>
 										</div>
-										<div class="wrap mcb-wrap mcb-wrap-01dc85771 one-second tablet-one-second laptop-one-second mobile-one bg-cover-ultrawide  hide-mobile clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
+										<div class="wrap mcb-wrap mcb-wrap-01dc85771 one-second tablet-one-second laptop-one-second mobile-one bg-cover-ultrawide hide-mobile clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
 											<div class="mcb-wrap-inner mcb-wrap-inner-01dc85771 mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-235acfvz one laptop-one tablet-one mobile-one column_image animate  hide-mobile" data-anim-type="fadeInRight">
+												<div class="column mcb-column mcb-item-235acfvz one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInRight">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-235acfvz mcb-item-image-inner">
 														<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
 															<div class="image_wrapper ">
@@ -5652,7 +5651,7 @@
 										<div class="wrap mcb-wrap mcb-wrap-b136623ea one-second tablet-one-second laptop-one-second mobile-one bg-cover-ultrawide clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
 											<div class="mcb-wrap-inner mcb-wrap-inner-b136623ea mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-rg4adi35 one laptop-one tablet-one mobile-one column_image animate  hide-mobile" data-anim-type="fadeInLeft">
+												<div class="column mcb-column mcb-item-rg4adi35 one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInLeft">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-rg4adi35 mcb-item-image-inner">
 														<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
 															<div class="image_wrapper ">
@@ -5708,7 +5707,7 @@
 										<div class="wrap mcb-wrap mcb-wrap-kjuetm8dl one-second tablet-one-second laptop-one-second mobile-one bg-cover-ultrawide clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one-second" data-mobile-col="mobile-one">
 											<div class="mcb-wrap-inner mcb-wrap-inner-kjuetm8dl mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-nor1bulra one laptop-one tablet-one mobile-one column_image animate  hide-mobile" data-anim-type="fadeInRight">
+												<div class="column mcb-column mcb-item-nor1bulra one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInRight">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-nor1bulra mcb-item-image-inner">
 														<div class="image_frame image_item no_link scale-with-grid alignnone no_border">
 															<div class="image_wrapper ">
@@ -5721,7 +5720,7 @@
 										</div>
 									</div>
 								</section>
-								<section class="section mcb-section mfn-default-section mcb-section-ipngb504  dark default-width" id="hardware">
+								<section class="section mcb-section mfn-default-section mcb-section-ipngb504 dark default-width" id="hardware">
 									<div class="mcb-background-overlay"></div>
 									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-ipngb504">
 										<div class="wrap mcb-wrap mcb-wrap-ntc443x7 one tablet-one laptop-one mobile-one clearfix" data-desktop-col="one" data-laptop-col="laptop-one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
@@ -6079,7 +6078,7 @@
 												</div>
 												<div class="column mcb-column mcb-item-j1cgwfhsd one laptop-one tablet-one mobile-one column_button">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-j1cgwfhsd mcb-item-button-inner">
-														<a class="button  has-icon button_left button_size_3" href="https://github.bazzite.gg/#build-your-own" target="_blank" title="Learn more about building your own Bazzite on GitHub">
+														<a class="button has-icon button_left button_size_3" href="https://github.bazzite.gg/#build-your-own" target="_blank" title="Learn more about building your own Bazzite on GitHub">
 															<span class="button_icon">
 																<i class="fab fa-github" aria-hidden="true"></i>
 															</span>
@@ -6089,7 +6088,7 @@
 												</div>
 											</div>
 										</div>
-										<div class="wrap mcb-wrap mcb-wrap-h1oc2ku8 one-second tablet-one laptop-one-second mobile-one  hide-mobile animate clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one" data-anim-type="fadeInRight">
+										<div class="wrap mcb-wrap mcb-wrap-h1oc2ku8 one-second tablet-one laptop-one-second mobile-one hide-mobile animate clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one" data-anim-type="fadeInRight">
 											<div class="mcb-wrap-inner mcb-wrap-inner-h1oc2ku8 mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-38zzhij28 one laptop-one tablet-one mobile-one column_image">
