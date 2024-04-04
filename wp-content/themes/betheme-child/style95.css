@@ -404,6 +404,18 @@ rs-module [class*=" fa-"]::before,
   width: 100% !important;
 }
 
+#hardware .fa-gamepad {
+  color: #7148b7;
+}
+
+#hardware .fa-desktop {
+  color: #5b5b5b;
+}
+
+#hardware .fa-wifi {
+  color: #6363ee;
+}
+
 #image-builder select {
   min-width: 300px;
 }
