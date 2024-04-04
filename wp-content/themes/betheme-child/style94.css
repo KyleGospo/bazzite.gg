@@ -1157,6 +1157,28 @@ d-topics-list > iframe {
     width: 100%;
   }
 
+  .iso-selection .button-download-container > a {
+    width: 80%;
+  }
+
+  .iso-selection .button-download-container > a .button_label {
+    margin: auto !important;
+  }
+
+  .mcb-section .mcb-wrap .mcb-item-j1cgwfhsd .mcb-column-inner-j1cgwfhsd {
+    margin-left: 0px!important;
+  }
+
+  .mcb-wrap-lyrwbgz6 .button > span, .mcb-wrap-7dzex5coa .button > span {
+    width: 100%;
+  }
+
+  .mcb-wrap-lyrwbgz6 .button, .mcb-wrap-7dzex5coa .button {
+    width: 50%;
+    text-align: center;
+    margin: 0px !important;
+  }
+
   .button.protondb {
     margin-bottom: 15px!important;
     margin-top: 15px!important;
