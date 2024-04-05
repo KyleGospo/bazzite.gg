@@ -334,6 +334,14 @@ jQuery(document).ready(function() {
       jQuery('.sha256').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable-CHECKSUM');
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
 
+      //Show Videos
+      jQuery('.video-container > .fade-transition').removeClass('shown-fade').addClass('hidden-fade');
+      jQuery('.video-container > .fade-transition.' + hardware).removeClass('hidden-fade').addClass('shown-fade');
+      jQuery('.video-container iframe').attr('src', '');
+      jQuery('.video-container > .' + hardware + ' > iframe').each(function() {
+          jQuery(this).attr('src', jQuery(this).attr('data-src'));
+      });
+
       if(jQuery('.changelog.hidden-fade').length > 0) {
         //Show changelog
         jQuery.ajax({

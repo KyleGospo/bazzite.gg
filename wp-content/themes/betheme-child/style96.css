@@ -106,6 +106,21 @@ select:focus {
   width: 50%;
 }
 
+.video-container {
+  width: 100%;
+  float: left;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.video-container iframe {
+  border-radius: 15px;
+  display: inherit;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+}
+
 .changelog {
   font-size: 14px;
   line-height: 20px;
@@ -957,6 +972,11 @@ d-topics-list > iframe {
 
   .changelog {
     margin-top: 30px;
+  }
+
+  .video-container {
+    padding-bottom: 0px;
+    margin-bottom: 0px;
   }
 
   .mcb-section-6r8me65zo,
