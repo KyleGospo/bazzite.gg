@@ -115,6 +115,7 @@ select:focus {
 
 .video-container iframe {
   border-radius: 15px;
+  background: #262626;
   display: inherit;
   width: 100%;
   aspect-ratio: 16 / 9;
