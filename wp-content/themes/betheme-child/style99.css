@@ -234,6 +234,10 @@ select:focus {
   transition: opacity 0.20s ease-in-out, transform 0.35s ease-in-out, max-height 0.15s ease-in-out;
 }
 
+a:not(.button) {
+  font-weight: 600;
+}
+
 .button-download-container {
   margin: 20px 0px;
 }
