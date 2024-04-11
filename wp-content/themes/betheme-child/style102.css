@@ -522,6 +522,17 @@ rs-module [class*=" fa-"]::before,
 
 .sponsor {
   color: rgb(219, 97, 162);
+  border-radius: 15px;
+  white-space: nowrap;
+  font-size: 14px;
+  min-height: 17px;
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+
+.sponsor i {
+  font-size: 17px;
 }
 
 .answer-overflow-icon:hover {
