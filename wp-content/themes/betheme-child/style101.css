@@ -134,6 +134,10 @@ select:focus {
   float: left;
 }
 
+.changelog a {
+  color: #c38fff !important;
+}
+
 .changelog.shown-fade {
   max-height: 700px;
 }
