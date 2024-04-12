@@ -411,11 +411,13 @@ rs-module [class*=" fa-"]::before,
   text-decoration: underline;
 }
 
-#desktop a {
+#desktop a,
+#stability a {
   color: #000;
 }
 
-#desktop a:hover {
+#desktop a:hover,
+#stability a:hover {
   color: #999;
 }
 
@@ -503,7 +505,8 @@ rs-module [class*=" fa-"]::before,
 
 .hover-contrib,
 .sponsor,
-.discourse-docs {
+.discourse-docs,
+.link-faq {
   background: #f0f0f0;
   color: #000;
   border-radius: 100%;
@@ -516,7 +519,8 @@ rs-module [class*=" fa-"]::before,
 
 .hover-contrib:hover,
 .sponsor:hover,
-.discourse-docs:hover {
+.discourse-docs:hover,
+.link-faq:hover {
   background: #dfdfdf;
 }
 
