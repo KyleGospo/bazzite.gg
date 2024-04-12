@@ -36,18 +36,18 @@ Version: 2.0.1
   background-color: #1c1c1c!important;
 }
 
-.mcb-item-d69573929 {
+.mcb-item-d69573929.column {
   margin-top: 15px;
   margin-bottom: 25px;
+  width: 100% !important;
+  text-align: center;
 }
 
-.mcb-item-d69573929 .icon-wrapper {
-  width: 24px;
-  height: 24px;
-}
-
-.mcb-item-d69573929 .icon-wrapper i {
-  font-size: 24px !important;
+.mcb-item-d69573929 i {
+  font-size: 24px;
+  top: 3px;
+  position: relative;
+  margin-right: 15px;
 }
 
 .mcb-item-d69573929 .desc-wrapper {
