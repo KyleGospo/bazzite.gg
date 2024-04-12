@@ -632,6 +632,16 @@ blockquote {
   color: #888;
 }
 
+.testimonials_slider .testimonials_slider_ul li .author h5 > a.youtube::after {
+  content: '\f04b';
+  color: #fff;
+  background: #ff1a1a;
+  padding: 7px 15px;
+  border-radius: 10px;
+  font-size: 15px;
+  top: 0px;
+}
+
 .icon-quote::before {
   content: '\f10d';
   font-family: 'Font Awesome 5 Free';

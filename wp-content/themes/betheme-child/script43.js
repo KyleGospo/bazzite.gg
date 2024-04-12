@@ -200,7 +200,7 @@ jQuery(document).ready(function() {
     }
   });
 
-  const desktopHardware = ['desktop', 'laptop', 'htpc', 'asus'];
+  const desktopHardware = ['desktop', 'laptop', 'htpc', 'asus', 'virtualmachine'];
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
