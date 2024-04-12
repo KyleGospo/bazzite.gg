@@ -204,7 +204,7 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -229,7 +229,7 @@ jQuery(document).ready(function() {
         } else if (valveHardware.includes(selectedHardware)) {
           jQuery('#image-builder .steam-deck').addClass('shown-fade').removeClass('hidden-fade');
         }
-      } else if (noGamemodeHardware.includes(gpuVendor)) {
+      } else if (noGamemodeHardware.includes(gpuVendor) || noGamemodeHardware.includes(selectedHardware)) {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
         jQuery('#image-builder .no-gamemode').removeClass('hidden-fade').addClass('shown-fade');
       } else if (!gpuVendor) {
@@ -249,7 +249,7 @@ jQuery(document).ready(function() {
     jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
     var selectedHardware = jQuery('#image-builder #selectedHardware').val();
     var selectedGPU = jQuery(this).val();
-    if (noGamemodeHardware.includes(selectedGPU)) {
+    if (noGamemodeHardware.includes(selectedGPU) || noGamemodeHardware.includes(selectedHardware)) {
       jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder .no-gamemode').removeClass('hidden-fade').addClass('shown-fade');
     } else if (selectedGPU !== '') {
