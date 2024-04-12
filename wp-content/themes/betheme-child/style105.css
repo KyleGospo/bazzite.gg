@@ -36,6 +36,24 @@ Version: 2.0.1
   background-color: #1c1c1c!important;
 }
 
+.mcb-item-d69573929 {
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+
+.mcb-item-d69573929 .icon-wrapper {
+  width: 24px;
+  height: 24px;
+}
+
+.mcb-item-d69573929 .icon-wrapper i {
+  font-size: 24px !important;
+}
+
+.mcb-item-d69573929 .desc-wrapper {
+  font-size: 16px;
+}
+
 .apps-fade::after {
   background: radial-gradient(#1c1c1c 30%, rgba(0,0,0,0) 100%);
   top: 0;
