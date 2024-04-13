@@ -1027,9 +1027,10 @@ d-topics-list > iframe {
   }
 
   .mcb-item-d69573929 i {
-    display: block;
+    display: flex;
     height: 100%;
     float: left;
+    align-items: center;
   }
 
   .video-container {
