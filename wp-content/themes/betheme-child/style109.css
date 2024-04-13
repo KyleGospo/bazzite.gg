@@ -54,6 +54,13 @@ Version: 2.0.1
   font-size: 16px;
 }
 
+.mcb-column-inner-j1cgwfhsd a:not(.button) {
+  width: 100% !important;
+  display: block;
+  margin-top: 15px;
+  font-size: 15px;
+}
+
 .apps-fade::after {
   background: radial-gradient(#1c1c1c 30%, rgba(0,0,0,0) 100%);
   top: 0;
