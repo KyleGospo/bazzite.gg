@@ -1022,6 +1022,16 @@ d-topics-list > iframe {
     display: block !important;
   }
 
+  .mcb-item-d69573929.column {
+    text-align: left;
+  }
+
+  .mcb-item-d69573929 i {
+    display: block;
+    height: 100%;
+    float: left;
+  }
+
   .video-container {
     padding: 0px;
     margin-top: 20px;
