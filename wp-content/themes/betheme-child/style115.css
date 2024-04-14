@@ -160,6 +160,11 @@ select:focus {
   float: left;
 }
 
+.changelog br {
+  display: none;
+  visibility: hidden;
+}
+
 .changelog a {
   color: #c38fff !important;
 }

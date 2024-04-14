@@ -345,10 +345,11 @@ jQuery(document).ready(function() {
       if(jQuery('.changelog.hidden-fade').length > 0) {
         //Show changelog
         jQuery.ajax({
-            url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-SHORT.md",
+            url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-BBCODE.txt",
             dataType: "text",
             success : function (data) {
-                jQuery('.changelog').html(marked.parse(data)).addClass('shown-fade').removeClass('hidden-fade');
+                var changelogHtml = new bbcode.Parser().toHTML(data).replace('<br>', '');
+                jQuery('.changelog').html(changelogHtml).addClass('shown-fade').removeClass('hidden-fade');
             }
         });
       }
