@@ -165,6 +165,15 @@ select:focus {
   visibility: hidden;
 }
 
+.changelog pre {
+  background: #000;
+  border: none;
+  padding: 5px;
+  display: inline;
+  font-family: 'Fira Code' !important;
+  font-size: 11px;
+}
+
 .changelog a {
   color: #c38fff !important;
 }
