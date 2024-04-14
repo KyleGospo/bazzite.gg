@@ -172,6 +172,9 @@ select:focus {
   display: inline;
   font-family: 'Fira Code' !important;
   font-size: 11px;
+  user-select: all;
+  cursor: pointer;
+  display: inline-block;
 }
 
 .changelog a {
