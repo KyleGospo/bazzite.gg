@@ -58,6 +58,7 @@ Version: 2.0.1
   width: 100% !important;
   display: block;
   margin-top: 25px;
+  margin-bottom: 5px;
   font-size: 16px;
 }
 
@@ -539,7 +540,6 @@ rs-module [class*=" fa-"]::before,
   font-size: 17px;
   line-height: 20px;
   cursor: pointer;
-  margin-left: 5px;
 }
 
 .hover-contrib,
@@ -997,6 +997,14 @@ d-topics-list > iframe {
     display: none;
     visibility: hidden;
   }
+
+  .sponsor {
+    margin-left: 0px;
+  }
+
+  .mcb-column-inner-38bd9f044 h2 {
+    margin-right: 5px;
+  }
 }
 
 @media only screen and (max-width: 1239px) and (min-width:768px) {
@@ -1033,6 +1041,10 @@ d-topics-list > iframe {
 @media only screen and (max-width: 959px) {
   #mfn-header-template .hide-mobile {
     display: block !important;
+  }
+
+  .mcb-column-inner-j1cgwfhsd a.fork {
+    margin-bottom: 15px;
   }
 
   .mcb-item-d69573929.column {
