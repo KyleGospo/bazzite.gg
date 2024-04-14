@@ -177,6 +177,11 @@ select:focus {
   margin: 0px;
 }
 
+.changelog ul {
+  list-style: disc;
+  margin-left: 10px;
+}
+
 .changelog a {
   color: #c38fff !important;
 }
