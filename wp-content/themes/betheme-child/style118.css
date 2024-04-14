@@ -168,13 +168,13 @@ select:focus {
 .changelog pre {
   background: #000;
   border: none;
-  padding: 5px;
-  display: inline;
+  padding: 0px 5px;
   font-family: 'Fira Code' !important;
   font-size: 11px;
   user-select: all;
   cursor: pointer;
   display: inline-block;
+  margin: 0px;
 }
 
 .changelog a {
