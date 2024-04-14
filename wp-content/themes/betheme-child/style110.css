@@ -54,10 +54,10 @@ Version: 2.0.1
   font-size: 16px;
 }
 
-.mcb-column-inner-j1cgwfhsd a:not(.button) {
+.mcb-column-inner-j1cgwfhsd a.fork {
   width: 100% !important;
   display: block;
-  margin-top: 15px;
+  margin-top: 25px;
   font-size: 15px;
 }
 
@@ -386,7 +386,7 @@ rs-module [class*=" fa-"]::before,
 #rs_overview_menu [class*=" fa-"]::before,
 #builderView [class^="fa-"]::before,
 #builderView [class*=" fa-"]::before {
-  font-family: 'Font Awesome 5 Free'!important;
+  font-family: 'Font Awesome 6 Free'!important;
   font-weight: 900!important;
 }
 
@@ -459,8 +459,8 @@ rs-module [class*=" fa-"]::before,
   color: #7148b7;
 }
 
-#hardware .fa-desktop {
-  color: #5b5b5b;
+#hardware .fa-computer {
+  color: #507D00;
 }
 
 #hardware .fa-wifi {
@@ -645,13 +645,13 @@ blockquote {
 
 .icon-up-open-big::before {
   content: '\f062';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
   content: '\f0c1';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Free';
   font-style: normal;
   margin-left: 10px;
   font-size: 24px;
@@ -673,7 +673,7 @@ blockquote {
 
 .icon-quote::before {
   content: '\f10d';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   font-size: 45px;
   top: -5px;
@@ -682,7 +682,7 @@ blockquote {
 
 .mfn-close-icon > span::after {
   content: '\f057';
-  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Free';
   font-weight: 900;
   display: inline-block;
   visibility: visible;
