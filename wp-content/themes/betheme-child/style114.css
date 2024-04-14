@@ -540,6 +540,7 @@ rs-module [class*=" fa-"]::before,
   font-size: 17px;
   line-height: 20px;
   cursor: pointer;
+  margin-left: 5px;
 }
 
 .hover-contrib,
