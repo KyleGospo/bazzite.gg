@@ -58,7 +58,7 @@ Version: 2.0.1
   width: 100% !important;
   display: block;
   margin-top: 25px;
-  font-size: 15px;
+  font-size: 16px;
 }
 
 .apps-fade::after {
@@ -542,6 +542,13 @@ rs-module [class*=" fa-"]::before,
   margin-left: 5px;
 }
 
+.hover-contrib,
+.discourse-docs,
+.link-faq {
+  width: 30px;
+  text-align: center;
+}
+
 .hover-contrib:hover,
 .sponsor:hover,
 .discourse-docs:hover,
@@ -759,6 +766,7 @@ blockquote {
     border-radius: 50%;
     width: 50px;
     height: 50px;
+    background: #1c1c1c;
 }
 
 .github-profile-badge-name-wrapper {
