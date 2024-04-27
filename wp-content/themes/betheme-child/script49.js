@@ -200,11 +200,11 @@ jQuery(document).ready(function() {
     }
   });
 
-  const desktopHardware = ['desktop', 'laptop', 'htpc', 'asus', 'virtualmachine'];
+  const desktopHardware = ['desktop', 'laptop', 'framework', 'htpc', 'asus', 'virtualmachine'];
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'laptop', 'asus'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'laptop', 'framework', 'asus'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
