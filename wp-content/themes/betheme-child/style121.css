@@ -390,33 +390,6 @@ a:not(.button) {
   background-position: center;
 }
 
-rs-layer-wrap,
-.icon-menu-fine {
-  text-shadow: 0px 0px 5px rgba(0, 0, 0, 0.25);
-}
-
-[class^="fa-"]::before,
-rs-module [class*=" fa-"]::before,
-.rb-modal-wrapper [class^="fa-"]::before,
-.rb-modal-wrapper [class*=" fa-"]::before,
-#rs_overview [class^="fa-"]::before,
-#rs_overview [class*=" fa-"]::before,
-#objectlibrary [class^="fa-"]::before,
-#objectlibrary [class*=" fa-"]::before,
-#waitaminute [class^="fa-"]::before,
-#waitaminute [class*=" fa-"]::before,
-#rs_overview_menu [class^="fa-"]::before,
-#rs_overview_menu [class*=" fa-"]::before,
-#builderView [class^="fa-"]::before,
-#builderView [class*=" fa-"]::before {
-  font-family: 'Font Awesome 6 Free'!important;
-  font-weight: 900!important;
-}
-
-.tp-rs-img {
-  filter: drop-shadow(0px 0px 5px rgba(0,0,0,0.25));
-}
-
 #features .column_trailer_box {
   min-height: 25vw;
 }
@@ -1382,26 +1355,5 @@ d-topics-list > iframe {
 
   blockquote {
     margin-left: 35px;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  rs-slides {
-    top: 30px!important;
-  }
-}
-
-@media only screen and (max-width: 400px) and (max-height: 650px) {
-  rs-slides {
-    top: 60px!important;
-  }
-
-  rs-slides .rs-parallax-wrap:last-child {
-    margin-top: -30px;
-  }
-
-  #slider-1-slide-1-layer-1 {
-    font-size: 20px !important;
-    line-height: 25px !important;
   }
 }

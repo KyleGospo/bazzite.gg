@@ -788,6 +788,11 @@
 					visibility: hidden;
 				}
 
+				.frontpage-container > *,
+				.frontpage-container .container > * {
+				  animation-delay: 0ms !important;
+				}
+
 				.logo-wrapper .logo-with-icon {
 					display: block!important;
 					visibility: visible!important;
@@ -5089,7 +5094,7 @@
 				}
 			}
 		</style>
-		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style120.css' type='text/css' media='all' />
+		<link rel='stylesheet' id='style-css' href='wp-content/themes/betheme-child/style121.css' type='text/css' media='all' />
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js" id="jquery-core-js"></script>
 		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.4.1/jquery-migrate.min.js" id="jquery-migrate-js"></script>
 		<link rel="canonical" href="https://bazzite.gg/" />
@@ -5368,12 +5373,12 @@
 							<img class="main-logo animate" data-anim-type="fadeIn" alt="D-Pad" style="pointer-events:none;position:absolute;left:0;right:0;top:0;margin:auto;transform:translateZ(5px);" src="wp-content/uploads/2024/03/bazzite_dpad.svg" width="600" height="600" fetchpriority="high">
 							<img class="main-logo animate" data-anim-type="fadeIn" alt="Buttons" style="pointer-events:none;position:absolute;left:0;right:0;top:0;margin:auto;transform:translateZ(10px);" src="wp-content/uploads/2024/03/bazzite_arrows.svg" width="600" height="600" fetchpriority="high">
 						</div>
-						<h1>The next generation of Linux gaming</h1>
-						<img src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue" width="1479" height="100" fetchpriority="high">
+						<h1 class="animate" data-anim-type="fadeIn" style="animation-delay:1400ms;">The next generation of Linux gaming</h1>
+						<img class="animate" data-anim-type="fadeIn" style="animation-delay:1600ms;" src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue" width="1479" height="100" fetchpriority="high">
 						<div class="container">
-							Bazzite is a custom image built upon <a style="color:#fff;" href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic Desktops</a> that brings the best of Linux gaming to <strong>all of your devices - including your favorite handheld</strong>.
+							<div class="animate" data-anim-type="fadeInUp" style="animation-delay:1800ms;">Bazzite is a custom image built upon <a style="color:#fff;" href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic Desktops</a> that brings the best of Linux gaming to <strong>all of your devices - including your favorite handheld</strong>.</div>
 							<div class="btn-container">
-								<a class="button scroll has-icon button_left button_full_width button_size_2 animate" data-anim-type="fadeInUp" style="animation-delay:1500ms;" href="#features" title="View Bazzite's Features">
+								<a class="button scroll has-icon button_left button_full_width button_size_2 animate" data-anim-type="fadeInUp" style="animation-delay:2000ms;" href="#features" title="View Bazzite's Features">
 									<span class="button_icon">
 										<i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
 									</span>
