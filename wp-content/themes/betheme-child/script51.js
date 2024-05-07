@@ -312,7 +312,7 @@ jQuery(document).ready(function() {
       imagename += '-nvidia';
     }
 
-    if ((hardware === 'desktop' || hardware === 'htpc') && steamGameMode === 'yes') {
+    if (!noGamemodeHardware.includes(gpuVendor) && !noGamemodeHardware.includes(hardware)) && steamGameMode === 'yes') {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
