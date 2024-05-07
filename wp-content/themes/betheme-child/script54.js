@@ -204,7 +204,7 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework', 'asus'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
