@@ -608,6 +608,10 @@ a:not(.button) {
   height: inherit;
 }
 
+.testimonials_slider.single-photo .slider_pager li {
+  margin-top: 15px;
+}
+
 .author .title {
   font-size: 14px;
 }
