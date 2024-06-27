@@ -484,7 +484,8 @@ a:not(.button) {
 } 
 
 .picker-message {
-  color: #a4a4a4;
+  color: #ff8484;
+  font-weight: 600;
   font-style: italic;
   font-size: 14px;
   max-width: 400px;
