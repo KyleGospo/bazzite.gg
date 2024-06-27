@@ -6263,17 +6263,6 @@
 																		<div class="hhd fade-transition hidden-fade">
 																			<span class="picker-message">Your hardware utilizes <a href="https://github.com/hhd-dev/hhd" target="_blank">Handheld Daemon</a> to handle button mapping. Please <a href="https://universal-blue.discourse.group/docs?topic=1038" target="_blank">refer to our Handheld Wiki</a> for required setting changes and Decky Loader plugins for Steam Gaming Mode.</span>
 																		</div>
-																		<div class="desktopEnvironment fade-transition hidden-fade">
-																			<label for="desktopEnvironment">What desktop environment do you prefer?</label>
-																			<div class="select-wrapper glow-effect">
-																				<select id="desktopEnvironment" name="desktopEnvironment">
-																					<option disabled selected value>Pick a desktop environment</option>
-																					<option value="kde">KDE (Like SteamOS)</option>
-																					<option value="gnome">GNOME</option>
-																					<option disabled value="budgie">Budgie (Coming soon)</option>
-																				</select>
-																			</div>
-																		</div>
 																		<div class="gpu fade-transition hidden-fade">
 																			<label for="gpuVendor">Who is the vendor of your primary GPU?</label>
 																			<div class="select-wrapper glow-effect">
@@ -6286,6 +6275,20 @@
 																				</select>
 																			</div>
 																		</div>
+																		<div class="no-gamemode fade-transition hidden-fade">
+																			<span class="picker-message red">Your selected hardware does not support Steam Gaming Mode at this time. The Desktop version of Bazzite is still available.</span>
+																		</div>
+																		<div class="desktopEnvironment fade-transition hidden-fade">
+																			<label for="desktopEnvironment">What desktop environment do you prefer?</label>
+																			<div class="select-wrapper glow-effect">
+																				<select id="desktopEnvironment" name="desktopEnvironment">
+																					<option disabled selected value>Pick a desktop environment</option>
+																					<option value="kde">KDE (Like SteamOS)</option>
+																					<option value="gnome">GNOME</option>
+																					<option disabled value="budgie">Budgie (Coming soon)</option>
+																				</select>
+																			</div>
+																		</div>
 																		<div class="gamemode fade-transition hidden-fade">
 																			<label for="steamGameMode">Do you want Steam Gaming Mode?</label>
 																			<div class="select-wrapper glow-effect">
@@ -6295,9 +6298,6 @@
 																					<option value="no">No</option>
 																				</select>
 																			</div>
-																		</div>
-																		<div class="no-gamemode fade-transition hidden-fade">
-																			<span class="picker-message red">Your selected hardware does not support Steam Gaming Mode at this time. The Desktop version of Bazzite is still available.</span>
 																		</div>
 																	</form>
 																</div>
