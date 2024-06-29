@@ -345,6 +345,17 @@ a:not(.button) {
   opacity: 0.5;
 }
 
+.faq {
+  width: 100%;
+  display: inline-block;
+  font-size: 13px;
+  line-height: 17px;
+  padding-top: 20px;
+  padding-right: 30px;
+  color: #ccc;
+  font-style: italic;
+}
+
 @-webkit-keyframes animateGlow {
   0% {
     background-position: 0% 50%;
@@ -1183,6 +1194,10 @@ d-topics-list > iframe {
   #image-builder,
   #image-builder-result {
     text-align: center;
+  }
+
+  .faq {
+    padding-right: 0px;
   }
 
   #hardware-description {
