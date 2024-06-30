@@ -405,6 +405,11 @@ a:not(.button) {
   background-position: center;
 }
 
+#features .column_trailer_box {
+  height: 25vw;
+  max-height: 476px;
+}
+
 .mcb-section-7f0434abe,
 #Footer {
   background-color: #1c1c1c!important;
