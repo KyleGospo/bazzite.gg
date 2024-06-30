@@ -280,7 +280,7 @@ jQuery(document).ready(function() {
         break;
 
       case 'ally':
-        imagename += '-ally';
+        imagename += '-deck';
         break;
 
       case 'asus':
