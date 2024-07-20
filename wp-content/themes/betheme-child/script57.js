@@ -221,11 +221,15 @@ jQuery(document).ready(function() {
       jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder .hhd').removeClass('shown-fade').addClass('hidden-fade');
       jQuery('#image-builder .steam-deck').removeClass('shown-fade').addClass('hidden-fade');
+      jQuery('#image-builder .rog-ally').removeClass('shown-fade').addClass('hidden-fade');
       var gpuVendor = jQuery('#gpuVendor').val();
       if (handheldHardware.includes(selectedHardware)) {
         jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
         if (hhdHardware.includes(selectedHardware)) {
           jQuery('#image-builder .hhd').addClass('shown-fade').removeClass('hidden-fade');
+          if (selectedHardware == 'ally') {
+            jQuery('#image-builder .rog-ally').addClass('shown-fade').removeClass('hidden-fade');
+          }
         } else if (valveHardware.includes(selectedHardware)) {
           jQuery('#image-builder .steam-deck').addClass('shown-fade').removeClass('hidden-fade');
         }
