@@ -58,6 +58,10 @@ Version: 2.0.1
   font-size: 16px;
 }
 
+.wp-post-image.round {
+  border-radius: 50%;
+}
+
 .mcb-column-inner-j1cgwfhsd a.fork {
   width: 100% !important;
   display: block;
