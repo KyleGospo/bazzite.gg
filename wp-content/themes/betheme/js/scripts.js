@@ -4237,7 +4237,7 @@ function msnryGalleryInit() {
         customPaging: pager,
 
         rtl: rtl ? true : false,
-        autoplay: true,
+        autoplay: $(this).hasClass('autoplay') ? true : false,
         autoplaySpeed: 7000,
 
         slidesToShow: 1,

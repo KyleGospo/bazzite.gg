@@ -12658,7 +12658,7 @@ $content.find('.testimonials_slider_ul').each(function() {
     customPaging: pager,
 
     rtl: rtl ? true : false,
-    autoplay: mfn.slider.testimonials ? true : false,
+    autoplay: $(this).hasClass('autoplay') ? true : false,
     autoplaySpeed: mfn.slider.testimonials ? mfn.slider.testimonials : 5000,
 
     slidesToShow: 1,
