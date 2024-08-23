@@ -1406,6 +1406,11 @@ d-topics-list > iframe {
     left: -25px;
   }
 
+  .mcb-wrap-inner-f6578f479 .image-container {
+    display: none;
+    visibility: hidden;
+  }
+
   blockquote {
     margin-left: 35px;
   }
