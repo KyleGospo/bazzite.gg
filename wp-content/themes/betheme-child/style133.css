@@ -1414,4 +1414,8 @@ d-topics-list > iframe {
   blockquote {
     margin-left: 35px;
   }
+
+  #apps .app-background-container {
+    top: 50%!important;
+  }
 }
