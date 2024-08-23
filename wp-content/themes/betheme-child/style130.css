@@ -404,11 +404,6 @@ a:not(.button) {
   color: #fff;
 }
 
-#apps {
-  background-repeat: no-repeat;
-  background-position: center;
-}
-
 #features .column_trailer_box {
   height: 25vw;
   max-height: 476px;
@@ -999,10 +994,6 @@ d-topics-list > iframe {
 }
 
 @media only screen and (min-width: 1441px) {
-  #apps {
-    background-position: top;
-  }
-
   .mcb-item-7hplt2hve {
     width: 60% !important;
     left: 0;
@@ -1060,6 +1051,10 @@ d-topics-list > iframe {
 
   #hardware .one-third {
     min-height: 526px;
+  }
+
+  #apps .app-background-container {
+    top: 10%!important;
   }
 }
 
@@ -1356,17 +1351,15 @@ d-topics-list > iframe {
     display: none;
     visibility: hidden;
   }
+
+  #apps .app-background-container {
+    top: 45%!important;
+  }
 }
 
 @media only screen and (max-width: 480px) {
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
-  }
-
-  #apps {
-    background-size: contain;
-    background-position-y: 70%;
-    background-origin: inherit;
   }
 
   h5 {
