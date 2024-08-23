@@ -349,6 +349,20 @@ a:not(.button) {
   opacity: 0.5;
 }
 
+.ametrine-credit {
+  display: block;
+  width: 100%;
+  font-size: 14px;
+  text-align: center;
+  color: #626262;
+  padding-top: 10px;
+  z-index: 2;
+}
+
+.ametrine-credit a {
+  color: #3c3c3c;
+}
+
 .faq {
   width: 100%;
   display: inline-block;
@@ -1040,7 +1054,9 @@ d-topics-list > iframe {
     white-space:nowrap;
   }
 
-  #community .column_button {
+  #community .mcb-wrap-f6578f478 .column_button,
+  #community .mcb-wrap-60a8360ce .column_button,
+  #community .mcb-wrap-2215d7379 .column_button {
     bottom: 0;
     position: absolute;
     width: 80%;
@@ -1051,6 +1067,11 @@ d-topics-list > iframe {
 
   #hardware .one-third {
     min-height: 526px;
+  }
+
+  .ametrine {
+    max-height: 300px !important;
+    right: -8% !important;
   }
 
   #apps .app-background-container {
@@ -1267,6 +1288,12 @@ d-topics-list > iframe {
     font-size: 30px;
     top: 5px;
     left: -15px;
+  }
+
+  .ametrine,
+  .ametrine-credit {
+    display:none;
+    visibility:hidden;
   }
 
   blockquote {
