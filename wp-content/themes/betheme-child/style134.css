@@ -865,6 +865,11 @@ blockquote {
   margin-top:20px;
 }
 
+#apps .button {
+  background-color: #0047ABB2;
+  backdrop-filter: blur(8px);
+}
+
 .special-thanks a {
   white-space: nowrap;
 }
@@ -1381,6 +1386,11 @@ d-topics-list > iframe {
 
   #apps .app-background-container {
     top: 45%!important;
+  }
+
+  .apps-fade::after {
+    display:none;
+    visibility:hidden;
   }
 }
 
