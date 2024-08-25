@@ -405,9 +405,9 @@ a:not(.button) {
 }
 
 @keyframes floating3 {
-  0% { transform: translate(3px, 3px) translateZ(100px); }
+  0% { transform: translate(-3px, -3px) translateZ(100px); }
   50% { transform: translate(-0px, -0px) translateZ(100px); }
-  100% { transform: translate(3px, 3px) translateZ(100px); }
+  100% { transform: translate(-3px, -3px) translateZ(100px); }
 }
 
 @-webkit-keyframes animateGlow {
