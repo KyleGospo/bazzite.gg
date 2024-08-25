@@ -394,20 +394,20 @@ a:not(.button) {
 
 @keyframes floating1 {
   0% { transform: translate(0,  0px) translateZ(200px); }
-  50%  { transform: translate(5px, 5px) translateZ(200px); }
-  100%   { transform: translate(-0px, -0px) translateZ(200px); }    
+  50% { transform: translate(5px, 5px) translateZ(200px); }
+  100% { transform: translate(-0px, -0px) translateZ(200px); }
 }
 
 @keyframes floating2 {
   0% { transform: translate(0,  0px); }
-  50%  { transform: translate(2px, 2px); }
-  100%   { transform: translate(-0px, -0px); }    
+  50% { transform: translate(2px, 2px); }
+  100% { transform: translate(-0px, -0px); } 
 }
 
 @keyframes floating3 {
-  0% { transform: translate(0,  0px) translateZ(100px); }
-  50%  { transform: translate(3px, 3px) translateZ(100px); }
-  100%   { transform: translate(-0px, -0px) translateZ(100px); }    
+  0% { transform: translate(3px, 3px) translateZ(100px); }
+  50% { transform: translate(-0px, -0px) translateZ(100px); }
+  100% { transform: translate(3px, 3px) translateZ(100px); }
 }
 
 @-webkit-keyframes animateGlow {
