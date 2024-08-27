@@ -1015,6 +1015,11 @@ d-topics-list > iframe {
   .mcb-wrap-8qc5znbk {
     align-self: flex-start;
   }
+
+  .ametrine-mobile {
+    display: none;
+    visibility: hidden;
+  }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1440px) {
@@ -1331,8 +1336,13 @@ d-topics-list > iframe {
     left: -15px;
   }
 
-  .ametrine,
-  .ametrine-credit {
+  .ametrine {
+    max-height: 210px!important;
+    right: -5%!important;
+    top: -5px!important;
+  }
+
+  .ametrine-credit:not(.ametrine-mobile) {
     display:none;
     visibility:hidden;
   }
