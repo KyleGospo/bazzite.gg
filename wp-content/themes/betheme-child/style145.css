@@ -1465,6 +1465,15 @@ d-topics-list > iframe {
 
   body:not(.style-simple) .blockquote blockquote {
     margin-left: 0px;
+    line-height: 20px;
+  }
+
+  .testimonials_slider .testimonials_slider_ul li .author h5 {
+    padding-top: 0px;
+  }
+
+  .testimonials_slider .testimonials_slider_ul li .bq_wrapper {
+    margin: 0 15px 10px !important;
   }
 
   .mcb-wrap-inner-f6578f479 .content-container {
