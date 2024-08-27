@@ -1337,9 +1337,9 @@ d-topics-list > iframe {
   }
 
   .ametrine {
-    max-height: 210px!important;
+    max-height: 200px!important;
     right: -6%!important;
-    top: 15px!important;
+    top: 20px!important;
   }
 
   .ametrine-credit:not(.ametrine-mobile) {
