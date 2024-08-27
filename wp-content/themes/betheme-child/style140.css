@@ -1458,8 +1458,13 @@ d-topics-list > iframe {
   }
 
   .icon-quote::before {
-    font-size: 25px;
-    left: -25px;
+    font-size: 20px;
+    left: -30px;
+    top: -35px;
+  }
+
+  body:not(.style-simple) .blockquote blockquote {
+    margin-left: 0px;
   }
 
   .mcb-wrap-inner-f6578f479 .image-container {
