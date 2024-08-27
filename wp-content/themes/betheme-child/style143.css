@@ -1478,11 +1478,15 @@ d-topics-list > iframe {
   #apps .app-background-container {
     top: 50%!important;
   }
-}
 
-@media only screen and (max-width: 400px) {
   .mcb-wrap-inner-f6578f479 .image-container {
-    top: 5px;
-    position: relative;
+    position: absolute;
+    max-width: 25px !important;
+    margin-top: 10px;
+    margin-left: -5px;
+  }
+
+  .mcb-wrap-inner-f6578f479 .content-container .title {
+    margin-left: 20px;
   }
 }
