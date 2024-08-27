@@ -643,7 +643,7 @@ a:not(.button) {
 
 .hover-contrib::after {
   content: url('https://repobeats.axiom.co/api/embed/86b500d79c613015ad16f56df76c8e13f3fd98ae.svg');
-  left: -510px;
+  right: 100px;
   position: absolute;
   top: -395px;
   width: 845px;
