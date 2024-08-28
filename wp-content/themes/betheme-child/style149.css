@@ -304,7 +304,7 @@ a:not(.button) {
 
 .button-download,
 .button-torrent {
-  background-image: linear-gradient(100deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 100%);
+  background-image: linear-gradient(130deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 100%);
   background-color: rgb(5, 70, 173)!important;
   overflow: visible;
   margin-right: 0px!important;
@@ -342,7 +342,7 @@ a:not(.button) {
   width: 100%;
   transform: scale(0.9) translateZ(-1px);
   filter: blur(10px);
-  background: linear-gradient(100deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 50%, rgb(5, 70, 173) 100%);
+  background: linear-gradient(130deg, rgb(5, 70, 173) 0%, rgb(138, 43, 226) 50%, rgb(5, 70, 173) 100%);
   background-size: 200% 200%;
   -webkit-animation: animateGlow 2s linear infinite;
           animation: animateGlow 2s linear infinite;
