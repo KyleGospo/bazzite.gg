@@ -490,7 +490,7 @@ a:not(.button) {
 }
 
 #back_to_top {
-  background: #262626;
+  background: linear-gradient(130deg, #0047ab, #8a2be2);
   color: #fff !important;
   border-radius: 30px;
 }
