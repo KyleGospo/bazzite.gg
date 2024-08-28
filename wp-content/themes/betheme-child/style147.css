@@ -459,9 +459,16 @@ a:not(.button) {
   max-height: 476px;
 }
 
-.mcb-section-7f0434abe,
-#Footer {
+.mcb-section-7f0434abe {
   background-color: #1c1c1c!important;
+}
+
+#Footer {
+  background-color: #131313!important;
+}
+
+.footer_copy {
+  border-top: none !important;
 }
 
 #Footer .footer_copy {
