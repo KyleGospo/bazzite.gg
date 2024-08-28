@@ -428,10 +428,6 @@ a:not(.button) {
   }
 }
 
-.title-apps {
-  margin-right: 10%;
-}
-
 .anim-word-container {
   display: contents;
 }
@@ -1159,11 +1155,8 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 959px) {
-  .title-apps {
-    margin-right: 0px;
-  }
-
-  .title-apps .space {
+  .title-apps .space,
+  .title-apps .word-placement {
     display: none;
     visibility: hidden;
   }
