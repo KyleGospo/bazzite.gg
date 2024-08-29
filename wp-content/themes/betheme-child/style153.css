@@ -101,6 +101,10 @@ Version: 2.0.1
   font-weight: 600;
 }
 
+.testimonials_slider.single-photo .slider_pager {
+  margin-top:0px!important;
+}
+
 .trailer_box .title {
   color: #fff;
   font-size: 15px !important;
