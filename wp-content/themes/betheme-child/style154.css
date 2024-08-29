@@ -36,6 +36,10 @@ Version: 2.0.1
   background-color: #156897 !important;
 }
 
+.anticheat:hover {
+  background-color: #247bac !important;
+}
+
 .mcb-section-86dec4e7c {
   background-color: #1c1c1c!important;
 }
@@ -527,6 +531,12 @@ a:not(.button) {
   background: linear-gradient(130deg, #0047ab, #8a2be2);
   color: #fff !important;
   border-radius: 30px;
+  transition: transform 0.1s linear, box-shadow 0.1s linear;
+}
+
+#back_to_top:hover {
+  transform: scale(1.5);
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
 }
 
 #image-builder-result a {
@@ -893,6 +903,10 @@ blockquote {
     transition: all 0.5s ease;
 }
 
+.github-profile-badge-name-wrapper:hover {
+  background: #000;
+}
+
 .github-profile-badge-name {
     font-size: 15px;
     color: white;
@@ -937,6 +951,16 @@ blockquote {
 #apps .button {
   background-color: #0047ABB2;
   backdrop-filter: blur(8px);
+  transition: backdrop-filter 0.1s linear, background-color 0.1s linear;
+}
+
+#apps .button:hover {
+  backdrop-filter: blur(20px);
+  background-color: #357FE8B2;
+}
+
+.mcb-section .mcb-wrap .mcb-item-srhiwzhlm .button:hover {
+  background-color: #aa194c;
 }
 
 .special-thanks a {
