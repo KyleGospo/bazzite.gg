@@ -1188,7 +1188,9 @@ d-topics-list > iframe {
 
 @media only screen and (max-width: 959px) {
   .title-apps .space,
-  .title-apps .word-placement {
+  .title-apps .word-placement,
+  .title-desktop .space,
+  .title-desktop .word-placement {
     display: none;
     visibility: hidden;
   }
