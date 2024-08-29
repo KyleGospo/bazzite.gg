@@ -1153,6 +1153,23 @@ d-topics-list > iframe {
   .mcb-column-inner-38bd9f044 h2 {
     margin-right: 5px;
   }
+
+  .title-desktop .space,
+  .title-desktop .word-placement {
+    display: none;
+    visibility: hidden;
+  }
+
+  .title-desktop .anim-word-container:not(.no-anim-break) .anim-word {
+    width: 100%;
+    text-align: center;
+    left: 0;
+  }
+
+  .title-desktop .anim-word-container:not(.no-anim-break) {
+    display: block;
+    margin-bottom: 67px;
+  }
 }
 
 @media only screen and (max-width: 1239px) and (min-width:768px) {
@@ -1199,9 +1216,7 @@ d-topics-list > iframe {
 
 @media only screen and (max-width: 959px) {
   .title-apps .space,
-  .title-apps .word-placement,
-  .title-desktop .space,
-  .title-desktop .word-placement {
+  .title-apps .word-placement {
     display: none;
     visibility: hidden;
   }
