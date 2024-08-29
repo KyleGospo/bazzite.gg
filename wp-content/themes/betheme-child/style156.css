@@ -1193,13 +1193,13 @@ d-topics-list > iframe {
     visibility: hidden;
   }
 
-  .anim-word {
+  .anim-word-container:not(.no-anim-break) .anim-word {
     width: 100%;
     text-align: center;
     left: 0;
   }
 
-  .anim-word-container {
+  .anim-word-container:not(.no-anim-break) {
     display: block;
     margin-bottom: 67px;
   }

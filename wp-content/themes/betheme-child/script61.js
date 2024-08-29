@@ -89,6 +89,7 @@ jQuery(document).ready(function() {
       clearInterval(intervalId);
       };
   }
+  animateWordChange("#stability .anim-word");
   animateWordChange("#apps .anim-word");
   animateWordChange("#desktop .anim-word");
 
