@@ -444,6 +444,10 @@ a:not(.button) {
   position: absolute;
   opacity: 0;
   white-space: nowrap;
+  color: #6c3fc4;
+}
+
+.dark .anim-word {
   color: #9768f4;
 }
 

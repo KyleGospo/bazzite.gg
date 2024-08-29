@@ -28,8 +28,8 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 jQuery(document).ready(function() {
-  function animateWordChange() {
-      let words = document.getElementsByClassName('anim-word');
+  function animateWordChange(elem) {
+      let words = document.querySelectorAll(elem);
       let wordArray = [];
       let currentWord = 0;
       
@@ -89,7 +89,8 @@ jQuery(document).ready(function() {
       clearInterval(intervalId);
       };
   }
-  animateWordChange();
+  animateWordChange("#apps .anim-word");
+  animateWordChange("#desktop .anim-word");
 
   jQuery(document).on('click', '.button-to-download', function (event) {
       event.preventDefault();
