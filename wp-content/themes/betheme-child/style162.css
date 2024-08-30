@@ -618,10 +618,6 @@ a:not(.button) {
   font-weight: 600;
 }
 
-.picker-message > a {
-  text-decoration: underline;
-}
-
 #features {
   background-position: center;
 }
