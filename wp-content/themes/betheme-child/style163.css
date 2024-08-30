@@ -805,7 +805,7 @@ blockquote {
 }
 
 section:not(.dark) .rainbow {
-  filter: brightness(0.7);
+  filter: brightness(0.75);
 }
 
 .icon-quote::before {
