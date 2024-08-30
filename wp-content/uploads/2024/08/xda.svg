@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   id="Layer_1"
+   data-name="Layer 1"
+   viewBox="0 0 113.8 33.6"
+   version="1.1"
+   sodipodi:docname="xda.svg"
+   inkscape:version="1.3.2 (091e20ef0f, 2023-11-25)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs3" />
+  <sodipodi:namedview
+     id="namedview3"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="23.594024"
+     inkscape:cx="58.044359"
+     inkscape:cy="16.805103"
+     inkscape:window-width="3440"
+     inkscape:window-height="1374"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="Layer_1" />
+  <g
+     id="logoMark">
+    <a
+       xlink:href="45.1737254901961"
+       id="a1">
+      <path
+         id="logoMark_PathItem_"
+         data-name="logoMark &amp;lt;PathItem&amp;gt;"
+         d="M16,4.4V.1h10.9V24.6h-10.9v-4.2h6.4V4.4s-6.4,0-6.4,0Z"
+         style="fill: #2daae9;" />
+    </a>
+    <a
+       xlink:href="54.2929411764706"
+       id="a2">
+      <polygon
+         id="logoMark_PathItem_-2"
+         data-name="logoMark &amp;lt;PathItem&amp;gt;"
+         points="10.9 4.4 10.9 .1 0 .1 0 24.6 5.5 24.6 10.9 33.6 10.9 20.4 4.5 20.4 4.5 4.4 10.9 4.4"
+         style="fill: #e43f64;" />
+    </a>
+  </g>
+  <a
+     xlink:href="100"
+     id="a3"
+     style="fill:#1a1a1a">
+    <polygon
+       id="fullLogo"
+       points="58.1 1.3 58.2 1 59.2 0 53.8 0 46 9.2 38.3 0 32.8 0 33.8 1.1 43.3 12.4 33.8 23.8 32.8 24.8 38.3 24.8 46 15.6 53.8 24.8 59.2 24.8 58.3 23.8 48.7 12.4 58.1 1.3"
+       style="fill:#1a1a1a" />
+  </a>
+  <path
+     id="fullLogo-2"
+     data-name="fullLogo"
+     d="M81.6,0h-20.1V24.8h20.2c1.3,0,2.4-.5,3.3-1.4s1.4-2,1.4-3.3V4.6c0-1.3-.5-2.4-1.4-3.3-1-.8-2.1-1.3-3.4-1.3Zm-16,4.6c0-.1,0-.2,.1-.3,.1-.1,.2-.1,.3-.1h15.5c.1,0,.2,0,.3,.1,.1,.1,.1,.2,.1,.3v15.5c0,.1,0,.2-.1,.3-.1,.1-.2,.1-.3,.1h-15.4c-.1,0-.2,0-.3-.1-.1-.1-.1-.2-.1-.3V4.6h-.1Z"
+     style="fill:#1a1a1a" />
+  <path
+     id="fullLogo-3"
+     data-name="fullLogo"
+     d="M112.4,1.4c-.9-.9-2-1.4-3.3-1.4h-15.5c-1.3,0-2.4,.5-3.3,1.4s-1.4,2-1.4,3.3V24.9h4.1v-8.5h16.5v8.5h4.1V4.6c.2-1.2-.3-2.3-1.2-3.2Zm-19.3,3.2c0-.1,0-.2,.1-.3,.1-.1,.2-.1,.3-.1h15.5c.1,0,.2,0,.3,.1,.1,.1,.1,.2,.1,.3v7.5h-16.3V4.6Z"
+     style="fill:#1a1a1a" />
+</svg>
