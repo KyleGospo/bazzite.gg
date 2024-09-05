@@ -273,7 +273,7 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework'];
+  const noGamemodeHardware = ['nvidia', 'nvidia-open', 'old-intel', 'virtualmachine', 'framework'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -383,6 +383,10 @@ jQuery(document).ready(function() {
 
     if (gpuVendor === 'nvidia' && !handheldHardware.includes(hardware)) {
       imagename += '-nvidia';
+    }
+
+    if (gpuVendor === 'nvidia-open' && !handheldHardware.includes(hardware)) {
+      imagename += '-nvidia-open';
     }
 
     if ((!noGamemodeHardware.includes(gpuVendor) && !noGamemodeHardware.includes(hardware)) && hardware != 'asus' && steamGameMode === 'yes') {
