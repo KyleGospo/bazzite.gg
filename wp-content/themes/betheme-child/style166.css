@@ -1437,6 +1437,11 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 767px) {
+  .logo-grid-img,
+  .github-profile-badge {
+    animation-delay:0ms!important;
+  }
+
   #community .one-third,
   #hardware .one-third {
     min-height: inherit;
@@ -1601,7 +1606,7 @@ d-topics-list > iframe {
   }
 
   #apps .app-background-container {
-    top: 52%!important;
+    top: 53%!important;
   }
 
   .mcb-wrap-inner-f6578f479 .image-container {
