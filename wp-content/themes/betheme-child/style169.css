@@ -1564,6 +1564,15 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 480px) {
+  .button-to-docs {
+    display: none;
+    visibility: hidden;
+  }
+
+  .button-to-download {
+    background: none !important;
+  }
+
   #apps .mcb-item-button-inner {
     padding-bottom: 30px;
   }
