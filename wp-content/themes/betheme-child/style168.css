@@ -1281,10 +1281,12 @@ d-topics-list > iframe {
   }
 
   #mfn-header-template .button {
-    background: none;
     position: absolute;
     right: 45px;
     top: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px !important;
   }
 
   #mfn-header-template .button > .button_label,
@@ -1606,17 +1608,23 @@ d-topics-list > iframe {
   }
 
   #apps .app-background-container {
-    top: 53%!important;
+    top: 55%!important;
   }
 
   .mcb-wrap-inner-f6578f479 .image-container {
     position: absolute;
-    max-width: 25px !important;
-    margin-top: 10px;
-    margin-left: -5px;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin: auto;
+  }
+
+  .mcb-wrap-inner-f6578f479 .image-container img {
+    height: 100px;
+    width: auto;
   }
 
   .mcb-wrap-inner-f6578f479 .content-container .title {
-    margin-left: 20px;
+    margin-top: 100px;
   }
 }
