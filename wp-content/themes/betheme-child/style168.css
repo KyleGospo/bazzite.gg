@@ -1281,10 +1281,12 @@ d-topics-list > iframe {
   }
 
   #mfn-header-template .button {
-    background: none;
     position: absolute;
     right: 45px;
     top: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px !important;
   }
 
   #mfn-header-template .button > .button_label,
