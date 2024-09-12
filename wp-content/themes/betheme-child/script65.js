@@ -107,16 +107,6 @@ jQuery(document).ready(function() {
       }, 500);
   });
 
-  jQuery(document).on('click', '.button-to-docs', function (event) {
-      event.preventDefault();
-
-      var scrollLocation = jQuery(jQuery.attr(this, 'href')).offset().top - jQuery('#mfn-header-template').outerHeight();
-
-      jQuery('html, body').animate({
-          scrollTop: scrollLocation
-      }, 500);
-  });
-
   var hasScrolled = false;
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
