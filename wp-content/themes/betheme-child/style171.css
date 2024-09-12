@@ -1120,6 +1120,9 @@ d-topics-list > iframe {
     position: absolute;
     right: 45px;
     top: -20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-right: 25px !important;
   }
 
   #apps {
@@ -1284,9 +1287,6 @@ d-topics-list > iframe {
     position: absolute;
     right: 45px;
     top: -20px;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-right: 25px !important;
   }
 
   #mfn-header-template .button > .button_label,
@@ -1564,15 +1564,13 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 480px) {
+  #mfn-header-template .button {
+    background: none;
+  }
+
   .button-to-docs {
     display: none;
     visibility: hidden;
-  }
-
-  .button-to-download {
-    background: none !important;
-    padding-right: 24px !important;
-    margin-right: 0px !important;
   }
 
   #apps .mcb-item-button-inner {
