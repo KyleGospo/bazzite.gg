@@ -1125,6 +1125,10 @@ d-topics-list > iframe {
     margin-right: 25px !important;
   }
 
+  #mfn-header-template .button-to-docs {
+    right: 150px;
+  }
+
   #apps {
     background-size: contain;
   }
