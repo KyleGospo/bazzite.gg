@@ -1122,11 +1122,7 @@ d-topics-list > iframe {
     top: -20px;
     padding-left: 10px;
     padding-right: 10px;
-    margin-right: 25px !important;
-  }
-
-  #mfn-header-template .button-to-docs {
-    right: 150px;
+    margin-right: 0px !important;
   }
 
   #apps {
@@ -1570,11 +1566,6 @@ d-topics-list > iframe {
 @media only screen and (max-width: 480px) {
   #mfn-header-template .button {
     background: none;
-  }
-
-  .button-to-docs {
-    display: none;
-    visibility: hidden;
   }
 
   #apps .mcb-item-button-inner {
