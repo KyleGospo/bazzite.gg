@@ -1289,7 +1289,7 @@ d-topics-list > iframe {
 
   #mfn-header-template .button {
     position: absolute;
-    right: 45px;
+    right: 60px;
     top: -20px;
   }
 
@@ -1572,6 +1572,7 @@ d-topics-list > iframe {
     background: none!important;
     color: #fff!important;
     backdrop-filter: none!important;
+    right: 45px;
   }
 
   #apps .mcb-item-button-inner {
