@@ -1337,6 +1337,12 @@
 				margin-left: 18%
 			}
 
+			@media only screen and (min-width:1441px) {
+				.mcb-section .mcb-wrap .mcb-item-0270g8ums .button {
+					margin-right: 25px !important;
+				}
+			}
+
 			@media only screen and (min-width:1240px) {
 
 				#Wrapper,
@@ -4721,17 +4727,18 @@
 			}
 
 			.mcb-section .mcb-wrap .mcb-item-0270g8ums .button {
-				background-color: #474747;
+				color:#000;
+				background-color: #FFFFFFA3!important;
 				padding-top: 16px;
 				padding-bottom: 16px;
 				padding-right: 24px;
 				padding-left: 24px;
-				background-image: linear-gradient(130deg, #0546AD 0%, #8A2BE2 100%);
+				backdrop-filter: blur(10px);
 			}
 
 			.mcb-section .mcb-wrap .mcb-item-0270g8ums .button:hover {
-				color: #FFFFFF;
-				background: #000;
+				color: #FFF;
+				background-color: #000000A3!important;
 			}
 
 			.mcb-section .mcb-wrap-gpe9ewdj {
@@ -5508,16 +5515,9 @@
 						<img src="wp-content/uploads/2024/02/bazzite_tagline_powered.svg" title="Powered by Fedora and Universal Blue" width="1479" height="100" fetchpriority="high">
 						<div class="container">
 							<div>Bazzite is a custom image built upon <a style="color:#fff;" href="https://fedoraproject.org/atomic-desktops/" target="_blank">Fedora Atomic Desktops</a> that brings the best of Linux gaming to <strong>all of your devices - including your favorite handheld</strong>.</div>
-							<div class="btn-container">
-								<a class="button scroll has-icon button_left button_full_width button_size_2 animate" data-anim-type="fadeInUp" style="animation-delay:2000ms;" href="#features" title="View Bazzite's Features">
-									<span class="button_icon">
-										<i class="fa-solid fa-arrow-down" aria-hidden="true"></i>
-									</span>
-									<span class="button_label">Learn More</span>
-								</a>
-							</div>
 						</div>
 					</div>
+					<i class="fa fa-chevron-down" style="position:absolute;left:0;right:0;bottom:25px;z-index:1;"></i>
 				</div>
 				<div class="gradients-container">
 					<div class="g1"></div>
@@ -5668,10 +5668,10 @@
 												<div class="column mcb-column mcb-item-3cbe60fcb three-fifth laptop-three-fifth tablet-two-third mobile-one column_column">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-3cbe60fcb mcb-item-column-inner">
 														<div class="column_attr mfn-inline-editor clearfix">
-															<p>Thanks to libostree technology, after every update the previous version of the operating system is retained on your machine. This means, should an update cause any issues, <a title="View our Updates, Rollbacks, and Rebasing documentation" href="https://ublue-os.github.io/bazzite/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/" target="_blank">you can select the previous image at boot</a>. <br>
-																<br>Additionally, images are retained in our repositories for <b>ninety days</b> and can be selected via the terminal. <i>Nvidia driver update broke something you needed?</i> No worries, rebase to the last known good release and pin it so that it's retained as long as needed.<br>
+															<p><strong>Bazzite is Atomic</strong>, meaning that after every update the previous version of the operating system is retained on your machine. Should an update cause any issues, <a title="View our Updates, Rollbacks, and Rebasing documentation" href="https://ublue-os.github.io/bazzite/Installing_and_Managing_Software/Updates_Rollbacks_and_Rebasing/" target="_blank">you can select the previous image at boot</a>. <br>
+																<br>Additionally, images of the operating system are retained in our repositories for <b>ninety days</b> and can be switched to via the terminal. <i>Nvidia driver update broke something you needed?</i> No worries, rebase to the last known good release and pin it so that it's retained as long as needed.<br>
 																<br>
-																Experience enterprise class security with out-of-the-box SELinux, Secure Boot support, and LUKS full disk encryption with optional TPM unlocking.
+																Experience enterprise class security with out-of-the-box SELinux, Secure Boot support, and LUKS full-disk encryption with optional TPM unlocking.
 															</p>
 														</div>
 													</div>
@@ -5704,7 +5704,7 @@
 												<div class="column mcb-column mcb-item-d7bngqrz6 three-fifth laptop-three-fifth tablet-two-third mobile-one column_column">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-d7bngqrz6 mcb-item-column-inner">
 														<div class="column_attr mfn-inline-editor clearfix">
-															<p><strong>Bazzite brings the tools and techniques created by the largest Cloud providers in the world to your desktop.</strong> Built in Distrobox container support means packages for <em>any</em> Linux distribution can be installed and used as if they were native applications, with the included <a href="https://gitlab.gnome.org/chergert/ptyxis" target="_blank" alt="Ptyxis terminal (Pronounced Ticksus)">Ptyxis terminal</a> providing <span style="white-space:nowrap;">first-class</span> access to your containers. Additionally, the Flathub Flatpak repository and <a href="https://brew.sh/" target="_blank">Homebrew</a> provide access to the majority of commonly used GUI and CLI applications.<br><br>Whether you're running a game, a development environment, or a utility only available on the Arch User Repository, you can rest assured it works here. <strong>Bazzite is developed on Bazzite.</strong>
+															<p><strong>Bazzite brings the tools and techniques created by the largest Cloud providers in the world to your desktop.</strong> Built in container support means packages for <em>any</em> Linux distribution can be installed and used as if they were native applications, along with the entire Flathub Flatpak repository and <a href="https://brew.sh/" target="_blank">a plethora of CLI tools</a>. The included <a href="https://gitlab.gnome.org/chergert/ptyxis" target="_blank" alt="Ptyxis terminal (Pronounced Ticksus)">Ptyxis terminal</a> and <a href="https://flathub.org/apps/io.github.dvlv.boxbuddyrs" target="_blank">BoxBuddy</a> provide <span style="white-space:nowrap;">first-class</span> access to your Distrobox containers, letting you focus on what matters - your software.<br><br>Whether you're running a game, a development environment, or a utility only available on the Arch User Repository, you can rest assured it works here. <strong>Bazzite is developed on Bazzite.</strong>
 															</p>
 														</div>
 													</div>
@@ -5770,7 +5770,7 @@
 												<div class="column mcb-column mcb-item-baa4a56ef four-fifth laptop-four-fifth tablet-four-fifth mobile-one column_column">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-baa4a56ef mcb-item-column-inner">
 														<div class="column_attr mfn-inline-editor clearfix">
-															<p>The latest and greatest by the KDE community, built from <a href="https://fedoraproject.org/atomic-desktops/kinoite/" target="_blank">Fedora Kinoite</a>. Valve's themes and customizations present in SteamOS come pre-installed.</p>
+															<p>The latest and greatest by the KDE community, built from <a href="https://fedoraproject.org/atomic-desktops/kinoite/" target="_blank">Fedora Kinoite</a>. KDE offers a highly customizable and modern UI that Windows users would find right at home, with a bottom taskbar, start menu, and widgets. Valve's themes and customizations present in SteamOS come pre-installed.</p>
 														</div>
 													</div>
 												</div>
@@ -5781,7 +5781,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-235acfvz one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInRight">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-235acfvz mcb-item-image-inner">
-														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-scale="1.1"data-tilt-gyroscope="false">
+														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-scale="1.1"data-tilt-gyroscope="false">
 															<div class="image_wrapper ">
 																<img width="1863" height="1178" src="wp-content/uploads/2024/02/kde.webp" class="scale-with-grid" alt="Screenshots of the KDE desktop" decoding="async" loading="lazy" />
 															</div>
@@ -5795,7 +5795,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-rg4adi35 one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInLeft">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-rg4adi35 mcb-item-image-inner">
-														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-scale="1.1"data-tilt-gyroscope="false">
+														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-scale="1.1"data-tilt-gyroscope="false">
 															<div class="image_wrapper ">
 																<img width="1863" height="1178" src="wp-content/uploads/2024/02/gnome.webp" class="scale-with-grid" alt="Screenshots of the GNOME desktop" decoding="async" loading="lazy"/>
 															</div>
@@ -5821,7 +5821,7 @@
 												<div class="column mcb-column mcb-item-2b55c5131 four-fifth laptop-four-fifth tablet-four-fifth mobile-one column_column">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-2b55c5131 mcb-item-column-inner">
 														<div class="column_attr mfn-inline-editor clearfix">
-															<p>A modern and beautiful desktop from the GNOME Foundation, built from <a href="https://fedoraproject.org/atomic-desktops/silverblue/" target="_blank">Fedora Silverblue</a>. This is a lightly customized GNOME experience optimized for both gaming and everyday use, with no tweaks that can't be easily undone if desired.</p>
+															<p>A modern and beautiful desktop from the GNOME Foundation, built from <a href="https://fedoraproject.org/atomic-desktops/silverblue/" target="_blank">Fedora Silverblue</a>. Minimal and optimized for touch input, this desktop environment is right at home on handhelds and tablets, with rounded corners and thoughtful design choices that would make even a die-hard Apple user blush. This is a lightly customized GNOME experience optimized for both gaming and everyday use, with no tweaks that can't be easily undone if desired.</p>
 														</div>
 													</div>
 												</div>
@@ -5855,7 +5855,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-nor1bulra one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInRight">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-nor1bulra mcb-item-image-inner">
-														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-scale="1.1"data-tilt-gyroscope="false">
+														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-scale="1.1"data-tilt-gyroscope="false">
 															<div class="image_wrapper ">
 																<img width="1863" height="1178" src="wp-content/uploads/2024/03/steam.webp" class="scale-with-grid" alt="Steam Gaming Mode screenshot" decoding="async" loading="lazy" />
 															</div>
@@ -5869,7 +5869,7 @@
 												<div class="mcb-wrap-background-overlay"></div>
 												<div class="column mcb-column mcb-item-nor1bulra one laptop-one tablet-one mobile-one column_image animate hide-mobile" data-anim-type="fadeInLeft">
 													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-nor1bulra mcb-item-image-inner">
-														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-scale="1.1"data-tilt-gyroscope="false">
+														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-scale="1.1"data-tilt-gyroscope="false">
 															<div class="image_wrapper ">
 																<img width="1863" height="1178" src="wp-content/uploads/2024/03/waydroid_preview.webp" class="scale-with-grid" alt="Waydroid screenshot" decoding="async" loading="lazy" />
 															</div>
@@ -5941,7 +5941,7 @@
 													<div class="mcb-wrap-background-overlay"></div>
 													<div class="column mcb-column mcb-item-235acfvz one laptop-one tablet-one mobile-one column_image animate" data-anim-type="fadeInRight">
 														<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-235acfvz mcb-item-image-inner">
-															<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-speed="1500" data-tilt-scale="1.5" data-tilt-gyroscope="false">
+															<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-speed="1500" data-tilt-scale="1.5" data-tilt-gyroscope="false">
 																<div class="image_wrapper ">
 																	<img width="1600" height="1000" src="wp-content/uploads/2024/06/hhd-ds3.webp" class="scale-with-grid" alt="HHD Controller Settings" decoding="async" loading="lazy" />
 																</div>
@@ -5955,7 +5955,7 @@
 													<div class="mcb-wrap-background-overlay"></div>
 													<div class="column mcb-column mcb-item-rg4adi35 one laptop-one tablet-one mobile-one column_image animate" data-anim-type="fadeInLeft">
 														<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-rg4adi35 mcb-item-image-inner">
-															<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-speed="1500" data-tilt-scale="1.5" data-tilt-gyroscope="false">
+															<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-speed="1500" data-tilt-scale="1.5" data-tilt-gyroscope="false">
 																<div class="image_wrapper ">
 																	<img width="1600" height="1000" src="wp-content/uploads/2024/06/hhd-rgb2.webp" class="scale-with-grid" alt="Screenshots of the GNOME desktop" decoding="async" loading="lazy"/>
 																</div>
@@ -6009,7 +6009,7 @@
 																</div>
 															</div>
 															<div class="desc_wrapper">
-																<h5 class="title">GPU Drivers</h5>
+																<h5 class="title">GPU Support</h5>
 																<div class="desc">Nvidia drivers and the latest Mesa for AMD & Intel pre-installed, with tweaks applied as needed</div>
 															</div>
 														</div>
@@ -6029,7 +6029,7 @@
 																</div>
 															</div>
 															<div class="desc_wrapper">
-																<h5 class="title">Hardware Enablement</h5>
+																<h5 class="title">Additional Drivers</h5>
 																<div class="desc">Bazzite ships with support for additional Wi-Fi adapters, display standards like DisplayLink, and more!</div>
 															</div>
 														</div>
@@ -6538,60 +6538,10 @@
 											</div>
 										</div>
 									</div>
-									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-6r8me65zo">
-										<div class="wrap mcb-wrap mcb-wrap-9h5rd2c one tablet-one laptop-one mobile-one clearfix" data-desktop-col="one" data-laptop-col="laptop-one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
-											<div class="mcb-wrap-inner mcb-wrap-inner-9h5rd2c mfn-module-wrapper mfn-wrapper-for-wraps">
-												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-mdz8bm5cg one laptop-one tablet-one mobile-one column_heading">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-mdz8bm5cg mcb-item-heading-inner">
-														<h2 id="diy" class="title">Build your own</h2>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wrap mcb-wrap mcb-wrap-bugg33bgp one-second tablet-one laptop-one-second mobile-one clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
-											<div class="mcb-wrap-inner mcb-wrap-inner-bugg33bgp mfn-module-wrapper mfn-wrapper-for-wraps">
-												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-ap7wpvri one laptop-one tablet-one mobile-one column_plain_text">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-ap7wpvri mcb-item-plain_text-inner">
-														<div class="desc">As an <a href="https://github.com/opencontainers/image-spec/blob/main/spec.md" target="_blank">OCI image</a>, Bazzite is able to be consumed, repackaged, and shared. Dislike our choices or want more software pre-installed than we offer? Creating your own image is easy and builds can be scheduled to keep in-sync with us, or forge your own path. <br>
-															<br>Bazzite, its RPM packages, and downstream images are updated autonomously through GitHub Actions and <a href="https://copr.fedorainfracloud.org/" target="_blank">Fedora Copr</a> webhooks.
-														</div>
-													</div>
-												</div>
-												<div class="column mcb-column mcb-item-j1cgwfhsd one laptop-one tablet-one mobile-one column_button">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-j1cgwfhsd mcb-item-button-inner">
-														<a class="button has-icon button_left button_size_3" href="https://github.com/ublue-os/image-template" target="_blank" title="Learn more about building your own Bazzite on GitHub">
-															<span class="button_icon">
-																<i class="fab fa-github" aria-hidden="true"></i>
-															</span>
-															<span class="button_label">Create an image <span class="command-nobg">FROM bazzite</span></span>
-														</a>
-														<a class="fork" href="https://github.com/ublue-os/bazzite/fork" target="_blank"><i style="margin-right:10px;" class="fas fa-code-fork"></i>Create a fork of Bazzite</a>
-														<span class="picker-message">We recommend the <a href="https://github.com/apps/pull" target="_blank">Pull app for GitHub</a> to automatically keep your fork in sync with upstream.</span>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="wrap mcb-wrap mcb-wrap-h1oc2ku8 one-second tablet-one laptop-one-second mobile-one hide-mobile animate clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one" data-anim-type="fadeInRight">
-											<div class="mcb-wrap-inner mcb-wrap-inner-h1oc2ku8 mfn-module-wrapper mfn-wrapper-for-wraps">
-												<div class="mcb-wrap-background-overlay"></div>
-												<div class="column mcb-column mcb-item-38zzhij28 one laptop-one tablet-one mobile-one column_image">
-													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-38zzhij28 mcb-item-image-inner">
-														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="5" data-tilt-scale="1.1" data-tilt-gyroscope="false">
-															<div class="image_wrapper ">
-																<img width="643" height="514" src="wp-content/uploads/2024/03/containerfile.webp" class="scale-with-grid" alt="Sublime screenshot showing a Bazzite Containerfile" decoding="async" loading="lazy" />
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
 								</section>
 								<section class="section mcb-section mfn-default-section mcb-section-7f0434abe dark default-width" id="image-picker">
 									<div class="mcb-background-overlay"></div>
-									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-7f0434abe">
+									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-7f0434abe" style="margin-bottom:80px;">
 										<div class="wrap mcb-wrap mcb-wrap-9ae7bff78 one tablet-one laptop-one mobile-one clearfix" data-desktop-col="one" data-laptop-col="laptop-one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
 											<div class="mcb-wrap-inner mcb-wrap-inner-9ae7bff78 mfn-module-wrapper mfn-wrapper-for-wraps">
 												<div class="mcb-wrap-background-overlay"></div>
@@ -6615,7 +6565,7 @@
 																<div class="desc">
 																	<form id="image-builder" class="animate" data-anim-type="fadeInUp" autocomplete="off">
 																		<div class="download-logo fade-transition shown-fade">
-																			<img src="wp-content/uploads/2024/03/download2.svg" alt="Fill in the form on the left to download Bazzite" width="250" height="250" decoding="async" loading="lazy">
+																			<img src="wp-content/uploads/2024/03/download.svg" alt="Fill in the form on the left to download Bazzite" width="250" height="250" decoding="async" loading="lazy">
 																		</div>
 																		<div class="selectedHardware">
 																			<label for="selectedHardware">What hardware are you using?</label>
@@ -6867,6 +6817,56 @@
 											</div>
 										</div>
 									</div>
+									<div class="section_wrapper mfn-wrapper-for-wraps mcb-section-inner mcb-section-inner-6r8me65zo">
+										<div class="wrap mcb-wrap mcb-wrap-9h5rd2c one tablet-one laptop-one mobile-one clearfix" data-desktop-col="one" data-laptop-col="laptop-one" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+											<div class="mcb-wrap-inner mcb-wrap-inner-9h5rd2c mfn-module-wrapper mfn-wrapper-for-wraps">
+												<div class="mcb-wrap-background-overlay"></div>
+												<div class="column mcb-column mcb-item-mdz8bm5cg one laptop-one tablet-one mobile-one column_heading">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-mdz8bm5cg mcb-item-heading-inner">
+														<h2 id="diy" class="title">Build your own</h2>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="wrap mcb-wrap mcb-wrap-bugg33bgp one-second tablet-one laptop-one-second mobile-one clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one">
+											<div class="mcb-wrap-inner mcb-wrap-inner-bugg33bgp mfn-module-wrapper mfn-wrapper-for-wraps">
+												<div class="mcb-wrap-background-overlay"></div>
+												<div class="column mcb-column mcb-item-ap7wpvri one laptop-one tablet-one mobile-one column_plain_text">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-ap7wpvri mcb-item-plain_text-inner">
+														<div class="desc">As an <a href="https://github.com/opencontainers/image-spec/blob/main/spec.md" target="_blank">OCI image</a>, Bazzite is able to be consumed, repackaged, and shared. Dislike our choices or want more software pre-installed than we offer? Creating your own image is easy and builds can be scheduled to keep in-sync with us, or forge your own path. <br>
+															<br>Bazzite, its RPM packages, and downstream images are updated autonomously through GitHub Actions and <a href="https://copr.fedorainfracloud.org/" target="_blank">Fedora Copr</a> webhooks.
+														</div>
+													</div>
+												</div>
+												<div class="column mcb-column mcb-item-j1cgwfhsd one laptop-one tablet-one mobile-one column_button">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-j1cgwfhsd mcb-item-button-inner">
+														<a class="button has-icon button_left button_size_3" href="https://github.com/ublue-os/image-template" target="_blank" title="Learn more about building your own Bazzite on GitHub">
+															<span class="button_icon">
+																<i class="fab fa-github" aria-hidden="true"></i>
+															</span>
+															<span class="button_label">Create an image <span class="command-nobg">FROM bazzite</span></span>
+														</a>
+														<a class="fork" href="https://github.com/ublue-os/bazzite/fork" target="_blank"><i style="margin-right:10px;" class="fas fa-code-fork"></i>Create a fork of Bazzite</a>
+														<span class="picker-message">We recommend the <a href="https://github.com/apps/pull" target="_blank">Pull app for GitHub</a> to automatically keep your fork in sync with upstream.</span>
+													</div>
+												</div>
+											</div>
+										</div>
+										<div class="wrap mcb-wrap mcb-wrap-h1oc2ku8 one-second tablet-one laptop-one-second mobile-one hide-mobile animate clearfix" data-desktop-col="one-second" data-laptop-col="laptop-one-second" data-tablet-col="tablet-one" data-mobile-col="mobile-one" data-anim-type="fadeInRight">
+											<div class="mcb-wrap-inner mcb-wrap-inner-h1oc2ku8 mfn-module-wrapper mfn-wrapper-for-wraps">
+												<div class="mcb-wrap-background-overlay"></div>
+												<div class="column mcb-column mcb-item-38zzhij28 one laptop-one tablet-one mobile-one column_image">
+													<div class="mcb-column-inner mfn-module-wrapper mcb-column-inner-38zzhij28 mcb-item-image-inner">
+														<div class="image_frame image_item no_link scale-with-grid alignnone no_border" data-tilt data-tilt-max="3" data-tilt-scale="1.1" data-tilt-gyroscope="false">
+															<div class="image_wrapper ">
+																<img width="643" height="514" src="wp-content/uploads/2024/03/containerfile.webp" class="scale-with-grid" alt="Sublime screenshot showing a Bazzite Containerfile" decoding="async" loading="lazy" />
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
 								</section>
 							</div>
 							<section class="section mcb-section the_content no_content">
@@ -6927,7 +6927,7 @@
 		<script type="text/javascript" src="wp-content/themes/betheme/js/scripts.js" id="mfn-scripts-js"></script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/imagesloaded.min.js%3Fver=27.3.5" id="mfn-imagesloaded-js"></script>
 		<script type="text/javascript" src="wp-content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
-		<script type="text/javascript" src="wp-content/themes/betheme-child/script65.js" id="script-js" defer></script>
+		<script type="text/javascript" src="wp-content/themes/betheme-child/script66.js" id="script-js" defer></script>
 		<script type="text/javascript" src="wp-content/themes/betheme/assets/lottie/lottie-player.js" id="mfn-lottie-player-js" defer></script>
 		<script type="text/javascript" src="wp-content/themes/betheme-child/lottie.js" id="lottie" defer></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js" defer></script>
