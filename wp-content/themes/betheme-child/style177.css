@@ -1571,6 +1571,7 @@ d-topics-list > iframe {
   #mfn-header-template .button {
     background: none!important;
     color: #fff!important;
+    backdrop-filter: none!important;
   }
 
   #apps .mcb-item-button-inner {
