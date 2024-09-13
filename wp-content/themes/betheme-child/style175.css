@@ -1569,7 +1569,8 @@ d-topics-list > iframe {
 
 @media only screen and (max-width: 480px) {
   #mfn-header-template .button {
-    background: none;
+    background: none!important;
+    color: #fff!important;
   }
 
   #apps .mcb-item-button-inner {
