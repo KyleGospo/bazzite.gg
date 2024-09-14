@@ -145,7 +145,7 @@ Version: 2.0.1
 }
 
 .mcb-section-199334bb7 {
-  padding-top: 160px;
+  padding-top: 120px;
   padding-bottom: 120px;
   background: linear-gradient(45deg, #000622, #310042);
 }
@@ -1289,6 +1289,11 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 959px) {
+  .mcb-section-199334bb7 {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+
   .title-apps .space,
   .title-apps .word-placement {
     display: none;
