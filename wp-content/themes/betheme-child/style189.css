@@ -112,15 +112,15 @@ Version: 2.0.1
     }
     25%  {
         filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
+        -webkit-filter: brightness(1.1) drop-shadow(-17px 30px 11px rgba(0,0,0,0.5));
     }
     50%  {
         filter: brightness(1.05) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.05) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
+        -webkit-filter: brightness(1.05) drop-shadow(-16px 30px 10px rgba(0,0,0,0.5));
     }
     75%  {
         filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
+        -webkit-filter: brightness(1.1) drop-shadow(-17px 30px 11px rgba(0,0,0,0.5));
     }
     100% {
         filter: brightness(1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
