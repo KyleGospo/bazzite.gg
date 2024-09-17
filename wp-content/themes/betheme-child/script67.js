@@ -334,6 +334,18 @@ jQuery(document).ready(function() {
     }
   });
 
+  if(jQuery('.changelog').length > 0) {
+    //Show changelog
+    jQuery.ajax({
+        url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-BBCODE.txt",
+        dataType: "text",
+        success : function (data) {
+            var changelogHtml = new bbcode.Parser().toHTML(data).replace('<br>', '');
+            jQuery('.changelog').html(changelogHtml);
+        }
+    });
+  }
+
   jQuery('#image-builder #desktopEnvironment, #image-builder #selectedHardware, #image-builder #gpuVendor, #image-builder #steamGameMode').on('change', function() {
     jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
     var desktopEnvironment = jQuery('#desktopEnvironment').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#desktopEnvironment').val();
@@ -418,18 +430,6 @@ jQuery(document).ready(function() {
       jQuery('.video-container > .' + hardware + ' > iframe').each(function() {
           jQuery(this).attr('src', jQuery(this).attr('data-src'));
       });
-
-      if(jQuery('.changelog.hidden-fade').length > 0) {
-        //Show changelog
-        jQuery.ajax({
-            url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-BBCODE.txt",
-            dataType: "text",
-            success : function (data) {
-                var changelogHtml = new bbcode.Parser().toHTML(data).replace('<br>', '');
-                jQuery('.changelog').html(changelogHtml).addClass('shown-fade').removeClass('hidden-fade');
-            }
-        });
-      }
 
       if(!hasScrolled) {
         jQuery('html,body').animate({

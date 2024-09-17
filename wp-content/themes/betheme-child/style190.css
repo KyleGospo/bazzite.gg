@@ -236,6 +236,8 @@ select:focus {
   padding: 20px;
   text-align: left;
   float: left;
+  max-height: 700px;
+  z-index: 1;
 }
 
 .changelog br {
@@ -262,10 +264,6 @@ select:focus {
 
 .changelog a {
   color: #c38fff !important;
-}
-
-.changelog.shown-fade {
-  max-height: 700px;
 }
 
 .changelog > h1 {
