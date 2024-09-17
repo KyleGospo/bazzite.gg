@@ -236,7 +236,7 @@ select:focus {
   padding: 20px;
   text-align: left;
   float: left;
-  max-height: 700px;
+  height: 700px;
   z-index: 1;
 }
 
