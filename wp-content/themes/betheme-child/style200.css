@@ -58,6 +58,15 @@ Version: 2.0.1
   margin-right: 15px;
 }
 
+.mcb-section .mcb-wrap .mcb-item-2860d5f72 .button {
+  background-color: #F0F0F0;
+  color: #262626;
+}
+
+.mcb-section .mcb-wrap .mcb-item-2860d5f72 .button:hover {
+  background: #DFDFDF;
+}
+
 .mcb-item-d69573929 .desc-wrapper {
   font-size: 16px;
 }
