@@ -133,7 +133,9 @@ Version: 2.0.1
   text-align: center;
 }
 
-.mcb-column-inner-baa4a56eg {
+.mcb-column-inner-baa4a56eg,
+.mcb-column-inner-baa4a56eh,
+.mcb-column-inner-235acfvb {
   text-align: center;
 }
 
@@ -1643,6 +1645,10 @@ d-topics-list > iframe {
     color: #fff!important;
     backdrop-filter: none!important;
     right: 45px;
+  }
+
+  .mcb-wrap-ea1d9b6ce {
+    margin-top:-50px!important;
   }
 
   #apps .mcb-item-button-inner {
