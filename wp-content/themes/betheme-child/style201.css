@@ -1312,6 +1312,14 @@ d-topics-list > iframe {
 }
 
 @media only screen and (max-width: 959px) {
+  .mcb-section .mcb-wrap .mcb-item-2860d5f72 .button {
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+    font-size: 12px;
+  }
+
   .mcb-section-199334bb7 {
     padding-top: 60px;
     padding-bottom: 60px;
