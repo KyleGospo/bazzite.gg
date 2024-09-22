@@ -5270,32 +5270,5 @@ function msnryGalleryInit() {
 
   }
 
-  /**
-   * Lazy Load images
-   */
-
-  document.addEventListener('DOMContentLoaded', () => {
-
-    const images = Array.from(document.querySelectorAll('img.mfn-lazy'));
-
-    if ('IntersectionObserver' in window) {
-      const imageObserver = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-          if (entry.isIntersecting) {
-            const image = entry.target;
-            image.src = image.dataset.src;
-            imageObserver.unobserve(image);
-            window.dispatchEvent(new Event('resize'));
-          }
-        });
-      });
-
-      images.forEach(img => imageObserver.observe(img));
-    }
-
-  });
-
-})(jQuery);
-
 // Remove Gray Highlight When Tapping Links in Mobile Safari
 document.addEventListener("touchstart", function(){}, true);
