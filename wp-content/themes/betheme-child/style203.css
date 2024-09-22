@@ -111,36 +111,6 @@ Version: 2.0.1
   filter: drop-shadow(15px 12px 10px rgba(0,0,0,0.5));
 }
 
-.convergence {
-  animation-name: fluctuate;
-  animation-duration: 5s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-}
-
-@keyframes fluctuate {
-    0%   {
-        filter: brightness(1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-    }
-    25%  {
-        filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.1) drop-shadow(-17px 30px 11px rgba(0,0,0,0.5));
-    }
-    50%  {
-        filter: brightness(1.05) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.05) drop-shadow(-16px 30px 10px rgba(0,0,0,0.5));
-    }
-    75%  {
-        filter: brightness(1.1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1.1) drop-shadow(-17px 30px 11px rgba(0,0,0,0.5));
-    }
-    100% {
-        filter: brightness(1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-        -webkit-filter: brightness(1) drop-shadow(-15px 30px 10px rgba(0,0,0,0.5));
-    }
-}
-
 .mcb-column-inner-34bcf09e2 {
   margin-bottom: 0px !important;
   text-align: center;
@@ -538,7 +508,7 @@ a:not(.button) {
 
 .anim-word .letter.out {
   transform: rotateX(90deg);
-  transition: transform 0.32s cubic-bezier(0.55, 0.055, 0.675, 0.19);
+  transition: transform 0.20s cubic-bezier(0.55, 0.055, 0.675, 0.19);
 }
 
 .anim-word .letter.behind {
@@ -547,7 +517,7 @@ a:not(.button) {
 
 .anim-word .letter.in {
   transform: rotateX(0deg);
-  transition: transform 0.38s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: transform 0.20s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
 .mcb-column-inner-j1cgwfhsd .button {
