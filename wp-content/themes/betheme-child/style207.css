@@ -1332,12 +1332,12 @@ d-topics-list > iframe {
     float: left;
     align-items: center;
     top: 0px;
-    max-height: 60px;
+    max-height: 50px;
   }
 
   .mcb-item-d69573928 .icon-wrapper {
-    margin-left: 20px;
-    margin-right: 36px;
+    margin-left: 18px;
+    margin-right: 32px;
   }
 
   .video-container {
@@ -1649,10 +1649,12 @@ d-topics-list > iframe {
 
   .mcb-item-d69573929 img {
     top: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
   }
 
   .mcb-item-d69573928 .icon-wrapper {
-    margin-left: 24px;
+    margin-left: 18px;
   }
 
   #apps .mcb-item-button-inner {
