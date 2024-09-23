@@ -1332,6 +1332,7 @@ d-topics-list > iframe {
     float: left;
     align-items: center;
     top: 0px;
+    max-height: 60px;
   }
 
   .mcb-item-d69573928 .icon-wrapper {
@@ -1644,6 +1645,14 @@ d-topics-list > iframe {
     color: #fff!important;
     backdrop-filter: none!important;
     right: 45px;
+  }
+
+  .mcb-item-d69573929 img {
+    top: 5px;
+  }
+
+  .mcb-item-d69573928 .icon-wrapper {
+    margin-left: 22px;
   }
 
   #apps .mcb-item-button-inner {
