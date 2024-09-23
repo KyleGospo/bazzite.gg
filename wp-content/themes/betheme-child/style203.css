@@ -51,10 +51,9 @@ Version: 2.0.1
   text-align: center;
 }
 
-.mcb-item-d69573929 img {
-  width: 30px;
-  height: 30px;
-  top: 8px;
+.mcb-item-d69573929 i {
+  font-size: 24px;
+  top: 3px;
   position: relative;
   margin-right: 15px;
 }
@@ -1325,19 +1324,11 @@ d-topics-list > iframe {
     text-align: left;
   }
 
-  .mcb-item-d69573929 img {
+  .mcb-item-d69573929 i {
     display: flex;
     height: 100%;
-    width: auto;
     float: left;
     align-items: center;
-    top: 0px;
-    max-height: 50px;
-  }
-
-  .mcb-item-d69573928 .icon-wrapper {
-    margin-left: 18px;
-    margin-right: 32px;
   }
 
   .video-container {
@@ -1645,15 +1636,6 @@ d-topics-list > iframe {
     color: #fff!important;
     backdrop-filter: none!important;
     right: 45px;
-  }
-
-  .mcb-item-d69573929 img {
-    margin-top: 15px;
-    margin-bottom: 15px;
-  }
-
-  .mcb-item-d69573928 .icon-wrapper {
-    margin-left: 18px;
   }
 
   #apps .mcb-item-button-inner {
