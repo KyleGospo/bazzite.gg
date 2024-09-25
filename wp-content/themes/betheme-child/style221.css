@@ -107,10 +107,16 @@ Version: 2.0.1
   z-index: 1;
 }
 
-.mcb-column-inner-235acfvb img,
-.mcb-column-inner-235acfvz img,
-.mcb-column-inner-rg4adi35 img {
+.mcb-column-inner-235acfvb img {
   filter: drop-shadow(15px 12px 10px rgba(0,0,0,0.5));
+}
+
+.mcb-column-inner-235acfvz img {
+  filter: drop-shadow(20px 12px 10px rgba(0,0,0,0.5));
+}
+
+.mcb-column-inner-rg4adi35 img {
+  filter: drop-shadow(20px 9px 10px rgba(0,0,0,0.5));
 }
 
 .mcb-column-inner-34bcf09e2 {
