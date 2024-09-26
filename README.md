@@ -1,5 +1,5 @@
 <p align="center">
-  <a href="https://bazzite.gg/"><img src="/wp-content/uploads/2024/08/preview2.png?raw=true" alt="Bazzite"/></a>
+  <a href="https://bazzite.gg/"><img src="/content/uploads/2024/08/preview2.png?raw=true" alt="Bazzite"/></a>
 </p>
 
 # Website for [Bazzite](https://github.com/ublue-os/bazzite)
