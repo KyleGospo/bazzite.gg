@@ -441,10 +441,6 @@ a:not(.button) {
   z-index: 2;
 }
 
-.ametrine-credit a {
-  color: #3c3c3c;
-}
-
 .faq {
   width: 100%;
   display: inline-block;
