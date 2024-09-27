@@ -360,6 +360,7 @@ select:focus {
 
 .column a:not(.button) {
   color: #6c3fc4;
+  text-decoration: underline;
 }
 
 .column a:not(.button):hover {
@@ -377,11 +378,6 @@ select:focus {
 
 .dark .column a:not(.button):hover {
   color: #abc4ff;
-}
-
-a:not(.button) {
-  font-weight: 600;
-  text-decoration: underline;
 }
 
 .button-download-container {
