@@ -366,6 +366,10 @@ select:focus {
   color: #280f5b;
 }
 
+.column_icon_box_2 a:not(.button):hover {
+  text-decoration: underline!important;
+}
+
 .device-callout,
 .dark .column a:not(.button) {
   color: #a0a0ff;
