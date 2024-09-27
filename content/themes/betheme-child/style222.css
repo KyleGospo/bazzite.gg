@@ -76,11 +76,13 @@ Version: 2.0.1
 }
 
 .mcb-column-inner-j1cgwfhsd a.fork {
-  width: 100% !important;
-  display: block;
-  margin-top: 25px;
-  margin-bottom: 5px;
-  font-size: 16px;
+  margin-bottom: 5px !important;
+  background: none !important;
+  margin-top: 5px !important;
+}
+
+.mcb-column-inner-j1cgwfhsd a.fork:hover {
+  background: none!important;
 }
 
 .apps-fade::after {
@@ -260,10 +262,6 @@ select:focus {
   margin-left: 10px;
 }
 
-.changelog a {
-  color: #c38fff !important;
-}
-
 .changelog > h1 {
   font-size: 48px;
   line-height: 48px;
@@ -360,8 +358,26 @@ select:focus {
   transition: opacity 0.20s ease-in-out, transform 0.35s ease-in-out, max-height 0.15s ease-in-out;
 }
 
+.column a:not(.button) {
+  color: #6c3fc4;
+}
+
+.column a:not(.button):hover {
+  color: #280f5b;
+}
+
+.device-callout,
+.dark .column a:not(.button) {
+  color: #a0a0ff;
+}
+
+.dark .column a:not(.button):hover {
+  color: #abc4ff;
+}
+
 a:not(.button) {
   font-weight: 600;
+  text-decoration: underline;
 }
 
 .button-download-container {
@@ -610,16 +626,6 @@ a:not(.button) {
   text-decoration: underline;
 }
 
-#desktop a,
-#stability a {
-  color: #000;
-}
-
-#desktop a:hover,
-#stability a:hover {
-  color: #999;
-}
-
 #slider-1-slide-1-layer-6,
 .button-custom .button {
   font-family: "DM Sans"!important;
@@ -732,7 +738,8 @@ a:not(.button) {
 }
 
 .sponsor {
-  color: rgb(219, 97, 162);
+  color: rgb(219, 97, 162)!important;
+  text-decoration: none!important;
   border-radius: 15px;
   white-space: nowrap;
   font-size: 14px;
@@ -833,6 +840,10 @@ blockquote {
   content: '\f062';
   font-family: 'Font Awesome 6 Free';
   font-weight: 900;
+}
+
+.testimonials_slider .testimonials_slider_ul li .author h5 > a {
+  text-decoration: none!important;
 }
 
 .testimonials_slider .testimonials_slider_ul li .author h5 > a::after {
@@ -952,7 +963,7 @@ section:not(.dark) .rainbow {
 }
 
 .github-profile-badge-wrapper {
-    text-decoration: none;
+    text-decoration: none!important;
     display: flex;
     -webkit-tap-highlight-color: transparent;
     padding-bottom: 5px;
