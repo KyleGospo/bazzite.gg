@@ -270,7 +270,7 @@ jQuery(document).ready(function() {
   });
 
   const desktopHardware = ['desktop', 'laptop', 'framework', 'htpc', 'asus', 'virtualmachine'];
-  const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld'];
+  const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld'];
   const valveHardware = ['steamdeck'];
   const noGamemodeHardware = ['nvidia', 'nvidia-open', 'old-intel', 'virtualmachine', 'framework'];
