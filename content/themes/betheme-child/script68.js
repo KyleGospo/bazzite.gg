@@ -361,6 +361,7 @@ jQuery(document).ready(function() {
       case 'legion':
       case 'ayn':
       case 'gpd':
+      case 'onexplayer':
         imagename += '-deck';
         break;
 
