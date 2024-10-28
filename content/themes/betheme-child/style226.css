@@ -291,7 +291,8 @@ select:focus {
   text-decoration: underline;
 }
 
-.code {
+.code,
+code {
   padding: 5px;
   background: #000;
   border-radius: 5px;
@@ -300,6 +301,17 @@ select:focus {
   line-height: 14px;
   user-select: all;
   cursor: pointer;
+  border: none;
+}
+
+.changelog th {
+  background: #000;
+}
+
+.changelog > h1:not(:first-child) {
+  margin-top: 40px;
+  border-top: 1px solid #fff;
+  padding-top: 40px;
 }
 
 #hardware-description {

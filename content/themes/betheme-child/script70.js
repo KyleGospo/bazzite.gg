@@ -337,12 +337,21 @@ jQuery(document).ready(function() {
   if(jQuery('.changelog').length > 0) {
     //Show changelog
     jQuery.ajax({
-        url : "https://raw.githubusercontent.com/ublue-os/bazzite/main/CHANGELOG-BBCODE.txt",
-        dataType: "text",
-        success : function (data) {
-            var changelogHtml = new bbcode.Parser().toHTML(data).replace('<br>', '');
-            jQuery('.changelog').html(changelogHtml);
-        }
+      url : "https://api.github.com/repos/ublue-os/bazzite/releases",
+      dataType: "json",
+      success : function (data) {
+        var changelogs = '';
+        data.forEach((e) => {
+          if ( e.prerelease == true ) {
+            return;
+          }
+
+          changelogs += '# ' + e.name + '\r\n';
+          changelogs += e.body + '\r\n';
+        });
+        var changelogHtml = marked.parse(changelogs);
+        jQuery('.changelog').html(changelogHtml);
+      }
     });
   }
 
