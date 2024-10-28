@@ -341,14 +341,20 @@ jQuery(document).ready(function() {
       dataType: "json",
       success : function (data) {
         var changelogs = '';
-        data.forEach((e) => {
+        var count = 0
+        for ( const e of data ) {
           if ( e.prerelease == true ) {
-            return;
+            continue;
+          }
+
+          if ( count > 3 ) {
+            break;
           }
 
           changelogs += '# ' + e.name + '\r\n';
-          changelogs += e.body + '\r\n';
-        });
+          changelogs += e.body;
+          count += 1;
+        };
         var changelogHtml = marked.parse(changelogs);
         jQuery('.changelog').html(changelogHtml);
       }
