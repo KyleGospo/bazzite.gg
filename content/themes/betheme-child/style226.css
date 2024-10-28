@@ -296,12 +296,16 @@ code {
   padding: 5px;
   background: #000;
   border-radius: 5px;
-  font-family: 'Fira Code';
+  font-family: 'Fira Code'!important;
   font-size: 10px;
   line-height: 14px;
   user-select: all;
   cursor: pointer;
   border: none;
+}
+
+code {
+  color: #fff;
 }
 
 .changelog th {
