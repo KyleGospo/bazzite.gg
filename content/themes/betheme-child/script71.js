@@ -269,11 +269,12 @@ jQuery(document).ready(function() {
     }
   });
 
-  const desktopHardware = ['desktop', 'laptop', 'framework', 'htpc', 'asus', 'virtualmachine'];
+  const desktopHardware = ['desktop', 'laptop', 'surface', 'framework', 'htpc', 'asus', 'virtualmachine'];
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const valveHardware = ['steamdeck'];
   const noGamemodeHardware = ['nvidia', 'nvidia-open', 'old-intel', 'virtualmachine', 'framework'];
+  const ventoyWorkaroundHardware = ['surface'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -308,6 +309,12 @@ jQuery(document).ready(function() {
       } else if (!gpuVendor) {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
         jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
+      }
+
+      if (ventoyWorkaroundHardware.includes(selectedHardware)) {
+        jQuery('#image-builder .ventoy-workaround').removeClass('hidden-fade').addClass('shown-fade');
+      } else {
+        jQuery('#image-builder .ventoy-workaround').addClass('hidden-fade').removeClass('shown-fade');
       }
 
       if(selectedHardware == 'asus') {
