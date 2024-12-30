@@ -236,7 +236,18 @@ jQuery(document).ready(function() {
         dataType: "json",
         success : function (data) {
           var totalPulls = 0;
-          var lastData = data[Object.keys(data)[Object.keys(data).length - 1]];
+
+          // Remove invalid data
+          var filtered = Object.fromEntries(
+            Object.entries(data).filter(
+              ([key, value]) =>
+                value != null &&
+                value !== "" &&
+                !(typeof value === "object" && Object.keys(value).length === 0)
+            )
+          );
+
+          var lastData = filtered[Object.keys(filtered)[Object.keys(filtered).length - 1]];
           
           $.each(lastData, function(key, value) {
             if (key.indexOf("bazzite") !== -1) {
