@@ -284,8 +284,9 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'nvidia-open', 'old-intel', 'virtualmachine', 'framework'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework'];
   const ventoyWorkaroundHardware = ['surface'];
+  const gamemodeBetaHardware = ['nvidia-open', 'intel'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -350,6 +351,12 @@ jQuery(document).ready(function() {
       jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
     }
+
+    if (gamemodeBetaHardware.includes(selectedGPU) || gamemodeBetaHardware.includes(selectedHardware)) {
+      jQuery('#image-builder .gamemode-beta').removeClass('hidden-fade').addClass('shown-fade');
+    } else {
+      jQuery('#image-builder .gamemode-beta').addClass('hidden-fade').removeClass('shown-fade');
+    }
   });
 
   if(jQuery('.changelog').length > 0) {
@@ -409,6 +416,10 @@ jQuery(document).ready(function() {
         break;
     }
 
+    if (gpuVendor === 'nvidia-open' && steamGameMode == 'yes' && !handheldHardware.includes(hardware)) {
+      imagename += '-nvidia';
+    }
+
     switch(desktopEnvironment) {
       case 'gnome':
         imagename += '-gnome';
@@ -431,7 +442,7 @@ jQuery(document).ready(function() {
       imagename += '-nvidia';
     }
 
-    if (gpuVendor === 'nvidia-open' && !handheldHardware.includes(hardware)) {
+    if (gpuVendor === 'nvidia-open' && steamGameMode !== 'yes' && !handheldHardware.includes(hardware)) {
       imagename += '-nvidia-open';
     }
 
