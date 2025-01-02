@@ -410,7 +410,7 @@ jQuery(document).ready(function() {
         break;
 
       case 'asus':
-        if(steamGameMode === 'yes') {
+        if(steamGameMode === 'yes' && gpuVendor != 'nvidia-open') {
           imagename += '-ally';
         }
         break;
@@ -427,6 +427,10 @@ jQuery(document).ready(function() {
 
       case 'budgie':
         imagename += '-budgie';
+        break;
+
+      case 'cosmic':
+        imagename += '-cosmic';
         break;
     }
 
@@ -446,7 +450,9 @@ jQuery(document).ready(function() {
       imagename += '-nvidia-open';
     }
 
-    if ((!noGamemodeHardware.includes(gpuVendor) && !noGamemodeHardware.includes(hardware)) && hardware != 'asus' && steamGameMode === 'yes') {
+    if (gpuVendor === 'nvidia-open' && steamGameMode === 'yes') {
+      imagename = imagename.replace('bazzite', 'bazzite-deck')
+    } else if ((!noGamemodeHardware.includes(gpuVendor) && !noGamemodeHardware.includes(hardware)) && hardware !== 'asus' && steamGameMode === 'yes') {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
