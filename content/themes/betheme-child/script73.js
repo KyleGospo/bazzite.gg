@@ -287,6 +287,7 @@ jQuery(document).ready(function() {
   const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework', 'surface'];
   const ventoyWorkaroundHardware = ['surface'];
   const gamemodeBetaHardware = ['nvidia-open', 'intel'];
+  const noProprietaryNvidiaHardware = ['surface'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -329,10 +330,16 @@ jQuery(document).ready(function() {
         jQuery('#image-builder .ventoy-workaround').addClass('hidden-fade').removeClass('shown-fade');
       }
 
-      if(selectedHardware == 'asus') {
+      if (selectedHardware == 'asus') {
         jQuery('#hardware-description .desktop').addClass('shown-fade').removeClass('hidden-fade');
       } else {
         jQuery('#hardware-description .' + selectedHardware).addClass('shown-fade').removeClass('hidden-fade');
+      }
+
+      if (noProprietaryNvidiaHardware.includes(selectedHardware))  {
+        jQuery('#gpuVendor option[value="nvidia"]').prop('disabled', true);
+      } else {
+        jQuery('#gpuVendor option[value="nvidia"]').prop('disabled', false);
       }
     }
   });
@@ -446,7 +453,7 @@ jQuery(document).ready(function() {
         break;
     }
 
-    if (gpuVendor === 'nvidia' && !handheldHardware.includes(hardware)) {
+    if (gpuVendor === 'nvidia' && !handheldHardware.includes(hardware) && !noProprietaryNvidiaHardware.includes(hardware)) {
       imagename += '-nvidia';
     }
 
