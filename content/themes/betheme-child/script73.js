@@ -467,6 +467,12 @@ jQuery(document).ready(function() {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
+    if (gpuVendor === "amd" && steamGameMode === 'yes') {
+      jQuery('#image-builder .gamemode-noigpu').removeClass('hidden-fade').addClass('shown-fade');
+    } else {
+      jQuery('#image-builder .gamemode-noigpu').addClass('hidden-fade').removeClass('shown-fade');
+    }
+
     // Display the result
     var allSelectionsMade = true;
     jQuery('#image-builder .shown-fade select').each(function() {
