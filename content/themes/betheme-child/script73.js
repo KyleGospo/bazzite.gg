@@ -284,7 +284,7 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'framework', 'surface'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'surface'];
   const ventoyWorkaroundHardware = ['surface'];
   const gamemodeBetaHardware = ['nvidia-open', 'intel'];
   const noProprietaryNvidiaHardware = ['surface'];
