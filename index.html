@@ -6899,11 +6899,16 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 																			<div class="select-wrapper glow-effect">
 																				<select id="gpuVendor" name="gpuVendor">
 																					<option disabled selected value>Select your primary GPU vendor</option>
-																					<option value="amd">AMD (RX 4xx+)</option>
-																					<option value="nvidia-open">Nvidia (RTX Series | GTX 16xx Series+)</option>
-																					<option value="nvidia">Nvidia Legacy (GTX 9xx-10xx Series)</option>
-																					<option value="intel">Intel (ARC+)</option>
-																					<option value="old-intel">Intel Legacy (UHD/HD/Iris)</option>
+																					<optgroup label="Modern GPUs">
+																						<option value="amd">AMD (RX 4xx+)</option>
+																						<option value="nvidia-open">Nvidia (RTX Series | GTX 16xx Series+)</option>
+																						<option value="intel">Intel (ARC+)</option>
+																					</optgroup>
+																					<optgroup label="Older/Legacy GPUs">
+																						<option value="old-amd">AMD Legacy (HD/200/300/RX)</option>
+																						<option value="nvidia">Nvidia Legacy (GTX 9xx-10xx Series)</option>
+																						<option value="old-intel">Intel Legacy (UHD/HD/Iris)</option>
+																					</optgroup>
 																				</select>
 																			</div>
 																		</div>
@@ -7235,7 +7240,7 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 		<script type="text/javascript" src="content/themes/betheme/js/scripts2.js" id="mfn-scripts-js"></script>
 		<script type="text/javascript" src="content/themes/betheme/js/plugins/imagesloaded.min.js%3Fver=27.3.5" id="mfn-imagesloaded-js"></script>
 		<script type="text/javascript" src="content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
-		<script type="text/javascript" src="content/themes/betheme-child/script73.js" id="script-js" defer></script>
+		<script type="text/javascript" src="content/themes/betheme-child/script74.js" id="script-js" defer></script>
 		<script type="text/javascript" src="content/themes/betheme/assets/lottie/lottie-player.js" id="mfn-lottie-player-js" defer></script>
 		<script type="text/javascript" src="content/themes/betheme-child/lottie.js" id="lottie" defer></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js" defer></script>
