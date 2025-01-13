@@ -1287,17 +1287,6 @@ d-topics-list > iframe {
     white-space:nowrap;
   }
 
-  #community .mcb-wrap-f6578f478 .column_button,
-  #community .mcb-wrap-60a8360ce .column_button,
-  #community .mcb-wrap-2215d7379 .column_button {
-    bottom: 0;
-    position: absolute;
-    width: 80%;
-    left: 0;
-    right: 0;
-    margin: auto;
-  }
-
   #hardware .one-third {
     min-height: 526px;
   }
@@ -1319,6 +1308,11 @@ d-topics-list > iframe {
     padding-bottom: 16px;
     padding-top: 16px;
     font-size: 12px;
+  }
+
+  .contrib-image {
+    display: none;
+    visibility: hidden;
   }
 
   .mcb-section-199334bb7 {
@@ -1517,6 +1511,17 @@ d-topics-list > iframe {
     font-size: 55px;
   }
 
+  .contrib-image {
+    width: 66%;
+    padding-left: 15px;
+    padding-bottom: 15px;
+  }
+
+  .contrib-text {
+    width: 33%;
+    padding-right: 15px;
+  }
+
   .mfn-header-menu-burger {
     display: none!important;
   }
@@ -1540,6 +1545,14 @@ d-topics-list > iframe {
   .logo-grid-img,
   .github-profile-badge {
     animation-delay:0ms!important;
+  }
+
+  .mcb-wrap-2215d7379 {
+    margin-bottom: 0px!important;
+  }
+
+  #contribute {
+    margin-top: 10px;
   }
 
   #community .one-third,
