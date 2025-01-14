@@ -232,7 +232,7 @@ jQuery(document).ready(function() {
       }
 
       jQuery.ajax({
-        url : "https://storage.googleapis.com/ghp-stats/ublue-os/data.json",
+        url : "https://raw.githubusercontent.com/ublue-os/universal-blue-org/refs/heads/main/image_list.json",
         dataType: "json",
         success : function (data) {
           var totalPulls = 0;
