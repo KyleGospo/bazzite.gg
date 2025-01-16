@@ -1515,6 +1515,8 @@ d-topics-list > iframe {
     width: 66%;
     padding-left: 15px;
     padding-bottom: 15px;
+    display: flex;
+    height: 100%;
   }
 
   .contrib-text {
