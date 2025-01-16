@@ -1512,7 +1512,7 @@ d-topics-list > iframe {
   }
 
   .contrib-image {
-    width: 66%;
+    width: 70%;
     padding-left: 15px;
     padding-bottom: 30px;
     display: flex;
@@ -1520,7 +1520,7 @@ d-topics-list > iframe {
   }
 
   .contrib-text {
-    width: 33%;
+    width: 30%;
     padding-right: 15px;
   }
 
