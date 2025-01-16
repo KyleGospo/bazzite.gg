@@ -1514,7 +1514,7 @@ d-topics-list > iframe {
   .contrib-image {
     width: 66%;
     padding-left: 15px;
-    padding-bottom: 15px;
+    padding-bottom: 30px;
     display: flex;
     height: 100%;
   }
