@@ -475,9 +475,9 @@ jQuery(document).ready(function() {
       jQuery('.download-logo').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder-result').removeClass('hidden-fade').addClass('shown-fade');
       jQuery('#image-builder-result .image-name').text(imagename);
-      jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso');
+      jQuery('.button-download').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable-amd64.iso');
       //jQuery('.button-torrent').attr('href', 'https://archive.org/download/' + imagename + '/' + imagename + '_archive.torrent');
-      jQuery('.sha256').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable.iso-CHECKSUM');
+      jQuery('.sha256').attr('href', 'https://download.bazzite.gg/' + imagename + '-stable-amd64.iso-CHECKSUM');
       jQuery('.ghcr-details').attr('href', 'https://ghcr.io/ublue-os/' + imagename);
 
       //Show Videos
