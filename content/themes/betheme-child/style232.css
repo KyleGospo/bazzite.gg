@@ -455,6 +455,7 @@ code {
   color: #626262;
   padding-top: 10px;
   z-index: 2;
+  line-height: 18px;
 }
 
 .faq {
