@@ -167,6 +167,11 @@ Version: 2.0.1
   margin: auto;
 }
 
+.countme-image img {
+  max-height: 80vh;
+  width: auto;
+}
+
 .mcb-section-199334bb7 {
   padding-top: 120px;
   padding-bottom: 120px;
