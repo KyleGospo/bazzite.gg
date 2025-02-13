@@ -232,7 +232,7 @@ jQuery(document).ready(function() {
       }
 
       jQuery.ajax({
-        url : "https://universal-blue.org/ghp-stats.json",
+        url : "https://bazzite.gg/ghp-stats.json",
         dataType: "json",
         success : function (data) {
           var totalPulls = 0;
