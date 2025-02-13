@@ -168,7 +168,7 @@ Version: 2.0.1
 }
 
 .countme-image img {
-  max-height: 70vh;
+  max-height: 65vh;
   width: auto;
 }
 
@@ -1340,7 +1340,8 @@ d-topics-list > iframe {
     font-size: 12px;
   }
 
-  .contrib-image {
+  .contrib-image,
+  #countme {
     display: none;
     visibility: hidden;
   }
