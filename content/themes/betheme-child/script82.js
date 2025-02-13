@@ -187,7 +187,7 @@ jQuery(document).ready(function() {
   }
 
   jQuery.ajax({
-    url : "https://api.github.com/repos/ublue-os/bazzite/contributors",
+    url : "https://bazzite.gg/bazzite-contributor-data.json",
     dataType: "json",
     success : function (data) {
       var includeCount = 0;
@@ -253,7 +253,7 @@ jQuery(document).ready(function() {
           animDelay += 40;
 
           jQuery.ajax({
-            url : "https://api.github.com/repos/ublue-os/bazzite",
+            url : "https://bazzite.gg/bazzite-repo-data.json",
             dataType: "json",
             success : function (data) {
               var stargazersCount = Intl.NumberFormat('en-US', {

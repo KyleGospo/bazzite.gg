@@ -1,0 +1,28 @@
+name: Bazzite Data
+on:
+  schedule: [{cron: "0 0 * * *"}]
+  workflow_dispatch:
+jobs:
+  update-github-data:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Download Repo Data
+        run: |
+          curl https://api.github.com/repos/ublue-os/bazzite --output ./bazzite-repo-data.json
+        working-directory: ${{ github.workspace }}
+        
+      - name: Download Contributor Data
+        run: |
+          curl https://api.github.com/repos/ublue-os/bazzite/contributors --output ./bazzite-contributor-data.json
+        working-directory: ${{ github.workspace }}
+
+      - name: Write GitHub Data to Repostiory
+        uses: test-room-7/action-update-file@v2
+        with:
+            file-path: |
+              bazzite-repo-data.json
+              bazzite-contributor-data.json
+            commit-msg: Bazzite GitHub Data Refresh
+            github-token: ${{ secrets.GITHUB_TOKEN }}
