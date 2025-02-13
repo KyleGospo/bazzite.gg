@@ -1608,11 +1608,6 @@ d-topics-list > iframe {
     top: 20px!important;
   }
 
-  .ametrine-credit:not(.ametrine-mobile) {
-    display:none;
-    visibility:hidden;
-  }
-
   blockquote {
     margin-left: 45px;
   }
