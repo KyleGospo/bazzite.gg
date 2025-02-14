@@ -1,9 +1,9 @@
-name: GHP Stats
+name: CountMe
 on:
   schedule: [{cron: "0 1 * * *"}]
   workflow_dispatch:
 jobs:
-  update-ghp-stats:
+  countme-update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -13,9 +13,9 @@ jobs:
           curl https://raw.githubusercontent.com/ublue-os/countme/refs/heads/main/growth_bazzite.svg --output ./countme.svg
         working-directory: ${{ github.workspace }}
 
-      - name: Write image_list.json to Repostiory
+      - name: Write countme.svg to Repostiory
         uses: test-room-7/action-update-file@v2
         with:
             file-path: countme.svg
-            commit-msg: GHP Stats Update
+            commit-msg: CountMe Update
             github-token: ${{ secrets.GITHUB_TOKEN }}
