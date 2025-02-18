@@ -269,7 +269,8 @@ jQuery(document).ready(function() {
     }
   });
 
-  const desktopHardware = ['desktop', 'laptop', 'surface', 'framework', 'htpc', 'asus', 'virtualmachine'];
+  const desktopHardware = ['desktop', 'laptop', 'surface', 'framework', 'asus', 'virtualmachine'];
+  const gamemodeHardware = ['htpc'];
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const valveHardware = ['steamdeck'];
@@ -295,7 +296,9 @@ jQuery(document).ready(function() {
       jQuery('#image-builder .steam-deck').removeClass('shown-fade').addClass('hidden-fade');
       jQuery('#image-builder .rog-ally').removeClass('shown-fade').addClass('hidden-fade');
       var gpuVendor = jQuery('#gpuVendor').val();
-      if (handheldHardware.includes(selectedHardware)) {
+      if (gamemodeHardware.includes(selectedHardware)) {
+        jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
+      } else if (handheldHardware.includes(selectedHardware)) {
         jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
         if (hhdHardware.includes(selectedHardware)) {
           jQuery('#image-builder .hhd').addClass('shown-fade').removeClass('hidden-fade');
@@ -325,10 +328,16 @@ jQuery(document).ready(function() {
         jQuery('#hardware-description .' + selectedHardware).addClass('shown-fade').removeClass('hidden-fade');
       }
 
-      if (noProprietaryNvidiaHardware.includes(selectedHardware))  {
+      if (gamemodeHardware.includes(selectedHardware)) {
+        jQuery('#gpuVendor option[value="nvidia"]').prop('disabled', true);
+        jQuery('#gpuVendor option[value="old-amd"]').prop('disabled', true);
+        jQuery('#gpuVendor option[value="old-intel"]').prop('disabled', true);
+      } else if (noProprietaryNvidiaHardware.includes(selectedHardware))  {
         jQuery('#gpuVendor option[value="nvidia"]').prop('disabled', true);
       } else {
         jQuery('#gpuVendor option[value="nvidia"]').prop('disabled', false);
+        jQuery('#gpuVendor option[value="old-amd"]').prop('disabled', false);
+        jQuery('#gpuVendor option[value="old-intel"]').prop('disabled', false);
       }
     }
   });
@@ -337,7 +346,9 @@ jQuery(document).ready(function() {
     jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
     var selectedHardware = jQuery('#image-builder #selectedHardware').val();
     var selectedGPU = jQuery(this).val();
-    if (noGamemodeHardware.includes(selectedGPU) || noGamemodeHardware.includes(selectedHardware)) {
+    if (gamemodeHardware.includes(selectedHardware)) {
+      jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
+    } else if (noGamemodeHardware.includes(selectedGPU) || noGamemodeHardware.includes(selectedHardware)) {
       jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
       jQuery('#image-builder .no-gamemode').removeClass('hidden-fade').addClass('shown-fade');
     } else if (selectedGPU !== '') {
@@ -388,6 +399,10 @@ jQuery(document).ready(function() {
     var hardware = jQuery('#selectedHardware').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#selectedHardware').val();
     var gpuVendor = jQuery('#gpuVendor').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#gpuVendor').val();
     var steamGameMode = jQuery('#steamGameMode').parent('div').parent('div').hasClass('hidden-fade') ? '' : jQuery('#steamGameMode').val();
+
+    if(gamemodeHardware.includes(hardware)) {
+      steamGameMode = 'yes';
+    }
 
     var imagename = 'bazzite';
 
@@ -456,7 +471,7 @@ jQuery(document).ready(function() {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
-    if (gpuVendor === "amd" && steamGameMode === 'yes') {
+    if (gpuVendor === "amd" && steamGameMode === 'yes' && !gamemodeHardware.includes(hardware)) {
       jQuery('#image-builder .gamemode-noigpu').removeClass('hidden-fade').addClass('shown-fade');
     } else {
       jQuery('#image-builder .gamemode-noigpu').addClass('hidden-fade').removeClass('shown-fade');
