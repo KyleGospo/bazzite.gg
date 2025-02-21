@@ -19,7 +19,7 @@
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 4033
+    "contributions": 4044
   },
   {
     "login": "EyeCantCU",
@@ -349,7 +349,29 @@
     "type": "User",
     "user_view_type": "public",
     "site_admin": false,
-    "contributions": 12
+    "contributions": 13
+  },
+  {
+    "login": "renovate[bot]",
+    "id": 29139614,
+    "node_id": "MDM6Qm90MjkxMzk2MTQ=",
+    "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/renovate%5Bbot%5D",
+    "html_url": "https://github.com/apps/renovate",
+    "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
+    "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
+    "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
+    "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
+    "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
+    "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
+    "type": "Bot",
+    "user_view_type": "public",
+    "site_admin": false,
+    "contributions": 11
   },
   {
     "login": "Sterophonick",
@@ -391,28 +413,6 @@
     "events_url": "https://api.github.com/users/dnkmmr69420/events{/privacy}",
     "received_events_url": "https://api.github.com/users/dnkmmr69420/received_events",
     "type": "User",
-    "user_view_type": "public",
-    "site_admin": false,
-    "contributions": 10
-  },
-  {
-    "login": "renovate[bot]",
-    "id": 29139614,
-    "node_id": "MDM6Qm90MjkxMzk2MTQ=",
-    "avatar_url": "https://avatars.githubusercontent.com/in/2740?v=4",
-    "gravatar_id": "",
-    "url": "https://api.github.com/users/renovate%5Bbot%5D",
-    "html_url": "https://github.com/apps/renovate",
-    "followers_url": "https://api.github.com/users/renovate%5Bbot%5D/followers",
-    "following_url": "https://api.github.com/users/renovate%5Bbot%5D/following{/other_user}",
-    "gists_url": "https://api.github.com/users/renovate%5Bbot%5D/gists{/gist_id}",
-    "starred_url": "https://api.github.com/users/renovate%5Bbot%5D/starred{/owner}{/repo}",
-    "subscriptions_url": "https://api.github.com/users/renovate%5Bbot%5D/subscriptions",
-    "organizations_url": "https://api.github.com/users/renovate%5Bbot%5D/orgs",
-    "repos_url": "https://api.github.com/users/renovate%5Bbot%5D/repos",
-    "events_url": "https://api.github.com/users/renovate%5Bbot%5D/events{/privacy}",
-    "received_events_url": "https://api.github.com/users/renovate%5Bbot%5D/received_events",
-    "type": "Bot",
     "user_view_type": "public",
     "site_admin": false,
     "contributions": 10
