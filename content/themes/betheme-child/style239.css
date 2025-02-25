@@ -1700,6 +1700,11 @@ d-topics-list > iframe {
     display:none;
     visibility:hidden;
   }
+
+  .video-credits {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
 }
 
 @media only screen and (max-width: 480px) {
