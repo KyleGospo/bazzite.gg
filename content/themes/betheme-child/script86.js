@@ -275,7 +275,7 @@ jQuery(document).ready(function() {
   const handheldHardware = ['steamdeck', 'ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const hhdHardware = ['ally', 'legion', 'gpd', 'ayn', 'handheld', 'onexplayer'];
   const valveHardware = ['steamdeck'];
-  const noGamemodeHardware = ['nvidia', 'old-intel', 'virtualmachine', 'surface', 'old-amd'];
+  const noGamemodeHardware = ['nvidia', 'old-intel', 'surface', 'old-amd'];
   const ventoyWorkaroundHardware = ['surface'];
   const gamemodeBetaHardware = ['nvidia-open', 'intel'];
   const noProprietaryNvidiaHardware = ['surface'];
@@ -287,6 +287,7 @@ jQuery(document).ready(function() {
     jQuery('#hardware-description > span').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .gpu, #image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
     jQuery('#image-builder .no-gamemode').addClass('hidden-fade').removeClass('shown-fade');
+    jQuery('#image-builder .vm-gamemode').addClass('hidden-fade').removeClass('shown-fade');
     jQuery(this).parent('.select-wrapper').removeClass('glow-effect');
 
     if (selectedHardware !== '') {
@@ -312,6 +313,8 @@ jQuery(document).ready(function() {
         }
       } else if (apuHardware.includes(selectedHardware)) {
         jQuery('#image-builder .gpu').addClass('hidden-fade').removeClass('shown-fade');
+      } else if (selectedHardware == 'virtualmachine') {
+        jQuery('#image-builder .vm-gamemode').removeClass('hidden-fade').addClass('shown-fade');
       } else if (noGamemodeHardware.includes(gpuVendor) || noGamemodeHardware.includes(selectedHardware)) {
         jQuery('#image-builder .gamemode').addClass('hidden-fade').removeClass('shown-fade');
         jQuery('#image-builder .no-gamemode').removeClass('hidden-fade').addClass('shown-fade');
