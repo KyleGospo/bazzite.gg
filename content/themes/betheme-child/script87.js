@@ -480,7 +480,7 @@ jQuery(document).ready(function() {
       imagename = imagename.replace('bazzite', 'bazzite-deck')
     }
 
-    if (gpuVendor === "amd" && steamGameMode === 'yes' && !gamemodeHardware.includes(hardware) && !apuHardware.includes(hardware)) {
+    if (gpuVendor === "amd" && steamGameMode === 'yes' && !gamemodeHardware.includes(hardware) && !apuHardware.includes(hardware) && hardware != 'virtualmachine') {
       jQuery('#image-builder .gamemode-noigpu').removeClass('hidden-fade').addClass('shown-fade');
     } else {
       jQuery('#image-builder .gamemode-noigpu').addClass('hidden-fade').removeClass('shown-fade');
