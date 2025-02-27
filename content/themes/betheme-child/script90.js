@@ -279,7 +279,7 @@ jQuery(document).ready(function() {
   const ventoyWorkaroundHardware = ['surface'];
   const gamemodeBetaHardware = ['nvidia-open', 'intel'];
   const noProprietaryNvidiaHardware = ['surface'];
-  const asusHardware = ['asus', 'asus-flow'];
+  const asusHardware = ['asus'];
 
   jQuery('#image-builder #selectedHardware').on('change', function() {
     jQuery('#hardware-description .explaination').removeClass('shown-fade').addClass('hidden-fade');
@@ -430,7 +430,6 @@ jQuery(document).ready(function() {
         break;
 
       case 'asus':
-      case 'asus-flow':
         if(steamGameMode === 'yes' && gpuVendor != 'nvidia-open') {
           imagename += '-ally';
         }
@@ -457,7 +456,6 @@ jQuery(document).ready(function() {
 
     switch(hardware) {
       case 'asus':
-      case 'asus-flow':
         if(steamGameMode !== 'yes') {
           imagename += '-asus';
         }
