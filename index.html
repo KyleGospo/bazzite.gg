@@ -6996,9 +6996,6 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 																		<div class="no-gamemode fade-transition hidden-fade">
 																			<span class="picker-message red">Your selected hardware does not support Steam Gaming Mode at this time. The <a href="https://docs.bazzite.gg/General/FAQ/#1-desktop-edition" target="_blank">Desktop version of Bazzite</a> is still available.</span>
 																		</div>
-																		<div class="vm-gamemode fade-transition hidden-fade">
-																			<span class="picker-message red">When using Steam Gaming Mode in a virtual machine, you <strong>must</strong> pass-through a GPU.</span>
-																		</div>
 																		<div class="desktopEnvironment fade-transition hidden-fade">
 																			<label for="desktopEnvironment">What desktop environment do you prefer?</label>
 																			<div class="select-wrapper glow-effect">
@@ -7019,6 +7016,9 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 																					<option value="no">No</option>
 																				</select>
 																			</div>
+																		</div>
+																		<div class="vm-gamemode fade-transition hidden-fade">
+																			<span class="picker-message red">When using Steam Gaming Mode in a virtual machine, you <strong>must</strong> pass-through a GPU.</span>
 																		</div>
 																		<div class="gamemode-beta fade-transition hidden-fade">
 																			<span class="picker-message red">Steam Gaming Mode support is available for your hardware in beta, but <a href="https://docs.bazzite.gg/Handheld_and_HTPC_edition/quirks/#nvidia-exclusive-issues" target="_blank">multiple known issues exist in these builds</a>. Please note that the majority of bugs cannot be fixed except by your GPU manufacturer.</span>
@@ -7111,11 +7111,9 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 																			<h3>Home Theater PCs</h3>
 																			<p>What makes Bazzite great for handhelds transfers over to Home Theater PCs. Enjoy the PC gaming console-like experience that a setup like that should have from the comfort of your couch. Feel free to bump up the frame-rate and resolution, without the power limitations of a handheld.<br>
 																			<br>
-																			This experience is powered by Valve's window manager, Gamescope, which is included in our Handheld/HTPC images. Gamescope has certain hardware requirements with fantastic support for recent AMD GPUs and decent support for Intel GPUs.<br>
-																			<br>
-																			Nvidia still has driver issues with Gamescope and is not supported, unfortunately. Bazzite supports Nvidia drivers on our desktop images, so you can still use our Desktop variant.</p>
+																			This experience is powered by Valve's window manager, Gamescope, which is included in our Handheld/HTPC images. Gamescope has certain hardware requirements with fantastic support for recent AMD GPUs, Intel ARC GPUs, and support for Nvidia GPUs in beta.</p>
 																		</span>
-																		<span class="fade-transition hidden-fade desktop laptop surface">
+																		<span class="fade-transition hidden-fade desktop laptop surface asus">
 																			<h3>Desktops &amp; Laptops</h3>
 																			<p>Bazzite marries Cloud technology, gaming, and developer tools into a compelling package.
 																			With Bazzite, you can work and game on the same OS, regardless of what your hardware is
@@ -7126,14 +7124,14 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 																			can install that one missing package like a VPN client you bought
 																			a year ago, all while keeping the benefits of an atomic operating system.<br>
 																			<br>
-																			What benefits does atomic bring? A scenario where an update breaks a package occurs, but now you can completely rollback
+																			<em><strong>What benefits does atomic bring?</strong></em> A scenario where an update breaks a package occurs, but now you can completely rollback
 																			safely and quickly to any Bazzite build that came out within the last 90 days.
 																			Delivered straight to you from our image repositories.
 																			Rollbacks and rebasing almost act like a cloud save for your operating system.</p>
 																		</span>
 																		<span class="fade-transition hidden-fade framework framework-desktop">
 																			<a href="https://frame.work/" target="_blank"><img style="width:70%;margin: auto auto 30px auto;left:0;right:0;position:relative;display:block;" src="content/uploads/2024/03/framework.svg" alt="Framework" width="884" height="116" decoding="async" loading="lazy"></a>
-																			<p><a href="https://frame.work/linux" target="_blank">Bazzite is an official community-support option for Framework Desktops &amp; Laptops</a>, with out-of-the-box support for all of Framework's hardware,
+																			<p><a href="https://frame.work/linux" target="_blank">Bazzite is an official community-support option for Framework</a>, with out-of-the-box support for all of Framework's hardware,
 																			including the custom handhelds community members keep showing off!<br>
 																			<br>
 																			Enjoy enhanced <a href="https://frame.work/products/16-graphics-module-amd-radeon-rx-7700s" target="_blank">dGPU</a> support on the <a href="https://frame.work/products/laptop16-diy-amd-7040" target="_blank">Framework 16</a>, no setup, no launch options, no fuss. Applications like Steam and Lutris are automatically configured to run on your dGPU for optimal performance.
@@ -7324,7 +7322,7 @@ https://www.forbes.com/sites/jasonevangelho/2024/12/03/5-reasons-you-should-run-
 		<script type="text/javascript" src="content/themes/betheme/js/scripts2.js" id="mfn-scripts-js"></script>
 		<script type="text/javascript" src="content/themes/betheme/js/plugins/imagesloaded.min.js%3Fver=27.3.5" id="mfn-imagesloaded-js"></script>
 		<script type="text/javascript" src="content/themes/betheme/js/plugins/slick.min.js?ver=27.3.5" id="mfn-slick-js"></script>
-		<script type="text/javascript" src="content/themes/betheme-child/script88.js" id="script-js" defer></script>
+		<script type="text/javascript" src="content/themes/betheme-child/script89.js" id="script-js" defer></script>
 		<script type="text/javascript" src="content/themes/betheme/assets/lottie/lottie-player.js" id="mfn-lottie-player-js" defer></script>
 		<script type="text/javascript" src="content/themes/betheme-child/lottie.js" id="lottie" defer></script>
 		<script type="text/javascript" src="https:///universal-blue.discourse.group/javascripts/embed-topics.js" id="discourse-js" defer></script>
