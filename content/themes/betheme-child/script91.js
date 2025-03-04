@@ -28,6 +28,24 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 
 jQuery(document).ready(function() {
+  function easterEggCheck() {
+      let today = new Date();
+      let month = today.getMonth() + 1;
+      let day = today.getDate();
+
+      if (month === 4 && day === 1) {
+        // April 1st
+        jQuery('.main-logo-container .main-logo:not(.bg)').hide();
+        jQuery('.main-logo-container .main-logo.bg').attr('src', 'content/uploads/2025/02/glorp.png');
+      } else if (month === 6) {
+        // Month of June
+        jQuery('.main-logo-container .main-logo:not(.bg)').hide();
+        jQuery('.main-logo-container .main-logo.bg').attr('src', 'content/uploads/2025/02/bazzite_r.svg');
+      }
+  }
+
+  easterEggCheck();
+
   function animateWordChange(elem) {
       let words = document.querySelectorAll(elem);
       let wordArray = [];
