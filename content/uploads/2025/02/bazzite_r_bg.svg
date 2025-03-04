@@ -6,7 +6,7 @@
    fill="none"
    version="1.1"
    id="svg8"
-   sodipodi:docname="bazzite_background_nob.svg"
+   sodipodi:docname="bazzite_r_bg.svg"
    inkscape:version="1.4 (e7c3feb100, 2024-10-09)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -21,9 +21,9 @@
      inkscape:pageopacity="0.0"
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="0.36036549"
-     inkscape:cx="-660.44061"
-     inkscape:cy="620.20368"
+     inkscape:zoom="2.6579413"
+     inkscape:cx="47.405111"
+     inkscape:cy="187.55117"
      inkscape:window-width="1704"
      inkscape:window-height="999"
      inkscape:window-x="0"
@@ -80,14 +80,46 @@
          stop-color="#732982"
          id="stop13" />
     </linearGradient>
+    <linearGradient
+       id="paint0_linear_23_2-6"
+       x1="148.5"
+       y1="148.5"
+       x2="527"
+       y2="527"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-49.89675,-51.010855)">
+      <stop
+         stop-color="#732982"
+         id="stop4" />
+      <stop
+         offset="0.2"
+         stop-color="#004CFF"
+         id="stop5" />
+      <stop
+         offset="0.4"
+         stop-color="#008026"
+         id="stop6" />
+      <stop
+         offset="0.6"
+         stop-color="#FFED00"
+         id="stop7-7" />
+      <stop
+         offset="0.8"
+         stop-color="#FF8C00"
+         id="stop8-53" />
+      <stop
+         offset="1"
+         stop-color="#E40303"
+         id="stop9-5" />
+    </linearGradient>
   </defs>
   <path
-     d="m 49.883108,149.68236 c 0,-55.227989 44.772,-99.99999 100.000002,-99.99999 h 150 c 138.071,0 250,111.92899 250,249.99999 v 0 c 0,138.071 -111.929,250 -250,250 v 0 c -138.071,0 -250.000002,-111.929 -250.000002,-250 z"
+     d="m 50.10325,148.98914 c 0,-55.227998 44.771997,-99.999995 100,-99.999995 h 150 c 138.071,0 250,111.928995 250,249.999995 v 0 c 0,138.071 -111.929,250 -250,250 v 0 c -138.071,0 -250,-111.929 -250,-250 z"
      fill="url(#paint0_linear_23_2)"
-     id="path1-5"
-     style="fill:url(#paint0_linear_23_2)" />
+     id="path1"
+     style="fill:url(#paint0_linear_23_2-6)" />
   <path
-     d="m 49.71808,149.54748 c 0,-55.228003 44.771996,-100.000003 100,-100.000003 h 150 c 138.071,0 250,111.929003 250,250.000003 v 0 c 0,138.07099 -111.929,249.99999 -250,249.99999 v 0 c -138.071,0 -250,-111.929 -250,-249.99999 z"
+     d="m 50.10325,148.98914 c 0,-55.227998 44.771997,-99.999995 100,-99.999995 h 150 c 138.071,0 250,111.928995 250,249.999995 v 0 c 0,138.071 -111.929,250 -250,250 v 0 c -138.071,0 -250,-111.929 -250,-250 z"
      fill="#ffffff"
      fill-opacity="0.29"
      style="mix-blend-mode:overlay"
