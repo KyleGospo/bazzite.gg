@@ -37,6 +37,7 @@ jQuery(document).ready(function() {
         // April 1st
         jQuery('.main-logo-container .main-logo:not(.bg)').hide();
         jQuery('.main-logo-container .main-logo.bg').attr('src', 'content/uploads/2025/02/glorp.png').attr('width', '692').attr('height', '360');
+        jQuery('#mfn-header-template .logo-wrapper img').attr('src', 'content/uploads/2025/02/glorp_long.svg').attr('width', '1594').attr('height', '836');
       } else if (month === 6) {
         // Month of June
         jQuery('.main-logo-container .main-logo.bg').attr('src', 'content/uploads/2025/02/bazzite_r_bg.svg');
