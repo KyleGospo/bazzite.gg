@@ -130,7 +130,7 @@ jQuery(document).ready(function() {
   var currentDate = new Date();
   jQuery('#current-year').text(currentDate.getFullYear());
 
-  const mainContributors = ['KyleGospo', 'EyeCantCU', 'HikariKnight', 'antheas', 'aarron-lee', 'castrojo', 'bsherman', 'noelmiller', 'nicknamenamenick', 'Zeglius', 'BoukeHaarsma23', 'matte-schwartz', 'gerblesh', 'abanna', 'reisvg', 'SuperRiderTH', 'CharlieBros'];
+  const mainContributors = ['KyleGospo', 'EyeCantCU', 'HikariKnight', 'antheas', 'aarron-lee', 'castrojo', 'bsherman', 'noelmiller', 'nicknamenamenick', 'Zeglius', 'BoukeHaarsma23', 'matte-schwartz', 'gerblesh', 'abanna', 'adeliasvg', 'SuperRiderTH', 'CharlieBros'];
   const ignoredContributors = [-1813244642, -1398026401, 1719077676, -1610463138, 375703382, -2092560191];
 
 
