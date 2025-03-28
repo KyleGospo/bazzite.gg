@@ -419,7 +419,8 @@ code {
   color: #abc4ff;
 }
 
-.button-download-container {
+.button-download-container,
+.button-torrent-container {
   margin: 20px 0px;
 }
 
@@ -450,6 +451,16 @@ code {
 .button-torrent > .button_label,
 .button-torrent > .button_icon {
   color: #fff;
+}
+
+.button-torrent {
+  background-image: none;
+  background: #5643b4 !important;
+}
+
+.button-torrent .button_icon {
+  margin-top: -3px;
+  margin-bottom: -3px;
 }
 
 .glow-effect::after {
@@ -1651,6 +1662,14 @@ d-topics-list > iframe {
   }
 
   .iso-selection .button-download-container > a .button_label {
+    margin: auto !important;
+  }
+
+  .iso-selection .button-torrent-container > a {
+    width: 80%;
+  }
+
+  .iso-selection .button-torrent-container > a .button_label {
     margin: auto !important;
   }
 
